@@ -1,0 +1,77 @@
+{
+  "integrity": {
+    "hadiths": 31,
+    "commentary": 179,
+    "failures": []
+  },
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    },
+    {
+      "width": 1600,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": []
+    }
+  ],
+  "checks": [
+    "click toggle",
+    "Enter/Space/Escape",
+    "single-open commentary",
+    "study mode",
+    "search",
+    "deep-link reload",
+    "hadith links",
+    "mobile contents",
+    "blocked storage",
+    "reduced motion"
+  ],
+  "javascriptErrors": [],
+  "externalRequests": []
+}

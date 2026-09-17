@@ -30,3 +30,26 @@ The authoritative project repository remains Google Drive. Do not treat GitHub e
 ## External sources
 
 Usul.ai is not authorised for this task.
+
+## Inline reader migration
+
+Hadith English is always shown immediately below its neutral Arabic matn.
+Commentary translations toggle inline on desktop and mobile; Study mode opens
+all commentary translations. Search, stable passage links, resume, copy actions,
+review notes and text-size controls remain available.
+
+Rebuild and validate from the repository root:
+
+```sh
+python3 scripts/build_reader.py
+python3 tests/check_integrity.py
+node --check src/reader.js
+node tests/check_browser.cjs
+```
+
+The browser check requires Playwright and Google Chrome. Set `CHROME_PATH` for
+another Chromium executable, and `NODE_PATH` if Playwright is installed outside
+the repository. It writes `tests/browser_checks_current.json` and screenshots in
+`/tmp`. The integrity check requires Git history containing the original reader.
+The build retains the existing embedded editorial JSON verbatim; it does not
+import editorial changes from `data/`. Original baselines are deliberately retained.
