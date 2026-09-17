@@ -1,0 +1,74 @@
+{
+  "desktop": {
+    "panel_geometry": {
+      "panel": {
+        "x": 0,
+        "width": 420
+      },
+      "arabic": {
+        "x": 454,
+        "width": 716
+      },
+      "viewport": 1440,
+      "overflow": false
+    },
+    "study_units": 210,
+    "inline_overflow": [],
+    "tested_widths": [
+      1024,
+      1280,
+      1440,
+      1600
+    ]
+  },
+  "mobile": {
+    "panel_geometry": {
+      "x": 0,
+      "y": 379.8125,
+      "width": 390,
+      "height": 464.1875,
+      "vw": 390,
+      "vh": 844,
+      "overflow": false
+    },
+    "tested_widths": [
+      320,
+      375,
+      390,
+      430,
+      768
+    ]
+  },
+  "checks": [
+    {
+      "search": "وإنه",
+      "displayed_results": 7
+    },
+    {
+      "search": "wa innahu",
+      "displayed_results": 1
+    },
+    {
+      "search": "٥٤٠٩",
+      "displayed_results": 4
+    },
+    {
+      "search": "faith",
+      "displayed_results": 19
+    },
+    {
+      "search": "5396-C04",
+      "displayed_results": 1
+    },
+    "Text-size controls work. Native file opening and persistent reload could not be tested because this test browser blocks navigation; content was loaded using set_content.",
+    "Offline loading, blocked localStorage and reduced-motion mode usable"
+  ],
+  "content_integrity": {
+    "failures": [],
+    "hadiths": 31,
+    "commentary": 179,
+    "annotations": 567
+  },
+  "javascript_errors": [],
+  "network_requests": []
+}

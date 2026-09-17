@@ -1,0 +1,29 @@
+{
+  "scope": {
+    "first": 5379,
+    "last": 5409,
+    "hadith_entries": 31,
+    "commentary_units": 179,
+    "selectable_passages": 210,
+    "excluded": "Bab al-Malahim and 5410 onward"
+  },
+  "baseline": "Draft 04 package, CRC checked before extraction",
+  "preservation": {
+    "all_31_hadith_arabic_readings_exact": true,
+    "all_31_supplied_Robson_English_entries_exact": true,
+    "all_179_commentary_Arabic_readings_exact": true,
+    "all_179_original_English_commentary_strings_exact": true,
+    "all_original_review_notes_exact": true,
+    "bracket_aids_are_separate_offsets_not_rewritten_sources": true,
+    "original_landscape_PDF_unchanged": true
+  },
+  "bracket_aids": {
+    "commentary_occurrences": 567,
+    "commentary_units_with_aids": 114,
+    "in_scope": "Transliterated vocabulary, phrases and grammatical terms under discussion; selected source-specific spelling discussions. Not an exhaustive glossary of names and book titles.",
+    "status": "Editorial reading aids, not independent scholarly verification of vowel readings.",
+    "Robson_English_modified": false
+  },
+  "browser_testing": "See browser_checks.json; Chromium rendered using set_content because test-environment navigation is blocked. Desktop/mobile controls and all text pairs were exercised. Native file opening/persistent reload and physical iOS Safari were not independently tested.",
+  "no_font_files_or_external_dependencies": true
+}

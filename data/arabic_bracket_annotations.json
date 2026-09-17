@@ -1,0 +1,5682 @@
+[
+  {
+    "unit": "5379-C01",
+    "field": "english",
+    "start": 22,
+    "end": 27,
+    "term": "Fitan",
+    "arabic": "فِتَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C01",
+    "field": "english",
+    "start": 45,
+    "end": 51,
+    "term": "fitnah",
+    "arabic": "فِتْنَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C02",
+    "field": "english",
+    "start": 17,
+    "end": 21,
+    "term": "qāma",
+    "arabic": "قَامَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C02",
+    "field": "english",
+    "start": 120,
+    "end": 124,
+    "term": "Fīnā",
+    "arabic": "فِينَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 19,
+    "end": 26,
+    "term": "maqāman",
+    "arabic": "مَقَامًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 39,
+    "end": 51,
+    "term": "mīm-prefixed",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 194,
+    "end": 200,
+    "term": "Yakūnu",
+    "arabic": "يَكُونُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 265,
+    "end": 272,
+    "term": "shayʾan",
+    "arabic": "شَيْئًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 274,
+    "end": 285,
+    "term": "Fī maqāmihi",
+    "arabic": "فِي مَقَامِهِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 353,
+    "end": 359,
+    "term": "taraka",
+    "arabic": "تَرَكَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 361,
+    "end": 369,
+    "term": "maqāmihi",
+    "arabic": "مَقَامِهِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 438,
+    "end": 445,
+    "term": "Dhālika",
+    "arabic": "ذَلِكَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 465,
+    "end": 473,
+    "term": "maqāmihi",
+    "arabic": "مَقَامِهِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C03",
+    "field": "english",
+    "start": 548,
+    "end": 554,
+    "term": "yakūnu",
+    "arabic": "يَكُونُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 21,
+    "end": 30,
+    "term": "wa-innahu",
+    "arabic": "وَإِنَّهُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 117,
+    "end": 124,
+    "term": "shayʾan",
+    "arabic": "شَيْئًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 217,
+    "end": 222,
+    "term": "shayʾ",
+    "arabic": "شَيْء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 228,
+    "end": 231,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 257,
+    "end": 260,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 264,
+    "end": 272,
+    "term": "layakūnu",
+    "arabic": "لَيَكُونُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5379-C06",
+    "field": "english",
+    "start": 277,
+    "end": 283,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C09",
+    "field": "english",
+    "start": 81,
+    "end": 88,
+    "term": "tuʿraḍu",
+    "arabic": "تُعْرَضُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C11",
+    "field": "english",
+    "start": 64,
+    "end": 75,
+    "term": "ʿūdan ʿūdan",
+    "arabic": "عُودًا عُودًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C11",
+    "field": "english",
+    "start": 80,
+    "end": 86,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C11",
+    "field": "english",
+    "start": 94,
+    "end": 98,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C11",
+    "field": "english",
+    "start": 115,
+    "end": 118,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C12",
+    "field": "english",
+    "start": 219,
+    "end": 235,
+    "term": "huwa ʿūdun ʿūdun",
+    "arabic": "هُوَ عُودٌ عُودٌ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C12",
+    "field": "english",
+    "start": 393,
+    "end": 412,
+    "term": "yunsaju ʿūdun ʿūdun",
+    "arabic": "يُنْسَجُ عُودٌ عُودٌ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 15,
+    "end": 30,
+    "term": "ʿawdhan ʿawdhan",
+    "arabic": "عَوْذًا عَوْذًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 37,
+    "end": 43,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 51,
+    "end": 55,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 69,
+    "end": 73,
+    "term": "dhāl",
+    "arabic": "ذ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 260,
+    "end": 266,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 274,
+    "end": 278,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 295,
+    "end": 298,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 315,
+    "end": 321,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 329,
+    "end": 333,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 357,
+    "end": 360,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 376,
+    "end": 382,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 390,
+    "end": 394,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C13",
+    "field": "english",
+    "start": 408,
+    "end": 412,
+    "term": "dhāl",
+    "arabic": "ذ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C14",
+    "field": "english",
+    "start": 213,
+    "end": 226,
+    "term": "ʿawdan ʿawdan",
+    "arabic": "عَوْدًا عَوْدًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C15",
+    "field": "english",
+    "start": 92,
+    "end": 96,
+    "term": "dhāl",
+    "arabic": "ذ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C15",
+    "field": "english",
+    "start": 177,
+    "end": 192,
+    "term": "ghafran ghafran",
+    "arabic": "غَفْرًا غَفْرًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C17",
+    "field": "english",
+    "start": 61,
+    "end": 65,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C19",
+    "field": "english",
+    "start": 155,
+    "end": 161,
+    "term": "Ishrāb",
+    "arabic": "إِشْرَاب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C20",
+    "field": "english",
+    "start": 129,
+    "end": 136,
+    "term": "Nukitat",
+    "arabic": "نُكِتَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C20",
+    "field": "english",
+    "start": 303,
+    "end": 307,
+    "term": "nakt",
+    "arabic": "نَكْت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C21",
+    "field": "english",
+    "start": 170,
+    "end": 177,
+    "term": "nukitat",
+    "arabic": "نُكِتَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C21",
+    "field": "english",
+    "start": 239,
+    "end": 244,
+    "term": "Ḥattā",
+    "arabic": "حَتَّى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C22",
+    "field": "english",
+    "start": 0,
+    "end": 6,
+    "term": "Taṣīra",
+    "arabic": "تَصِيرَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C22",
+    "field": "english",
+    "start": 13,
+    "end": 16,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C22",
+    "field": "english",
+    "start": 53,
+    "end": 56,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C23",
+    "field": "english",
+    "start": 70,
+    "end": 74,
+    "term": "ṣafā",
+    "arabic": "صَفَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C23",
+    "field": "english",
+    "start": 86,
+    "end": 90,
+    "term": "alif",
+    "arabic": "ا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C23",
+    "field": "english",
+    "start": 111,
+    "end": 117,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C23",
+    "field": "english",
+    "start": 205,
+    "end": 211,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C23",
+    "field": "english",
+    "start": 272,
+    "end": 279,
+    "term": "qalbayn",
+    "arabic": "قَلْبَيْنِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C23",
+    "field": "english",
+    "start": 340,
+    "end": 344,
+    "term": "ṣafā",
+    "arabic": "صَفَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 74,
+    "end": 83,
+    "term": "Mirbāddan",
+    "arabic": "مِرْبَادًّا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 88,
+    "end": 94,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 102,
+    "end": 105,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 120,
+    "end": 123,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 139,
+    "end": 146,
+    "term": "irbādda",
+    "arabic": "اِرْبَادَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 166,
+    "end": 173,
+    "term": "iḥmārra",
+    "arabic": "اِحْمَارَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C25",
+    "field": "english",
+    "start": 203,
+    "end": 209,
+    "term": "rubdah",
+    "arabic": "رُبْدَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 100,
+    "end": 110,
+    "term": "Mujkhiyyan",
+    "arabic": "مُجْخِيًّا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 115,
+    "end": 121,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 129,
+    "end": 132,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 134,
+    "end": 139,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 147,
+    "end": 150,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 156,
+    "end": 162,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 183,
+    "end": 187,
+    "term": "khāʾ",
+    "arabic": "خ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 193,
+    "end": 197,
+    "term": "khāʾ",
+    "arabic": "خ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 233,
+    "end": 236,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 314,
+    "end": 318,
+    "term": "khāʾ",
+    "arabic": "خ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C26",
+    "field": "english",
+    "start": 330,
+    "end": 333,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C29",
+    "field": "english",
+    "start": 118,
+    "end": 122,
+    "term": "ṣafā",
+    "arabic": "صَفَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C29",
+    "field": "english",
+    "start": 202,
+    "end": 208,
+    "term": "yaṣīra",
+    "arabic": "يَصِيرَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C30",
+    "field": "english",
+    "start": 50,
+    "end": 54,
+    "term": "ṣafā",
+    "arabic": "صَفَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C33",
+    "field": "english",
+    "start": 108,
+    "end": 112,
+    "term": "ṣafā",
+    "arabic": "صَفَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C33",
+    "field": "english",
+    "start": 309,
+    "end": 313,
+    "term": "ṣafā",
+    "arabic": "صَفَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C34",
+    "field": "english",
+    "start": 7,
+    "end": 16,
+    "term": "mirbāddan",
+    "arabic": "مِرْبَادًّا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C34",
+    "field": "english",
+    "start": 306,
+    "end": 315,
+    "term": "murbaʾidd",
+    "arabic": "مُرْبَئِدّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C34",
+    "field": "english",
+    "start": 324,
+    "end": 330,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C34",
+    "field": "english",
+    "start": 339,
+    "end": 345,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C34",
+    "field": "english",
+    "start": 356,
+    "end": 359,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 24,
+    "end": 30,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 32,
+    "end": 41,
+    "term": "murbaddan",
+    "arabic": "مُرْبَدًّا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 48,
+    "end": 55,
+    "term": "muswadd",
+    "arabic": "مُسْوَدّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 60,
+    "end": 67,
+    "term": "muḥmarr",
+    "arabic": "مُحْمَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 89,
+    "end": 95,
+    "term": "arbada",
+    "arabic": "أَرْبَدَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 143,
+    "end": 152,
+    "term": "iḥmaʾarra",
+    "arabic": "اِحْمَأَرَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 166,
+    "end": 172,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 183,
+    "end": 186,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 250,
+    "end": 259,
+    "term": "arbaʾadda",
+    "arabic": "أَرْبَأَدَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 281,
+    "end": 290,
+    "term": "murbaʾidd",
+    "arabic": "مُرْبَئِدّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C35",
+    "field": "english",
+    "start": 296,
+    "end": 299,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5380-C36",
+    "field": "english",
+    "start": 20,
+    "end": 35,
+    "term": "illā mā ushriba",
+    "arabic": "إِلَّا مَا أُشْرِبَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 0,
+    "end": 9,
+    "term": "Al-amānah",
+    "arabic": "الْأَمَانَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 304,
+    "end": 309,
+    "term": "jadhr",
+    "arabic": "جَذْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 329,
+    "end": 335,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 343,
+    "end": 346,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 362,
+    "end": 368,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 431,
+    "end": 436,
+    "term": "jadhr",
+    "arabic": "جَذْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C02",
+    "field": "english",
+    "start": 603,
+    "end": 609,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C03",
+    "field": "english",
+    "start": 263,
+    "end": 269,
+    "term": "sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C03",
+    "field": "english",
+    "start": 333,
+    "end": 339,
+    "term": "sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 30,
+    "end": 40,
+    "term": "fa-yaẓallu",
+    "arabic": "فَيَظَلُّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 60,
+    "end": 67,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 82,
+    "end": 85,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 192,
+    "end": 196,
+    "term": "wakt",
+    "arabic": "وَكْت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 201,
+    "end": 207,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 211,
+    "end": 214,
+    "term": "wāw",
+    "arabic": "و",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 216,
+    "end": 221,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 225,
+    "end": 228,
+    "term": "kāf",
+    "arabic": "ك",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 236,
+    "end": 239,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 382,
+    "end": 390,
+    "term": "Fa-yabqā",
+    "arabic": "فَيَبْقَى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 512,
+    "end": 516,
+    "term": "majl",
+    "arabic": "مَجْل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 521,
+    "end": 527,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 531,
+    "end": 534,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 546,
+    "end": 551,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 555,
+    "end": 561,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C06",
+    "field": "english",
+    "start": 565,
+    "end": 568,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 267,
+    "end": 277,
+    "term": "Daḥrajtahu",
+    "arabic": "دَحْرَجْتَهُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 328,
+    "end": 337,
+    "term": "Fa-nafiṭa",
+    "arabic": "فَنَفِطَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 342,
+    "end": 348,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 356,
+    "end": 359,
+    "term": "fāʾ",
+    "arabic": "ف",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 531,
+    "end": 541,
+    "term": "muntabiran",
+    "arabic": "مُنْتَبِرًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 548,
+    "end": 554,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 558,
+    "end": 561,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C07",
+    "field": "english",
+    "start": 589,
+    "end": 593,
+    "term": "rijl",
+    "arabic": "رِجْل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C08",
+    "field": "english",
+    "start": 199,
+    "end": 203,
+    "term": "wakt",
+    "arabic": "وَكْت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C08",
+    "field": "english",
+    "start": 209,
+    "end": 213,
+    "term": "majl",
+    "arabic": "مَجْل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C09",
+    "field": "english",
+    "start": 225,
+    "end": 229,
+    "term": "wakt",
+    "arabic": "وَكْت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C09",
+    "field": "english",
+    "start": 323,
+    "end": 327,
+    "term": "majl",
+    "arabic": "مَجْل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C09",
+    "field": "english",
+    "start": 715,
+    "end": 721,
+    "term": "nafiṭa",
+    "arabic": "نَفِطَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C09",
+    "field": "english",
+    "start": 748,
+    "end": 755,
+    "term": "nafiṭat",
+    "arabic": "نَفِطَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C10",
+    "field": "english",
+    "start": 324,
+    "end": 328,
+    "term": "majl",
+    "arabic": "مَجْل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C11",
+    "field": "english",
+    "start": 40,
+    "end": 47,
+    "term": "yuṣbiḥu",
+    "arabic": "يُصْبِحُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C13",
+    "field": "english",
+    "start": 148,
+    "end": 151,
+    "term": "min",
+    "arabic": "مِنْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5381-C14",
+    "field": "english",
+    "start": 820,
+    "end": 826,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C03",
+    "field": "english",
+    "start": 775,
+    "end": 781,
+    "term": "dakhan",
+    "arabic": "دَخَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C03",
+    "field": "english",
+    "start": 803,
+    "end": 810,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C04",
+    "field": "english",
+    "start": 85,
+    "end": 95,
+    "term": "Yastannūna",
+    "arabic": "يَسْتَنُّونَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C04",
+    "field": "english",
+    "start": 110,
+    "end": 113,
+    "term": "nūn",
+    "arabic": "ن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C06",
+    "field": "english",
+    "start": 352,
+    "end": 358,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C08",
+    "field": "english",
+    "start": 109,
+    "end": 114,
+    "term": "Duʿāt",
+    "arabic": "دُعَاة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C08",
+    "field": "english",
+    "start": 132,
+    "end": 137,
+    "term": "dāʿin",
+    "arabic": "دَاعٍ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C08",
+    "field": "english",
+    "start": 287,
+    "end": 293,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C11",
+    "field": "english",
+    "start": 511,
+    "end": 517,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C12",
+    "field": "english",
+    "start": 194,
+    "end": 201,
+    "term": "taʿaḍḍa",
+    "arabic": "تَعَضَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C13",
+    "field": "english",
+    "start": 372,
+    "end": 377,
+    "term": "Ṣaḥīḥ",
+    "arabic": "صَحِيح",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C13",
+    "field": "english",
+    "start": 406,
+    "end": 412,
+    "term": "mursal",
+    "arabic": "مُرْسَل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C13",
+    "field": "english",
+    "start": 666,
+    "end": 672,
+    "term": "mursal",
+    "arabic": "مُرْسَل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C13",
+    "field": "english",
+    "start": 747,
+    "end": 753,
+    "term": "mursal",
+    "arabic": "مُرْسَل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 93,
+    "end": 99,
+    "term": "mursal",
+    "arabic": "مُرْسَل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 333,
+    "end": 340,
+    "term": "aʾimmah",
+    "arabic": "أَئِمَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 413,
+    "end": 419,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 441,
+    "end": 445,
+    "term": "imām",
+    "arabic": "إِمَام",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 458,
+    "end": 465,
+    "term": "aʾmimah",
+    "arabic": "أَأْمِمَةٌ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 481,
+    "end": 488,
+    "term": "afʿilah",
+    "arabic": "أَفْعِلَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C14",
+    "field": "english",
+    "start": 645,
+    "end": 651,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C15",
+    "field": "english",
+    "start": 196,
+    "end": 203,
+    "term": "juthmān",
+    "arabic": "جُثْمَان",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C15",
+    "field": "english",
+    "start": 208,
+    "end": 214,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5382-C15",
+    "field": "english",
+    "start": 218,
+    "end": 221,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 79,
+    "end": 85,
+    "term": "Bādirū",
+    "arabic": "بَادِرُوا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 232,
+    "end": 237,
+    "term": "qiṭaʿ",
+    "arabic": "قِطَع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 244,
+    "end": 250,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 254,
+    "end": 257,
+    "term": "qāf",
+    "arabic": "ق",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 262,
+    "end": 268,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 272,
+    "end": 275,
+    "term": "ṭāʾ",
+    "arabic": "ط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 294,
+    "end": 300,
+    "term": "qiṭʿah",
+    "arabic": "قِطْعَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 679,
+    "end": 684,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 688,
+    "end": 691,
+    "term": "ṭāʾ",
+    "arabic": "ط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C01",
+    "field": "english",
+    "start": 754,
+    "end": 760,
+    "term": "qiṭʿah",
+    "arabic": "قِطْعَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C02",
+    "field": "english",
+    "start": 336,
+    "end": 345,
+    "term": "Mubādarah",
+    "arabic": "مُبَادَرَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C03",
+    "field": "english",
+    "start": 647,
+    "end": 652,
+    "term": "ʿaraḍ",
+    "arabic": "عَرَض",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C03",
+    "field": "english",
+    "start": 674,
+    "end": 681,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C03",
+    "field": "english",
+    "start": 771,
+    "end": 776,
+    "term": "qalīl",
+    "arabic": "قَلِيل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5383-C03",
+    "field": "english",
+    "start": 823,
+    "end": 828,
+    "term": "ʿaraḍ",
+    "arabic": "عَرَض",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C02",
+    "field": "english",
+    "start": 288,
+    "end": 298,
+    "term": "tasharrafa",
+    "arabic": "تَشَرَّفَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C02",
+    "field": "english",
+    "start": 311,
+    "end": 314,
+    "term": "rāʾ",
+    "arabic": "ر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C03",
+    "field": "english",
+    "start": 48,
+    "end": 56,
+    "term": "al-shayʾ",
+    "arabic": "الشَّيْء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C03",
+    "field": "english",
+    "start": 485,
+    "end": 488,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C03",
+    "field": "english",
+    "start": 492,
+    "end": 496,
+    "term": "lahā",
+    "arabic": "لَهَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 22,
+    "end": 32,
+    "term": "tasharrafa",
+    "arabic": "تَشَرَّفَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 436,
+    "end": 442,
+    "term": "maʿādh",
+    "arabic": "مَعَاذ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 449,
+    "end": 455,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 459,
+    "end": 462,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 576,
+    "end": 586,
+    "term": "fal-yaʿudh",
+    "arabic": "فَلْيَعُذْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 591,
+    "end": 597,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C04",
+    "field": "english",
+    "start": 601,
+    "end": 605,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C05",
+    "field": "english",
+    "start": 153,
+    "end": 159,
+    "term": "yaqẓān",
+    "arabic": "يَقْظَان",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C05",
+    "field": "english",
+    "start": 164,
+    "end": 169,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5384-C05",
+    "field": "english",
+    "start": 173,
+    "end": 176,
+    "term": "qāf",
+    "arabic": "ق",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C01",
+    "field": "english",
+    "start": 69,
+    "end": 75,
+    "term": "innahā",
+    "arabic": "إِنَّهَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C01",
+    "field": "english",
+    "start": 185,
+    "end": 188,
+    "term": "Alā",
+    "arabic": "أَلَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C01",
+    "field": "english",
+    "start": 531,
+    "end": 537,
+    "term": "thumma",
+    "arabic": "ثُمَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C02",
+    "field": "english",
+    "start": 221,
+    "end": 224,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C02",
+    "field": "english",
+    "start": 240,
+    "end": 243,
+    "term": "ilā",
+    "arabic": "إِلَى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C02",
+    "field": "english",
+    "start": 366,
+    "end": 369,
+    "term": "Alā",
+    "arabic": "أَلَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 113,
+    "end": 120,
+    "term": "yaʿmidu",
+    "arabic": "يَعْمِدُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 125,
+    "end": 131,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 135,
+    "end": 138,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 412,
+    "end": 420,
+    "term": "li-yanju",
+    "arabic": "لِيَنْجُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 440,
+    "end": 446,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 451,
+    "end": 456,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 461,
+    "end": 464,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 466,
+    "end": 472,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 476,
+    "end": 479,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 481,
+    "end": 486,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 490,
+    "end": 493,
+    "term": "nūn",
+    "arabic": "ن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 499,
+    "end": 505,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 509,
+    "end": 512,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 581,
+    "end": 586,
+    "term": "najāʾ",
+    "arabic": "نَجَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 593,
+    "end": 599,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 603,
+    "end": 606,
+    "term": "nūn",
+    "arabic": "ن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C03",
+    "field": "english",
+    "start": 619,
+    "end": 625,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C04",
+    "field": "english",
+    "start": 253,
+    "end": 262,
+    "term": "fal-yanju",
+    "arabic": "فَلْيَنْجُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C04",
+    "field": "english",
+    "start": 293,
+    "end": 298,
+    "term": "najāh",
+    "arabic": "نَجَاة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C04",
+    "field": "english",
+    "start": 366,
+    "end": 371,
+    "term": "najāʾ",
+    "arabic": "نَجَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C04",
+    "field": "english",
+    "start": 395,
+    "end": 400,
+    "term": "najāh",
+    "arabic": "نَجَاة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C04",
+    "field": "english",
+    "start": 629,
+    "end": 638,
+    "term": "Allāhumma",
+    "arabic": "اللَّهُمَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C05",
+    "field": "english",
+    "start": 80,
+    "end": 89,
+    "term": "yunṭalaqa",
+    "arabic": "يُنْطَلَقَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5385-C05",
+    "field": "english",
+    "start": 206,
+    "end": 208,
+    "term": "Aw",
+    "arabic": "أَوْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C01",
+    "field": "english",
+    "start": 239,
+    "end": 245,
+    "term": "ghanam",
+    "arabic": "غَنَم",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C01",
+    "field": "english",
+    "start": 322,
+    "end": 328,
+    "term": "yakūnu",
+    "arabic": "يَكُونُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C01",
+    "field": "english",
+    "start": 663,
+    "end": 668,
+    "term": "khayr",
+    "arabic": "خَيْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C01",
+    "field": "english",
+    "start": 673,
+    "end": 679,
+    "term": "ghanam",
+    "arabic": "غَنَم",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C01",
+    "field": "english",
+    "start": 788,
+    "end": 794,
+    "term": "yakūnu",
+    "arabic": "يَكُونُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 0,
+    "end": 9,
+    "term": "Yattabiʿu",
+    "arabic": "يَتَّبِعُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 24,
+    "end": 27,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 46,
+    "end": 51,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 55,
+    "end": 58,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 63,
+    "end": 69,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 73,
+    "end": 76,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 78,
+    "end": 85,
+    "term": "yatbaʿu",
+    "arabic": "يَتْبَعُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 189,
+    "end": 195,
+    "term": "Shaʿaf",
+    "arabic": "شَعَف",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 200,
+    "end": 206,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 210,
+    "end": 214,
+    "term": "shīn",
+    "arabic": "ش",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 219,
+    "end": 223,
+    "term": "ʿayn",
+    "arabic": "ع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 279,
+    "end": 287,
+    "term": "shaʿafah",
+    "arabic": "شَعَفَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 324,
+    "end": 328,
+    "term": "qaṭr",
+    "arabic": "قَطْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 333,
+    "end": 339,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5386-C02",
+    "field": "english",
+    "start": 352,
+    "end": 357,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5387-C01",
+    "field": "english",
+    "start": 132,
+    "end": 136,
+    "term": "uṭum",
+    "arabic": "أُطُم",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5387-C01",
+    "field": "english",
+    "start": 147,
+    "end": 154,
+    "term": "ḍammahs",
+    "arabic": "ضَمَّتَان",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5387-C01",
+    "field": "english",
+    "start": 205,
+    "end": 209,
+    "term": "Āṭām",
+    "arabic": "آطَام",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5387-C01",
+    "field": "english",
+    "start": 427,
+    "end": 434,
+    "term": "Khilāla",
+    "arabic": "خِلَالَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 79,
+    "end": 86,
+    "term": "halakah",
+    "arabic": "هَلَكَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 91,
+    "end": 97,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 101,
+    "end": 104,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 109,
+    "end": 112,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 290,
+    "end": 295,
+    "term": "yaday",
+    "arabic": "يَدَيْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 336,
+    "end": 343,
+    "term": "ghilmah",
+    "arabic": "غِلْمَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 350,
+    "end": 356,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 360,
+    "end": 365,
+    "term": "ghayn",
+    "arabic": "غ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C01",
+    "field": "english",
+    "start": 384,
+    "end": 390,
+    "term": "ghulām",
+    "arabic": "غُلَام",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5388-C02",
+    "field": "english",
+    "start": 185,
+    "end": 198,
+    "term": "halāku ummatī",
+    "arabic": "هَلَاكُ أُمَّتِي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 594,
+    "end": 598,
+    "term": "harj",
+    "arabic": "هَرْج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 619,
+    "end": 623,
+    "term": "harj",
+    "arabic": "هَرْج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 628,
+    "end": 634,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 638,
+    "end": 641,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 643,
+    "end": 648,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 652,
+    "end": 655,
+    "term": "rāʾ",
+    "arabic": "ر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 661,
+    "end": 664,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5389-C02",
+    "field": "english",
+    "start": 729,
+    "end": 742,
+    "term": "haraja al-nās",
+    "arabic": "هَرَجَ النَّاسُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C01",
+    "field": "english",
+    "start": 72,
+    "end": 77,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C01",
+    "field": "english",
+    "start": 81,
+    "end": 84,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C01",
+    "field": "english",
+    "start": 276,
+    "end": 282,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C01",
+    "field": "english",
+    "start": 286,
+    "end": 289,
+    "term": "ḥāʾ",
+    "arabic": "ح",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 44,
+    "end": 50,
+    "term": "akhyar",
+    "arabic": "أَخْيَر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 55,
+    "end": 61,
+    "term": "asharr",
+    "arabic": "أَشَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 163,
+    "end": 168,
+    "term": "khayr",
+    "arabic": "خَيْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 173,
+    "end": 178,
+    "term": "sharr",
+    "arabic": "شَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 202,
+    "end": 207,
+    "term": "sharr",
+    "arabic": "شَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 219,
+    "end": 225,
+    "term": "asharr",
+    "arabic": "أَشَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 269,
+    "end": 275,
+    "term": "akhyar",
+    "arabic": "أَخْيَر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 323,
+    "end": 329,
+    "term": "akhyar",
+    "arabic": "أَخْيَر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 351,
+    "end": 357,
+    "term": "asharr",
+    "arabic": "أَشَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 367,
+    "end": 372,
+    "term": "khayr",
+    "arabic": "خَيْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 418,
+    "end": 424,
+    "term": "akhyar",
+    "arabic": "أَخْيَر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 464,
+    "end": 469,
+    "term": "sharr",
+    "arabic": "شَرّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C02",
+    "field": "english",
+    "start": 484,
+    "end": 490,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C08",
+    "field": "english",
+    "start": 185,
+    "end": 191,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C08",
+    "field": "english",
+    "start": 210,
+    "end": 217,
+    "term": "Sunnahs",
+    "arabic": "سُنَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5392-C08",
+    "field": "english",
+    "start": 302,
+    "end": 309,
+    "term": "Sunnahs",
+    "arabic": "سُنَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5393-C01",
+    "field": "english",
+    "start": 305,
+    "end": 308,
+    "term": "Min",
+    "arabic": "مِنْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5394-C01",
+    "field": "english",
+    "start": 99,
+    "end": 106,
+    "term": "aʾimmah",
+    "arabic": "أَئِمَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5394-C01",
+    "field": "english",
+    "start": 124,
+    "end": 128,
+    "term": "imām",
+    "arabic": "إِمَام",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C01",
+    "field": "english",
+    "start": 613,
+    "end": 619,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C01",
+    "field": "english",
+    "start": 623,
+    "end": 626,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C03",
+    "field": "english",
+    "start": 162,
+    "end": 168,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C03",
+    "field": "english",
+    "start": 205,
+    "end": 211,
+    "term": "Sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C03",
+    "field": "english",
+    "start": 493,
+    "end": 501,
+    "term": "khalīfah",
+    "arabic": "خَلِيفَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C03",
+    "field": "english",
+    "start": 653,
+    "end": 661,
+    "term": "khalīfah",
+    "arabic": "خَلِيفَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C04",
+    "field": "english",
+    "start": 51,
+    "end": 59,
+    "term": "khalīfah",
+    "arabic": "خَلِيفَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C04",
+    "field": "english",
+    "start": 310,
+    "end": 318,
+    "term": "khalīfah",
+    "arabic": "خَلِيفَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C04",
+    "field": "english",
+    "start": 767,
+    "end": 775,
+    "term": "khalīfah",
+    "arabic": "خَلِيفَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5395-C05",
+    "field": "english",
+    "start": 511,
+    "end": 516,
+    "term": "ʿāman",
+    "arabic": "عَامًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C02",
+    "field": "english",
+    "start": 185,
+    "end": 191,
+    "term": "imārah",
+    "arabic": "إِمَارَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C02",
+    "field": "english",
+    "start": 198,
+    "end": 204,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C02",
+    "field": "english",
+    "start": 212,
+    "end": 218,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C02",
+    "field": "english",
+    "start": 305,
+    "end": 311,
+    "term": "aqdhāʾ",
+    "arabic": "أَقْذَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C02",
+    "field": "english",
+    "start": 329,
+    "end": 334,
+    "term": "qadhā",
+    "arabic": "قَذَى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C02",
+    "field": "english",
+    "start": 357,
+    "end": 363,
+    "term": "qadhāh",
+    "arabic": "قَذَاة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 21,
+    "end": 27,
+    "term": "hudnah",
+    "arabic": "هُدْنَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 34,
+    "end": 40,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 48,
+    "end": 51,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 78,
+    "end": 82,
+    "term": "ʿAlā",
+    "arabic": "عَلَى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 83,
+    "end": 89,
+    "term": "dakhan",
+    "arabic": "دَخَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 100,
+    "end": 107,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C03",
+    "field": "english",
+    "start": 581,
+    "end": 587,
+    "term": "Dakhan",
+    "arabic": "دَخَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C04",
+    "field": "english",
+    "start": 514,
+    "end": 518,
+    "term": "māta",
+    "arabic": "مَاتَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C04",
+    "field": "english",
+    "start": 520,
+    "end": 526,
+    "term": "yamūtu",
+    "arabic": "يَمُوتُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C05",
+    "field": "english",
+    "start": 14,
+    "end": 18,
+    "term": "ʿāḍḍ",
+    "arabic": "عَاضّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C05",
+    "field": "english",
+    "start": 35,
+    "end": 38,
+    "term": "ḍād",
+    "arabic": "ض",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C05",
+    "field": "english",
+    "start": 138,
+    "end": 143,
+    "term": "jidhl",
+    "arabic": "جِذْل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C05",
+    "field": "english",
+    "start": 150,
+    "end": 156,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C05",
+    "field": "english",
+    "start": 160,
+    "end": 166,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C05",
+    "field": "english",
+    "start": 174,
+    "end": 177,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C06",
+    "field": "english",
+    "start": 281,
+    "end": 286,
+    "term": "qiyām",
+    "arabic": "قِيَام",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C07",
+    "field": "english",
+    "start": 182,
+    "end": 187,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C07",
+    "field": "english",
+    "start": 191,
+    "end": 197,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C07",
+    "field": "english",
+    "start": 205,
+    "end": 208,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 28,
+    "end": 35,
+    "term": "yuntaju",
+    "arabic": "يُنْتَجُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 73,
+    "end": 77,
+    "term": "muhr",
+    "arabic": "مُهْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 84,
+    "end": 90,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 98,
+    "end": 101,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 106,
+    "end": 111,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 119,
+    "end": 122,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 176,
+    "end": 183,
+    "term": "yuntaju",
+    "arabic": "يُنْتَجُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 192,
+    "end": 196,
+    "term": "natj",
+    "arabic": "نَتْج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 202,
+    "end": 207,
+    "term": "natāj",
+    "arabic": "نَتَاج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 239,
+    "end": 244,
+    "term": "intāj",
+    "arabic": "إِنْتَاج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 255,
+    "end": 271,
+    "term": "nutijat al-faras",
+    "arabic": "نُتِجَتِ الْفَرَسُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 275,
+    "end": 283,
+    "term": "al-nāqah",
+    "arabic": "النَّاقَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 322,
+    "end": 329,
+    "term": "natājan",
+    "arabic": "نَتَاجًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 335,
+    "end": 357,
+    "term": "natajahā ahluhā natjan",
+    "arabic": "نَتَجَهَا أَهْلُهَا نَتْجًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 359,
+    "end": 364,
+    "term": "Intāj",
+    "arabic": "إِنْتَاج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 499,
+    "end": 505,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 513,
+    "end": 516,
+    "term": "kāf",
+    "arabic": "ك",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 523,
+    "end": 537,
+    "term": "arkaba al-muhr",
+    "arabic": "أَرْكَبَ الْمُهْرُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 610,
+    "end": 616,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C08",
+    "field": "english",
+    "start": 624,
+    "end": 627,
+    "term": "kāf",
+    "arabic": "ك",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C09",
+    "field": "english",
+    "start": 330,
+    "end": 335,
+    "term": "qulūb",
+    "arabic": "قُلُوب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C09",
+    "field": "english",
+    "start": 410,
+    "end": 416,
+    "term": "rajaʿa",
+    "arabic": "رَجَعَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 288,
+    "end": 293,
+    "term": "mutta",
+    "arabic": "مُتَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 302,
+    "end": 308,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 312,
+    "end": 318,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 326,
+    "end": 329,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 467,
+    "end": 476,
+    "term": "tattabiʿa",
+    "arabic": "تَتَّبِعَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 498,
+    "end": 501,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 506,
+    "end": 512,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 520,
+    "end": 523,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 554,
+    "end": 557,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 562,
+    "end": 568,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5396-C11",
+    "field": "english",
+    "start": 576,
+    "end": 579,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C01",
+    "field": "english",
+    "start": 55,
+    "end": 60,
+    "term": "radīf",
+    "arabic": "رَدِيف",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C01",
+    "field": "english",
+    "start": 207,
+    "end": 214,
+    "term": "radīfan",
+    "arabic": "رَدِيفًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C01",
+    "field": "english",
+    "start": 589,
+    "end": 599,
+    "term": "kayfa bika",
+    "arabic": "كَيْفَ بِكَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C01",
+    "field": "english",
+    "start": 637,
+    "end": 640,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 232,
+    "end": 241,
+    "term": "yujhidaka",
+    "arabic": "يُجْهِدَكَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 246,
+    "end": 252,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 260,
+    "end": 263,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 268,
+    "end": 274,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 282,
+    "end": 285,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 308,
+    "end": 314,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C02",
+    "field": "english",
+    "start": 543,
+    "end": 551,
+    "term": "taʿaffaf",
+    "arabic": "تَعَفَّفْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C03",
+    "field": "english",
+    "start": 360,
+    "end": 366,
+    "term": "innahu",
+    "arabic": "إِنَّهُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C03",
+    "field": "english",
+    "start": 374,
+    "end": 380,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C03",
+    "field": "english",
+    "start": 384,
+    "end": 390,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C03",
+    "field": "english",
+    "start": 398,
+    "end": 404,
+    "term": "hamzah",
+    "arabic": "هَمْزَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C04",
+    "field": "english",
+    "start": 419,
+    "end": 424,
+    "term": "ḥattā",
+    "arabic": "حَتَّى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C04",
+    "field": "english",
+    "start": 522,
+    "end": 527,
+    "term": "ḥattā",
+    "arabic": "حَتَّى",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 93,
+    "end": 101,
+    "term": "taṣabbar",
+    "arabic": "تَصَبَّرْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 118,
+    "end": 121,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 130,
+    "end": 136,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 162,
+    "end": 170,
+    "term": "tafaʿʿul",
+    "arabic": "تَفَعُّل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 190,
+    "end": 197,
+    "term": "taṣbiru",
+    "arabic": "تَصْبِرُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 216,
+    "end": 222,
+    "term": "ṣabara",
+    "arabic": "صَبَرَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 566,
+    "end": 574,
+    "term": "taghmuru",
+    "arabic": "تَغْمُرُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 581,
+    "end": 586,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 594,
+    "end": 605,
+    "term": "dotted ʿayn",
+    "arabic": "غ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 607,
+    "end": 612,
+    "term": "ghayn",
+    "arabic": "غ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 618,
+    "end": 624,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "english",
+    "start": 632,
+    "end": 635,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C05",
+    "field": "notes[0]",
+    "start": 57,
+    "end": 62,
+    "term": "ghayn",
+    "arabic": "غ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C06",
+    "field": "english",
+    "start": 37,
+    "end": 43,
+    "term": "ḥarrah",
+    "arabic": "حَرَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C06",
+    "field": "english",
+    "start": 256,
+    "end": 262,
+    "term": "ḥarrah",
+    "arabic": "حَرَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 70,
+    "end": 79,
+    "term": "yabharaka",
+    "arabic": "يَبْهَرَكَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 86,
+    "end": 92,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 100,
+    "end": 103,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 152,
+    "end": 158,
+    "term": "shuʿāʿ",
+    "arabic": "شُعَاع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 165,
+    "end": 171,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 278,
+    "end": 282,
+    "term": "alqi",
+    "arabic": "أَلْقِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5397-C08",
+    "field": "english",
+    "start": 305,
+    "end": 310,
+    "term": "ilqāʾ",
+    "arabic": "إِلْقَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 74,
+    "end": 80,
+    "term": "al-ʿĀṣ",
+    "arabic": "الْعَاصِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 94,
+    "end": 97,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 266,
+    "end": 272,
+    "term": "ubqīta",
+    "arabic": "أُبْقِيتَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 290,
+    "end": 295,
+    "term": "ibqāʾ",
+    "arabic": "إِبْقَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 381,
+    "end": 386,
+    "term": "baqāʾ",
+    "arabic": "بَقَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 420,
+    "end": 428,
+    "term": "ḥuthālah",
+    "arabic": "حُثَالَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 435,
+    "end": 441,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 449,
+    "end": 452,
+    "term": "ḥāʾ",
+    "arabic": "ح",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 474,
+    "end": 478,
+    "term": "thāʾ",
+    "arabic": "ث",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 635,
+    "end": 642,
+    "term": "marijat",
+    "arabic": "مَرِجَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 649,
+    "end": 655,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 663,
+    "end": 666,
+    "term": "mīm",
+    "arabic": "م",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 671,
+    "end": 677,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 685,
+    "end": 688,
+    "term": "rāʾ",
+    "arabic": "ر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C01",
+    "field": "english",
+    "start": 799,
+    "end": 809,
+    "term": "amānatuhum",
+    "arabic": "أَمَانَتُهُمْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C02",
+    "field": "english",
+    "start": 398,
+    "end": 405,
+    "term": "marajat",
+    "arabic": "مَرَجَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C02",
+    "field": "english",
+    "start": 411,
+    "end": 417,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C02",
+    "field": "english",
+    "start": 425,
+    "end": 428,
+    "term": "rāʾ",
+    "arabic": "ر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C02",
+    "field": "english",
+    "start": 797,
+    "end": 801,
+    "term": "marj",
+    "arabic": "مَرْج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 17,
+    "end": 21,
+    "term": "marj",
+    "arabic": "مَرْج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 36,
+    "end": 41,
+    "term": "maraj",
+    "arabic": "مَرَج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 188,
+    "end": 192,
+    "term": "harj",
+    "arabic": "هَرْج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 223,
+    "end": 229,
+    "term": "Marija",
+    "arabic": "مَرِجَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 238,
+    "end": 244,
+    "term": "fariḥa",
+    "arabic": "فَرِحَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 246,
+    "end": 255,
+    "term": "amr marīj",
+    "arabic": "أَمْرٌ مَرِيجٌ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 281,
+    "end": 295,
+    "term": "amraja al-ʿahd",
+    "arabic": "أَمْرَجَ الْعَهْدَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 395,
+    "end": 401,
+    "term": "marija",
+    "arabic": "مَرِجَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C03",
+    "field": "english",
+    "start": 466,
+    "end": 473,
+    "term": "marajat",
+    "arabic": "مَرَجَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C04",
+    "field": "english",
+    "start": 482,
+    "end": 487,
+    "term": "imlik",
+    "arabic": "اِمْلِكْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5398-C04",
+    "field": "english",
+    "start": 510,
+    "end": 515,
+    "term": "imlāk",
+    "arabic": "إِمْلَاك",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C01",
+    "field": "english",
+    "start": 158,
+    "end": 163,
+    "term": "qiṭaʿ",
+    "arabic": "قِطَع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C01",
+    "field": "english",
+    "start": 168,
+    "end": 174,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C01",
+    "field": "english",
+    "start": 182,
+    "end": 185,
+    "term": "qāf",
+    "arabic": "ق",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C01",
+    "field": "english",
+    "start": 190,
+    "end": 196,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C01",
+    "field": "english",
+    "start": 204,
+    "end": 207,
+    "term": "ṭāʾ",
+    "arabic": "ط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C01",
+    "field": "english",
+    "start": 720,
+    "end": 726,
+    "term": "sunnah",
+    "arabic": "سُنَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 300,
+    "end": 306,
+    "term": "qisiyy",
+    "arabic": "قِسِيّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 317,
+    "end": 324,
+    "term": "kasrahs",
+    "arabic": "كَسَرَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 339,
+    "end": 342,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 361,
+    "end": 365,
+    "term": "qaws",
+    "arabic": "قَوْس",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 383,
+    "end": 387,
+    "term": "kasr",
+    "arabic": "كَسْر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 391,
+    "end": 397,
+    "term": "taksīr",
+    "arabic": "تَكْسِير",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 434,
+    "end": 440,
+    "term": "tafʿīl",
+    "arabic": "تَفْعِيل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C02",
+    "field": "english",
+    "start": 534,
+    "end": 540,
+    "term": "taqṭīʿ",
+    "arabic": "تَقْطِيع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C03",
+    "field": "english",
+    "start": 40,
+    "end": 47,
+    "term": "dukhila",
+    "arabic": "دُخِلَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C03",
+    "field": "english",
+    "start": 104,
+    "end": 113,
+    "term": "ʿalā aḥad",
+    "arabic": "عَلَى أَحَدٍ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C03",
+    "field": "english",
+    "start": 119,
+    "end": 122,
+    "term": "min",
+    "arabic": "مِنْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C03",
+    "field": "english",
+    "start": 126,
+    "end": 132,
+    "term": "minkum",
+    "arabic": "مِنْكُمْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C03",
+    "field": "english",
+    "start": 452,
+    "end": 457,
+    "term": "aḥlās",
+    "arabic": "أَحْلَاس",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C03",
+    "field": "english",
+    "start": 577,
+    "end": 581,
+    "term": "ḥils",
+    "arabic": "حِلْس",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5399-C04",
+    "field": "english",
+    "start": 700,
+    "end": 712,
+    "term": "ṣaḥīḥ gharīb",
+    "arabic": "صَحِيحٌ غَرِيبٌ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 24,
+    "end": 36,
+    "term": "al-Bahziyyah",
+    "arabic": "الْبَهْزِيَّة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 41,
+    "end": 47,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 55,
+    "end": 58,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 60,
+    "end": 65,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 73,
+    "end": 76,
+    "term": "hāʾ",
+    "arabic": "ه",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 80,
+    "end": 83,
+    "term": "zāy",
+    "arabic": "ز",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 92,
+    "end": 95,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 302,
+    "end": 311,
+    "term": "qarrabahā",
+    "arabic": "قَرَّبَهَا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C01",
+    "field": "english",
+    "start": 326,
+    "end": 329,
+    "term": "rāʾ",
+    "arabic": "ر",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C02",
+    "field": "english",
+    "start": 150,
+    "end": 155,
+    "term": "zakāt",
+    "arabic": "زَكَاة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C02",
+    "field": "english",
+    "start": 528,
+    "end": 534,
+    "term": "ākhidh",
+    "arabic": "آخِذ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C02",
+    "field": "english",
+    "start": 616,
+    "end": 623,
+    "term": "yukhīfu",
+    "arabic": "يُخِيفُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C02",
+    "field": "english",
+    "start": 632,
+    "end": 639,
+    "term": "ikhāfah",
+    "arabic": "إِخَافَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5400-C02",
+    "field": "english",
+    "start": 657,
+    "end": 664,
+    "term": "takhwīf",
+    "arabic": "تَخْوِيف",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5401-C01",
+    "field": "english",
+    "start": 149,
+    "end": 168,
+    "term": "istanẓaftu al-shayʾ",
+    "arabic": "اِسْتَنْظَفْتُ الشَّيْءَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5401-C01",
+    "field": "english",
+    "start": 342,
+    "end": 347,
+    "term": "qatlā",
+    "arabic": "قَتْلَى",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5401-C01",
+    "field": "english",
+    "start": 365,
+    "end": 370,
+    "term": "qatīl",
+    "arabic": "قَتِيل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 68,
+    "end": 73,
+    "term": "quʿūd",
+    "arabic": "قُعُود",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 203,
+    "end": 209,
+    "term": "fitnah",
+    "arabic": "فِتْنَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 217,
+    "end": 222,
+    "term": "aḥlās",
+    "arabic": "أَحْلَاس",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 301,
+    "end": 308,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 390,
+    "end": 395,
+    "term": "ḥarab",
+    "arabic": "حَرَب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 411,
+    "end": 418,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 520,
+    "end": 529,
+    "term": "al-sarrāʾ",
+    "arabic": "السَّرَّاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 605,
+    "end": 611,
+    "term": "fitnah",
+    "arabic": "فِتْنَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 619,
+    "end": 624,
+    "term": "aḥlās",
+    "arabic": "أَحْلَاس",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 664,
+    "end": 670,
+    "term": "fitnah",
+    "arabic": "فِتْنَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 751,
+    "end": 759,
+    "term": "al-aḥlās",
+    "arabic": "الْأَحْلَاس",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C01",
+    "field": "english",
+    "start": 761,
+    "end": 767,
+    "term": "Sarrāʾ",
+    "arabic": "سَرَّاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C02",
+    "field": "english",
+    "start": 194,
+    "end": 200,
+    "term": "sarrāʾ",
+    "arabic": "سَرَّاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C02",
+    "field": "english",
+    "start": 403,
+    "end": 408,
+    "term": "qanāh",
+    "arabic": "قَنَاة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C02",
+    "field": "english",
+    "start": 409,
+    "end": 415,
+    "term": "sarrāʾ",
+    "arabic": "سَرَّاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C02",
+    "field": "english",
+    "start": 565,
+    "end": 571,
+    "term": "dakhan",
+    "arabic": "دَخَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C02",
+    "field": "english",
+    "start": 582,
+    "end": 589,
+    "term": "fatḥahs",
+    "arabic": "فَتْحَات",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 119,
+    "end": 125,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 138,
+    "end": 144,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 146,
+    "end": 151,
+    "term": "ḍilaʿ",
+    "arabic": "ضِلَع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 156,
+    "end": 162,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 168,
+    "end": 174,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 181,
+    "end": 186,
+    "term": "sukūn",
+    "arabic": "سُكُون",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 194,
+    "end": 197,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 252,
+    "end": 257,
+    "term": "ḍulūʿ",
+    "arabic": "ضُلُوع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C04",
+    "field": "english",
+    "start": 262,
+    "end": 267,
+    "term": "aḍlāʿ",
+    "arabic": "أَضْلَاع",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 56,
+    "end": 67,
+    "term": "al-duhaymāʾ",
+    "arabic": "الدُّهَيْمَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 122,
+    "end": 130,
+    "term": "Duhaymāʾ",
+    "arabic": "دُهَيْمَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 143,
+    "end": 149,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 155,
+    "end": 161,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 163,
+    "end": 169,
+    "term": "Dahmāʾ",
+    "arabic": "دَهْمَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 365,
+    "end": 373,
+    "term": "duhaymāʾ",
+    "arabic": "دُهَيْمَاء",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C05",
+    "field": "english",
+    "start": 742,
+    "end": 746,
+    "term": "Laṭm",
+    "arabic": "لَطْم",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 95,
+    "end": 102,
+    "term": "tamādat",
+    "arabic": "تَمَادَتْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 122,
+    "end": 125,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 190,
+    "end": 193,
+    "term": "dāl",
+    "arabic": "د",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 212,
+    "end": 219,
+    "term": "tamādud",
+    "arabic": "تَمَادُد",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 530,
+    "end": 539,
+    "term": "fusṭāṭayn",
+    "arabic": "فُسْطَاطَيْنِ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 548,
+    "end": 554,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 558,
+    "end": 564,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 572,
+    "end": 575,
+    "term": "fāʾ",
+    "arabic": "ف",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C06",
+    "field": "english",
+    "start": 626,
+    "end": 632,
+    "term": "fusṭāṭ",
+    "arabic": "فُسْطَاط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C07",
+    "field": "english",
+    "start": 754,
+    "end": 760,
+    "term": "fusṭāṭ",
+    "arabic": "فُسْطَاط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C07",
+    "field": "english",
+    "start": 767,
+    "end": 773,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C07",
+    "field": "english",
+    "start": 777,
+    "end": 783,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5403-C07",
+    "field": "english",
+    "start": 832,
+    "end": 838,
+    "term": "fusṭāṭ",
+    "arabic": "فُسْطَاط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5404-C02",
+    "field": "english",
+    "start": 18,
+    "end": 24,
+    "term": "aflaḥa",
+    "arabic": "أَفْلَحَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 361,
+    "end": 375,
+    "term": "fatḥah-bearing",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 376,
+    "end": 379,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 424,
+    "end": 431,
+    "term": "Junniba",
+    "arabic": "جُنِّبَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 438,
+    "end": 444,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 452,
+    "end": 455,
+    "term": "jīm",
+    "arabic": "ج",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 470,
+    "end": 473,
+    "term": "nūn",
+    "arabic": "ن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C01",
+    "field": "english",
+    "start": 482,
+    "end": 488,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C02",
+    "field": "english",
+    "start": 38,
+    "end": 41,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C02",
+    "field": "english",
+    "start": 201,
+    "end": 206,
+    "term": "wāhan",
+    "arabic": "وَاهًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C02",
+    "field": "english",
+    "start": 595,
+    "end": 605,
+    "term": "wāhan lahu",
+    "arabic": "وَاهًا لَهُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C02",
+    "field": "english",
+    "start": 659,
+    "end": 668,
+    "term": "āhan lahu",
+    "arabic": "آهًا لَهُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 15,
+    "end": 23,
+    "term": "fa-wāhan",
+    "arabic": "فَوَاهًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 47,
+    "end": 50,
+    "term": "man",
+    "arabic": "مَنْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 57,
+    "end": 60,
+    "term": "fāʾ",
+    "arabic": "ف",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 234,
+    "end": 237,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 246,
+    "end": 252,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 334,
+    "end": 339,
+    "term": "Wāhan",
+    "arabic": "وَاهًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 586,
+    "end": 589,
+    "term": "lām",
+    "arabic": "ل",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 595,
+    "end": 601,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 612,
+    "end": 617,
+    "term": "wāhan",
+    "arabic": "وَاهًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5405-C03",
+    "field": "english",
+    "start": 707,
+    "end": 712,
+    "term": "wāhan",
+    "arabic": "وَاهًا",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5406-C02",
+    "field": "english",
+    "start": 67,
+    "end": 73,
+    "term": "innahu",
+    "arabic": "إِنَّهُ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5406-C02",
+    "field": "english",
+    "start": 337,
+    "end": 343,
+    "term": "khātim",
+    "arabic": "خَاتِم",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5406-C02",
+    "field": "english",
+    "start": 352,
+    "end": 358,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5406-C02",
+    "field": "english",
+    "start": 362,
+    "end": 368,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5406-C02",
+    "field": "english",
+    "start": 376,
+    "end": 379,
+    "term": "tāʾ",
+    "arabic": "ت",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C01",
+    "field": "english",
+    "start": 558,
+    "end": 568,
+    "term": "Dhāt Anwāṭ",
+    "arabic": "ذَاتُ أَنْوَاطٍ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C01",
+    "field": "english",
+    "start": 570,
+    "end": 575,
+    "term": "anwāṭ",
+    "arabic": "أَنْوَاط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C01",
+    "field": "english",
+    "start": 593,
+    "end": 597,
+    "term": "nawṭ",
+    "arabic": "نَوْط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C01",
+    "field": "english",
+    "start": 618,
+    "end": 622,
+    "term": "nāṭa",
+    "arabic": "نَاطَ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C02",
+    "field": "english",
+    "start": 178,
+    "end": 188,
+    "term": "Dhāt Anwāṭ",
+    "arabic": "ذَاتُ أَنْوَاطٍ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 62,
+    "end": 75,
+    "term": "la-tarkabunna",
+    "arabic": "لَتَرْكَبُنَّ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 82,
+    "end": 88,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 96,
+    "end": 99,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 188,
+    "end": 193,
+    "term": "Sunan",
+    "arabic": "سُنَن",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 200,
+    "end": 206,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 214,
+    "end": 217,
+    "term": "sīn",
+    "arabic": "س",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5408-C03",
+    "field": "english",
+    "start": 280,
+    "end": 286,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C01",
+    "field": "english",
+    "start": 31,
+    "end": 34,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C01",
+    "field": "english",
+    "start": 48,
+    "end": 54,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C01",
+    "field": "english",
+    "start": 63,
+    "end": 69,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C02",
+    "field": "english",
+    "start": 434,
+    "end": 437,
+    "term": "yāʾ",
+    "arabic": "ي",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C02",
+    "field": "english",
+    "start": 441,
+    "end": 454,
+    "term": "al-Ḥudaybiyah",
+    "arabic": "الْحُدَيْبِيَة",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C02",
+    "field": "english",
+    "start": 705,
+    "end": 711,
+    "term": "wa-lam",
+    "arabic": "وَلَمْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C02",
+    "field": "english",
+    "start": 723,
+    "end": 729,
+    "term": "fa-lam",
+    "arabic": "فَلَمْ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 96,
+    "end": 102,
+    "term": "Ṭabākh",
+    "arabic": "طَبَاخ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 107,
+    "end": 113,
+    "term": "fatḥah",
+    "arabic": "فَتْحَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 121,
+    "end": 124,
+    "term": "ṭāʾ",
+    "arabic": "ط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 139,
+    "end": 142,
+    "term": "bāʾ",
+    "arabic": "ب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 154,
+    "end": 158,
+    "term": "khāʾ",
+    "arabic": "خ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 246,
+    "end": 252,
+    "term": "kasrah",
+    "arabic": "كَسْرَة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 260,
+    "end": 263,
+    "term": "ṭāʾ",
+    "arabic": "ط",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 344,
+    "end": 349,
+    "term": "saḥāb",
+    "arabic": "سَحَاب",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 379,
+    "end": 385,
+    "term": "ḍammah",
+    "arabic": "ضَمَّة",
+    "basis": "Citation form / letter name / explicitly discussed form; editorial display aid",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  },
+  {
+    "unit": "5409-C03",
+    "field": "english",
+    "start": 538,
+    "end": 544,
+    "term": "ṭabākh",
+    "arabic": "طَبَاخ",
+    "basis": "Base spelling occurs in this Arabic unit",
+    "review_status": "Reading aid; inherits the draft’s review status"
+  }
+]
