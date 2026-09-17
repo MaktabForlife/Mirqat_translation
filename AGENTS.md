@@ -66,3 +66,12 @@ Return:
 - any content anomaly noticed but not modified.
 
 Avoid unrelated refactors in the first migration task.
+
+## Development branch and automatic pushes
+
+Use `develop` for future development unless the user explicitly requests another branch.
+The user authorises committing and pushing completed development changes to
+`origin/develop` automatically after the applicable validation checks pass; no
+additional push confirmation is needed. Include only changes belonging to the
+requested task, and report the commit and validation results.
+Do not push development changes to `main` or force-push without explicit instruction.
