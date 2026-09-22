@@ -2,6 +2,7 @@
 (() => {
   'use strict';
   const DATA = JSON.parse(document.getElementById('reader-data').textContent);
+  const ORIGINALS = JSON.parse(document.getElementById('original-arabic-data').textContent);
   const $ = id => document.getElementById(id);
   const root = $('reading-content');
   const wide = matchMedia('(min-width:1280px)');
@@ -82,7 +83,21 @@
       const hint=el('span','unit-action');hint.append(icon('translate'),el('span','full-hint','Read translation'));meta.append(hint);
     }
     button.append(meta);
-    const text=el('p','arabic-text',u.arabic);text.lang='ar';text.dir='rtl';button.append(text);
+    const text=el('p','arabic-text',matn?u.arabic:ORIGINALS[u.id]);text.id='ar-'+u.id;text.lang='ar';text.dir='rtl';button.append(text);
+    if(!matn){
+      const layers=el('div','arabic-layers');layers.setAttribute('role','group');layers.setAttribute('aria-label','Arabic version for '+u.id);
+      for(const [layer,label] of [['original','Original Arabic'],['vocalised','Vocalised Arabic']]){
+        const control=el('button','arabic-layer',label);control.type='button';control.dataset.layer=layer;
+        control.setAttribute('aria-controls',text.id);control.setAttribute('aria-pressed',String(layer==='original'));
+        control.addEventListener('click',()=>{
+          text.textContent=layer==='original'?ORIGINALS[u.id]:u.arabic;
+          layers.querySelectorAll('button').forEach(n=>n.setAttribute('aria-pressed',String(n===control)));
+          updateProgress();
+        });
+        layers.append(control);
+      }
+      wrap.append(layers);
+    }
     const box=el('div',`unit-inline ${matn?'hadith-english':'commentary-translation'}`);box.id='en-'+u.id;box.dataset.inline=u.id;box.hidden=!matn;
     addEnglish(box,u);
     const actions=el('div','inline-actions');
@@ -118,7 +133,7 @@
       frag.append(article);
     }
     root.append(frag);
-    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+u.english+' '+(u.english_with_arabic||''));
+    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(ORIGINALS[u.id]||'')+' '+u.english+' '+(u.english_with_arabic||''));
     makeNavigation();
   }
   function makeNavigation(){const nav=$('nav-list');let sec=0;

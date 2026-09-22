@@ -11,7 +11,7 @@ const assert = require('node:assert/strict');
   await page.goto('file://'+resolve(__dirname,'../src/fitan-reader-current.html'));
   await page.waitForFunction(()=>window.MIRQAT_READER);
   const integrity=await page.evaluate(()=>{
-    const data=JSON.parse(document.getElementById('reader-data').textContent), failures=[];
+    const data=JSON.parse(document.getElementById('reader-data').textContent), originals=JSON.parse(document.getElementById('original-arabic-data').textContent), failures=[];
     const check=(ok,msg)=>{if(!ok)failures.push(msg)};
     const ids=[...document.querySelectorAll('[id]')].map(n=>n.id);check(ids.length===new Set(ids).size,'duplicate DOM IDs');
     for(const [h,u] of Object.entries(data.hadith)){
@@ -25,7 +25,13 @@ const assert = require('node:assert/strict');
     }
     for(const u of data.commentary){
       const wrap=document.getElementById(u.id),ar=wrap.querySelector('.arabic-unit'),en=ar.nextElementSibling;
-      check(ar.querySelector('.arabic-text').textContent===u.reading_ar,u.id+' Arabic');
+      check(ar.querySelector('.arabic-text').textContent===originals[u.id],u.id+' original default');
+      check(en.hidden,u.id+' translation initially hidden');
+      const vocalised=wrap.querySelector('[data-layer="vocalised"]'),original=wrap.querySelector('[data-layer="original"]');
+      check(vocalised.getAttribute('aria-controls')===ar.querySelector('.arabic-text').id,u.id+' Arabic target');
+      vocalised.click();check(ar.querySelector('.arabic-text').textContent===u.reading_ar,u.id+' exact vocalised');
+      check(en.hidden,u.id+' layer does not open translation');
+      original.click();check(ar.querySelector('.arabic-text').textContent===originals[u.id],u.id+' exact original restored');
       check(ar.getAttribute('aria-controls')===en.id&&en.dataset.inline===u.id,u.id+' inline target');
       const clone=en.querySelector('.commentary-english').cloneNode(true);clone.querySelectorAll('.script-bracket').forEach(n=>n.remove());
       check(clone.textContent===u.english,u.id+' English');
@@ -47,17 +53,26 @@ const assert = require('node:assert/strict');
     await page.keyboard.press('Escape');assert.equal(await page.locator('[data-unit="5379-C02"]').getAttribute('aria-expanded'),'false');
     await page.locator('#study-toggle').click();
     assert.equal(await page.locator('.commentary-translation:not([hidden])').count(),179);
+    for(const layer of ['original','vocalised']){
+    await page.evaluate(layer=>document.querySelectorAll('[data-layer="'+layer+'"]').forEach(n=>n.click()),layer);
     const layout=await page.evaluate(()=>{
       const overflow=[...document.querySelectorAll('.unit-wrap,.unit-inline,.arabic-text,.translation-text')].filter(n=>n.scrollWidth>n.clientWidth+1).map(n=>n.id||n.className);
       const bad=[...document.querySelectorAll('.commentary-translation')].filter(n=>Math.abs(n.getBoundingClientRect().top-n.previousElementSibling.getBoundingClientRect().bottom)>2).map(n=>n.id);
       return {width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,unitsOverflow:overflow,nonAdjacent:bad};
-    });assert.equal(layout.overflow,false);assert.deepEqual(layout.unitsOverflow,[]);assert.deepEqual(layout.nonAdjacent,[]);layouts.push(layout);
+    });assert.equal(layout.overflow,false);assert.deepEqual(layout.unitsOverflow,[]);assert.deepEqual(layout.nonAdjacent,[]);layouts.push({...layout,layer});
+    }
     await first.focus();await page.keyboard.press('Escape');assert.equal(await first.getAttribute('aria-expanded'),'false');
     await page.locator('#study-toggle').click();assert.equal(await page.locator('.hadith-english:not([hidden])').count(),31);
   }
   await page.locator('#search-toggle').click();await page.locator('#search-input').fill('5396-C04');await page.waitForTimeout(150);
   await page.locator('.search-result').click();assert.equal(await page.locator('[data-unit="5396-C04"]').getAttribute('aria-expanded'),'true');
+  await page.locator('[id="5396-C04"] [data-layer="original"]').press('Enter');
+  assert.equal(await page.locator('[id="5396-C04"] [data-layer="original"]').getAttribute('aria-pressed'),'true');
+  assert.equal(await page.locator('#en-5396-C04').isVisible(),true);
+  await page.locator('[id="5396-C04"] [data-layer="vocalised"]').press('Space');
+  assert.equal(await page.locator('[id="5396-C04"] [data-layer="vocalised"]').getAttribute('aria-pressed'),'true');
   await page.reload();await page.waitForFunction(()=>window.MIRQAT_READER?.getSelected()==='5396-C04');
+  assert.equal(await page.locator('[id="5396-C04"] [data-layer="original"]').getAttribute('aria-pressed'),'true');
   await page.evaluate(()=>MIRQAT_READER.openUnit('5409-M'));assert.equal(await page.locator('#en-5409-M').isVisible(),true);
   await page.setViewportSize({width:390,height:844});await page.locator('#menu-toggle').click();await page.locator('.nav-entry[href="#h5379"]').click();
   await page.locator('[data-unit="5379-C01"]').click();
@@ -69,7 +84,7 @@ const assert = require('node:assert/strict');
   await denied.waitForFunction(()=>window.MIRQAT_READER);await denied.locator('[data-unit="5379-C01"]').click();
   assert.equal(await denied.locator('#en-5379-C01').isVisible(),true);
   assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
-  const report={integrity,layouts,checks:['click toggle','Enter/Space/Escape','single-open commentary','study mode','search','deep-link reload','hadith links','mobile contents','blocked storage','reduced motion'],javascriptErrors:errors,externalRequests:requests};
+  const report={integrity,layouts,checks:['179 exact original/vocalised pairs','original Arabic on reload','Arabic layer Enter/Space','layer switch retains open translation','both layers at all nine widths','click toggle','Enter/Space/Escape','single-open commentary','study mode','search','deep-link reload','hadith links','mobile contents','blocked storage','reduced motion'],javascriptErrors:errors,externalRequests:requests};
   writeFileSync(resolve(__dirname,'browser_checks_current.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
   await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

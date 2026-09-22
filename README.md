@@ -51,5 +51,19 @@ The browser check requires Playwright and Google Chrome. Set `CHROME_PATH` for
 another Chromium executable, and `NODE_PATH` if Playwright is installed outside
 the repository. It writes `tests/browser_checks_current.json` and screenshots in
 `/tmp`. The integrity check requires Git history containing the original reader.
-The build retains the existing embedded editorial JSON verbatim; it does not
-import editorial changes from `data/`. Original baselines are deliberately retained.
+The build retains the existing embedded editorial JSON verbatim and adds a
+separate original-Arabic layer from the exact `source_ar` values in
+`data/commentary_data.json`. Original baselines are deliberately retained.
+
+## Original and vocalised Arabic
+
+Each commentary unit opens with its saved original Arabic. The Original Arabic
+and Vocalised Arabic buttons replace the text in the same space, without opening
+or closing its English translation. Tap the Arabic passage to reveal English
+below. Every reload starts with original Arabic; the selected Arabic version is
+not saved. Original text retains any pointing already present in the supplied
+source. Hadith Arabic and supplied English are unchanged.
+
+Integrity checks cover all 179 source/reading pairs, protected editorial content,
+and stable IDs. Browser checks exercise both Arabic layers at nine viewport
+widths, keyboard switching, translation state, and the original default on reload.

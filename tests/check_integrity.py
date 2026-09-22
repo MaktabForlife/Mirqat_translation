@@ -23,10 +23,13 @@ current = (ROOT / 'src/fitan-reader-current.html').read_text()
 old_payload = re.search(DATA_PATTERN, original.decode(), re.S)[2]
 payload = re.search(DATA_PATTERN, current, re.S)[2]
 assert payload == old_payload, 'Embedded editorial JSON changed'
+originals = json.loads(re.search(r'<script id="original-arabic-data" type="application/json">(.*?)</script>', current, re.S)[1])
+source = json.loads((ROOT / 'data/commentary_data.json').read_text())
+assert originals == {u['id']: u['source_ar'] for u in source}, 'Original Arabic layer differs from saved source'
 assert current == build(), 'Standalone HTML is stale'
 data = json.loads(payload)
 assert set(data['hadith']) == {str(n) for n in range(5379, 5410)}
 ids = [u['id'] for u in data['commentary']]
 assert len(ids) == len(set(ids)) == 179
 assert all(str(u['hadith']) in data['hadith'] and u['english'] for u in data['commentary'])
-print('PASS: protected data/reference SHA-256; byte-exact embedded editorial JSON; 31 hadiths; 179 unique commentary IDs; reproducible HTML.')
+print('PASS: protected data/reference SHA-256; byte-exact embedded editorial JSON; 31 hadiths; 179 exact original Arabic texts; 179 unique commentary IDs; reproducible HTML.')

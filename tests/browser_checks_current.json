@@ -9,58 +9,135 @@
       "width": 320,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 375,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 390,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 430,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 768,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 1024,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 1280,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 1440,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     },
     {
       "width": 1600,
       "overflow": false,
       "unitsOverflow": [],
-      "nonAdjacent": []
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1600,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
     }
   ],
   "checks": [
+    "179 exact original/vocalised pairs",
+    "original Arabic on reload",
+    "Arabic layer Enter/Space",
+    "layer switch retains open translation",
+    "both layers at all nine widths",
     "click toggle",
     "Enter/Space/Escape",
     "single-open commentary",
