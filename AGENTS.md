@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository contains the technical reader implementation for the Mirqāt al-Mafātīḥ Kitāb al-Fitan edition.
+This repository contains the technical online readers for Mirqāt al-Mafātīḥ, Kitāb al-Fitan and Kitāb al-ʿIlm (introduction and hadiths 198–280).
 
 Codex is authorised to change software, rendering, tests and build tooling.
 Codex is **not** authorised to make scholarly or editorial changes.
@@ -75,3 +75,15 @@ The user authorises committing and pushing completed development changes to
 additional push confirmation is needed. Include only changes belonging to the
 requested task, and report the commit and validation results.
 Do not push development changes to `main` or force-push without explicit instruction.
+
+## Kitāb al-ʿIlm source boundary
+
+Preserve the frozen source files and their provenance in `data/ilm/`. Include the
+206 introduction/commentary units, all 83 matn entries, the supplementary passage
+after 248, and all 450 commentary editorial notes. Original and vocalised Arabic
+must remain separate supplied layers.
+
+The user explicitly requested that hadith English for 219–280 remain pending.
+Do not import the third-party witness referenced in the source register without
+new user authorisation. Keep commentary English available and distinguish it
+from the pending hadith English. Retain the source’s D4/E review status.

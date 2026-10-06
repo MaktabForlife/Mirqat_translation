@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-10-06",
+  "hadith_english_219_280": "Left pending at the user’s explicit request; external witness not imported.",
+  "files": [
+    {
+      "path": "data/ilm/sources/commentary-d3.json",
+      "title": "Mirqat_Ilm_D3_Complete_Cumulative_Edition_01.json",
+      "url": "https://drive.google.com/file/d/1nwzy53G6ob-TqtdtXq57_Fdx6T-0IBR-/view",
+      "sha256": "df34d0a5775420b987969af225f58ea016d7cf03d560c57c58b5bee3dd37e3ed"
+    },
+    {
+      "path": "data/ilm/sources/review06.json",
+      "title": "Mirqat_Kitab_al_Ilm_Review_06_Edition.json",
+      "url": "https://drive.google.com/file/d/1dmVly_3AvZHvEIkLj3fVlbaMgDc0pza4/view",
+      "sha256": "7384c469323ed2433dc47d8dc8a45802fa3e2d5bc04d1e1c0d3b5590bc6a6963"
+    },
+    {
+      "path": "data/ilm/sources/matn-b1.json",
+      "title": "Mirqat_Kitab_al_Ilm_B1_219-280_01.json",
+      "url": "https://drive.google.com/file/d/1cNxhZTzDDHK2c2NlNbCuU2DX7-otrSND/view",
+      "sha256": "f1c7d94a6f3f3d0a6cbfebd93f679e7c0fa3013b1816b8387eac1d3e5b9b91ca"
+    },
+    {
+      "path": "data/ilm/sources/matn-b2.json",
+      "title": "Mirqat_Kitab_al_Ilm_B2_219-280_01.json",
+      "url": "https://drive.google.com/file/d/1YuE8olkENgKKB73xy9Kgs6nW4uCxdo-8/view",
+      "sha256": "0663275bc1db02a73203aea58d8fb6d4ddc1244a904e8ab2800bbfaf1c3bfb37"
+    },
+    {
+      "path": "data/ilm/sources/english-register.json",
+      "title": "AhmedBaset_English_Witness_219-280_Source_Register_02.json",
+      "url": "https://drive.google.com/file/d/1C13DrLCh2rRRB-Mr58nEDu4V-e77UkLE/view",
+      "sha256": "ad38f9a658a57f39a5281f6424ff1d0a4ab1f1d9cda602debf2fbf6c001d2cce"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Arabic-first interactive reading edition of Mirqat al-Mafatih, Kitab al-Ilm, opening chapter 198–280. Select a passage for its English translation.">
+<meta name="theme-color" content="#254e43">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23254e43%27/%3E%3Cpath d=%27M16 9C12 7 8 8 6 9v15c3-2 7-2 10 0 3-2 7-2 10 0V9c-2-1-6-2-10 0Zm0 0v15%27 fill=%27none%27 stroke=%27%23fffefa%27 stroke-width=%271.5%27/%3E%3C/svg%3E">
+<meta name="color-scheme" content="light">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Kitāb al-ʿIlm · Mirqāt Reader · 198–280</title>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<a class="skip-link" href="#reading-content">Skip to Arabic text</a>
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="Kitab al-Ilm, return to the beginning">
+    <span class="brand-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C9 3.5 5.5 3.5 2 5v14c3.5-1.5 7-1.5 10 .5 3-2 6.5-2 10-.5V5c-3.5-1.5-7-1.5-10 .5Z"/><path d="M12 5.5v14"/></svg></span>
+    <span><span class="brand-name">MIRQĀT</span><span class="brand-subtitle">ARABIC-FIRST READER</span></span>
+  </a>
+  <nav class="toolbar" aria-label="Reading controls">
+    <button class="control menu-control" id="menu-toggle" aria-label="Open contents" aria-expanded="false" aria-controls="contents" title="Contents"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.1M3 12h.1M3 18h.1"/></svg><span class="button-label">Contents</span></button>
+    <button class="control" id="search-toggle" aria-label="Search Arabic, English or hadith number" title="Search (/)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="button-label">Search</span></button>
+    <button class="control" id="study-toggle" aria-label="Show all commentary translations below their Arabic passages" aria-pressed="false" title="Study mode: show all English"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16M6 8h3M6 12h3M15 8h3M15 12h3"/></svg><span class="button-label" id="study-label">Study mode</span></button>
+    <span class="size-control" role="group" aria-label="Arabic text size"><button type="button" data-size-down aria-label="Decrease Arabic text size">A−</button><output data-size-output aria-label="Arabic font size">27</output><button type="button" data-size-up aria-label="Increase Arabic text size">A+</button></span>
+    <button class="control icon-only" id="about-toggle" aria-label="Reading guide, text size and editorial information" title="Reading guide and settings"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 10v6M12 7h.01"/></svg></button>
+  </nav>
+</header>
+<div class="progress-track" aria-hidden="true"><i id="progress-fill"></i></div>
+<button id="nav-scrim" class="nav-scrim" tabindex="-1" aria-label="Close contents"></button>
+<aside class="contents" id="contents" aria-label="Hadith contents">
+ <div class="contents-head"><h2>Book of Knowledge</h2><button class="control icon-only nav-close" id="nav-close" aria-label="Close contents"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div>
+ <button class="resume" id="resume-button" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z"/></svg><span id="resume-label">Resume reading</span></button>
+ <nav class="nav-scroll" id="nav-list" aria-label="Hadith numbers"></nav>
+ <div class="contents-foot"><strong>198–280 · 83 entries</strong><br>Reading <span id="current-number">198</span> · introduction and commentary<br>Review 06 + D3 Complete / 01<br>Arabic pointing and translation remain under review.</div>
+</aside>
+<main class="reading-shell" id="top">
+ <div class="reader">
+  <nav class="book-switch" aria-label="Choose a book"><a href="fitan-reader-current.html">Kitāb al-Fitan</a><a href="ilm-reader-current.html" aria-current="page">Kitāb al-ʿIlm · 198–280</a></nav>
+  <section class="book-intro" aria-labelledby="book-title">
+   <p class="basmalah" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+   <div class="overline">Mirqāt al-Mafātīḥ · Mullā ʿAlī al-Qārī</div>
+   <h1 id="book-title" lang="ar" dir="rtl">كِتَابُ الْعِلْمِ</h1>
+   <p class="latin-title">Kitāb al-ʿIlm</p>
+   <div class="scope">INTRODUCTION AND COMPLETE BOOK &nbsp; / &nbsp; 198–280</div>
+   <div class="palette" aria-hidden="true"><i style="background:#a0b8c2"></i><i style="background:#a9b99e"></i><i style="background:#c9b88a"></i><i style="background:#c8a7aa"></i></div>
+   <p class="intro-hint">Read the Arabic at your own pace.<br>Choose Original Arabic or Vocalised Arabic above each commentary passage.<br>Tap the passage to reveal its English directly below.</p>
+   <div class="draft-status">Text and vocalisation: editorial review draft</div>
+  </section>
+  <div id="loading-message" class="intro-hint" role="status">Preparing the reading text…</div>
+  <div id="reading-content" tabindex="-1" aria-label="Arabic text, hadiths 198 through 280"></div>
+  <footer class="endmark"><strong>End of Kitāb al-ʿIlm · 280</strong><br>Introduction, 83 numbered entries, and the supplementary cross-reference after 248.<br>Commentary review draft · D4/E scholarly verification remains pending.</footer>
+ </div>
+</main>
+<dialog class="search-dialog" id="search-dialog" aria-labelledby="search-title">
+ <header class="dialog-head"><h2 id="search-title">Find a passage</h2><button class="control icon-only" data-dialog-close="search-dialog" aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></header>
+ <div class="searchbox"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search-input" type="search" placeholder="Hadith number, Arabic or English…" aria-label="Search Kitab al-Ilm" autocomplete="off" spellcheck="false" dir="auto"></div>
+ <p class="search-hint" id="search-count" role="status">Search ignores Arabic vowel marks and Latin accents.</p>
+ <div class="search-results" id="search-results"></div>
+</dialog>
+<dialog class="about-dialog" id="about-dialog" aria-labelledby="about-title">
+ <header class="dialog-head"><h2 id="about-title">Reading guide &amp; edition notes</h2><button class="control icon-only" data-dialog-close="about-dialog" aria-label="Close reading guide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></header>
+ <div class="mobile-size" style="display:none"><span>Arabic text size</span><span class="size-control" role="group" aria-label="Arabic text size"><button data-size-down aria-label="Decrease Arabic text size">A−</button><output data-size-output>24</output><button data-size-up aria-label="Increase Arabic text size">A+</button></span></div>
+ <div class="about-body">
+  <h3>Reading Kitāb al-ʿIlm</h3>
+  <p>The introduction and commentary on all 83 numbered entries, 198–280, are included, along with the supplementary cross-reference after 248. Original Arabic opens first; use Vocalised Arabic to switch the same passage to the supplied reading draft. Select the Arabic passage to reveal English directly below. Study mode opens all commentary translations.</p>
+  <p>Hadith Arabic and English are separate, uncoloured blocks. Hadiths 198–218 use the supplied Review 06 matn and James Robson English. Later matn follows the saved Mirqāt transcription, retaining its short references and repetitions. No new vocalisation or translation has been composed for this edition.</p>
+  <h3>Review status and source notes</h3>
+  <p>The complete commentary comes from the saved D3 Complete / 01 pack, dated 24 September 2026. Its source Arabic, vocalised reading, English, stable IDs, source references and all 450 editorial notes are retained. D4 review and E scholarly verification remain pending. Each passage retains its supplied status and notes.</p>
+  <p id="later-english-guide">Hadith English for 219–280 remains pending; the commentary translations are available in full.</p>
+  <p>Source: Mirqāt al-Mafātīḥ, volume 1, Jamāl ʿItānī edition, Dār al-Kutub al-ʿIlmiyyah, 1422 AH / 2001 CE. Bushra remains a comparison witness for the hadith matn only. Review notes preserve unresolved readings and differences between witnesses.</p>
+  <h3>Controls and local reading</h3>
+  <p>Search finds Arabic, English, hadith numbers and stable passage IDs. Enter or Space activates a selected commentary passage; Escape closes its translation. Original and Vocalised Arabic buttons work with the keyboard. Contents includes the introduction, every hadith, and the supplementary passage.</p>
+  <p>The file works offline without external scripts or fonts. Text size and the last selected passage are remembered in this browser where storage is available. Original Arabic is selected again on reload. Use the book links to move between Kitāb al-Fitan and Kitāb al-ʿIlm.</p>
+ </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<template id="icon-translate"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H9l-5 4V4Z"/><path d="M8 8h8M8 12h5"/></svg></template>
+<noscript><div class="nojs">This reading interface needs JavaScript enabled in a browser. The separate landscape PDF remains available for non-interactive reading.</div></noscript>
+<script id="reader-data" type="application/json">/*__DATA__*/</script>
+<script id="original-arabic-data" type="application/json">/*__ORIGINALS__*/</script>
+<script>/*__JS__*/</script>
+</body>
+</html>

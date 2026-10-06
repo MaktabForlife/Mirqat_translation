@@ -1,0 +1,788 @@
+{
+  "source_label": "AhmedBaset/hadith-json repository English witness",
+  "commit": "70b83d6d21995bb32f8d7271cd75501be5a922a7",
+  "path": "db/by_chapter/other_books/mishkat_almasabih/2.json",
+  "blob_sha": "96ace96297f00eb10f4388099f27b5c53324f1dc",
+  "repo_declared_upstream": "Sunnah.com (README statement, not independently verified translation attribution)",
+  "robson_status": "not_verified_against_Robson",
+  "source_ar_policy": "Repository Arabic does not replace Mirqat source_ar or Bushra comparison witness.",
+  "workflow_status": "User-authorised working C witness; proceed to D. Robson verification remains pending.",
+  "mapping": [
+    {
+      "project_id": "219-M",
+      "hadith_number": 219,
+      "repo_chapter_id": 2,
+      "repo_id": 21,
+      "repo_idInBook": 21,
+      "english_present": true,
+      "shared_repository_entry": [
+        "219-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "220-M",
+      "hadith_number": 220,
+      "repo_chapter_id": 2,
+      "repo_id": 22,
+      "repo_idInBook": 22,
+      "english_present": true,
+      "shared_repository_entry": [
+        "220-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "221-M",
+      "hadith_number": 221,
+      "repo_chapter_id": 2,
+      "repo_id": 23,
+      "repo_idInBook": 23,
+      "english_present": true,
+      "shared_repository_entry": [
+        "221-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "222-M",
+      "hadith_number": 222,
+      "repo_chapter_id": 2,
+      "repo_id": 24,
+      "repo_idInBook": 24,
+      "english_present": true,
+      "shared_repository_entry": [
+        "222-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "223-M",
+      "hadith_number": 223,
+      "repo_chapter_id": 2,
+      "repo_id": 25,
+      "repo_idInBook": 25,
+      "english_present": true,
+      "shared_repository_entry": [
+        "223-M",
+        "224-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "224-M",
+      "hadith_number": 224,
+      "repo_chapter_id": 2,
+      "repo_id": 25,
+      "repo_idInBook": 25,
+      "english_present": true,
+      "shared_repository_entry": [
+        "223-M",
+        "224-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "225-M",
+      "hadith_number": 225,
+      "repo_chapter_id": 2,
+      "repo_id": 26,
+      "repo_idInBook": 26,
+      "english_present": true,
+      "shared_repository_entry": [
+        "225-M",
+        "226-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "226-M",
+      "hadith_number": 226,
+      "repo_chapter_id": 2,
+      "repo_id": 26,
+      "repo_idInBook": 26,
+      "english_present": true,
+      "shared_repository_entry": [
+        "225-M",
+        "226-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "227-M",
+      "hadith_number": 227,
+      "repo_chapter_id": 2,
+      "repo_id": 27,
+      "repo_idInBook": 27,
+      "english_present": true,
+      "shared_repository_entry": [
+        "227-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "228-M",
+      "hadith_number": 228,
+      "repo_chapter_id": 2,
+      "repo_id": 28,
+      "repo_idInBook": 28,
+      "english_present": true,
+      "shared_repository_entry": [
+        "228-M",
+        "229-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "229-M",
+      "hadith_number": 229,
+      "repo_chapter_id": 2,
+      "repo_id": 28,
+      "repo_idInBook": 28,
+      "english_present": true,
+      "shared_repository_entry": [
+        "228-M",
+        "229-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "230-M",
+      "hadith_number": 230,
+      "repo_chapter_id": 2,
+      "repo_id": 29,
+      "repo_idInBook": 29,
+      "english_present": true,
+      "shared_repository_entry": [
+        "230-M",
+        "231-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "231-M",
+      "hadith_number": 231,
+      "repo_chapter_id": 2,
+      "repo_id": 29,
+      "repo_idInBook": 29,
+      "english_present": true,
+      "shared_repository_entry": [
+        "230-M",
+        "231-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "232-M",
+      "hadith_number": 232,
+      "repo_chapter_id": 2,
+      "repo_id": 30,
+      "repo_idInBook": 30,
+      "english_present": true,
+      "shared_repository_entry": [
+        "232-M",
+        "233-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "233-M",
+      "hadith_number": 233,
+      "repo_chapter_id": 2,
+      "repo_id": 30,
+      "repo_idInBook": 30,
+      "english_present": true,
+      "shared_repository_entry": [
+        "232-M",
+        "233-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "234-M",
+      "hadith_number": 234,
+      "repo_chapter_id": 2,
+      "repo_id": 31,
+      "repo_idInBook": 31,
+      "english_present": true,
+      "shared_repository_entry": [
+        "234-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "235-M",
+      "hadith_number": 235,
+      "repo_chapter_id": 2,
+      "repo_id": 32,
+      "repo_idInBook": 32,
+      "english_present": true,
+      "shared_repository_entry": [
+        "235-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "236-M",
+      "hadith_number": 236,
+      "repo_chapter_id": 2,
+      "repo_id": 33,
+      "repo_idInBook": 33,
+      "english_present": true,
+      "shared_repository_entry": [
+        "236-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "237-M",
+      "hadith_number": 237,
+      "repo_chapter_id": 2,
+      "repo_id": 34,
+      "repo_idInBook": 34,
+      "english_present": true,
+      "shared_repository_entry": [
+        "237-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "238-M",
+      "hadith_number": 238,
+      "repo_chapter_id": 2,
+      "repo_id": 35,
+      "repo_idInBook": 35,
+      "english_present": true,
+      "shared_repository_entry": [
+        "238-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "239-M",
+      "hadith_number": 239,
+      "repo_chapter_id": 2,
+      "repo_id": 36,
+      "repo_idInBook": 36,
+      "english_present": true,
+      "shared_repository_entry": [
+        "239-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "240-M",
+      "hadith_number": 240,
+      "repo_chapter_id": 2,
+      "repo_id": 37,
+      "repo_idInBook": 37,
+      "english_present": true,
+      "shared_repository_entry": [
+        "240-M",
+        "241-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "241-M",
+      "hadith_number": 241,
+      "repo_chapter_id": 2,
+      "repo_id": 37,
+      "repo_idInBook": 37,
+      "english_present": true,
+      "shared_repository_entry": [
+        "240-M",
+        "241-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "242-M",
+      "hadith_number": 242,
+      "repo_chapter_id": 2,
+      "repo_id": 38,
+      "repo_idInBook": 38,
+      "english_present": true,
+      "shared_repository_entry": [
+        "242-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "243-M",
+      "hadith_number": 243,
+      "repo_chapter_id": 2,
+      "repo_id": 39,
+      "repo_idInBook": 39,
+      "english_present": true,
+      "shared_repository_entry": [
+        "243-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "244-M",
+      "hadith_number": 244,
+      "repo_chapter_id": 2,
+      "repo_id": 40,
+      "repo_idInBook": 40,
+      "english_present": true,
+      "shared_repository_entry": [
+        "244-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "245-M",
+      "hadith_number": 245,
+      "repo_chapter_id": 2,
+      "repo_id": 41,
+      "repo_idInBook": 41,
+      "english_present": true,
+      "shared_repository_entry": [
+        "245-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "246-M",
+      "hadith_number": 246,
+      "repo_chapter_id": 2,
+      "repo_id": 42,
+      "repo_idInBook": 42,
+      "english_present": true,
+      "shared_repository_entry": [
+        "246-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "247-M",
+      "hadith_number": 247,
+      "repo_chapter_id": 2,
+      "repo_id": 43,
+      "repo_idInBook": 43,
+      "english_present": true,
+      "shared_repository_entry": [
+        "247-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "248-M",
+      "hadith_number": 248,
+      "repo_chapter_id": 2,
+      "repo_id": 44,
+      "repo_idInBook": 44,
+      "english_present": true,
+      "shared_repository_entry": [
+        "248-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "249-M",
+      "hadith_number": 249,
+      "repo_chapter_id": 2,
+      "repo_id": 46,
+      "repo_idInBook": 46,
+      "english_present": true,
+      "shared_repository_entry": [
+        "249-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "250-M",
+      "hadith_number": 250,
+      "repo_chapter_id": 2,
+      "repo_id": 47,
+      "repo_idInBook": 47,
+      "english_present": true,
+      "shared_repository_entry": [
+        "250-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "251-M",
+      "hadith_number": 251,
+      "repo_chapter_id": 2,
+      "repo_id": 48,
+      "repo_idInBook": 48,
+      "english_present": true,
+      "shared_repository_entry": [
+        "251-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "252-M",
+      "hadith_number": 252,
+      "repo_chapter_id": 2,
+      "repo_id": 49,
+      "repo_idInBook": 49,
+      "english_present": true,
+      "shared_repository_entry": [
+        "252-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "253-M",
+      "hadith_number": 253,
+      "repo_chapter_id": 2,
+      "repo_id": 50,
+      "repo_idInBook": 50,
+      "english_present": true,
+      "shared_repository_entry": [
+        "253-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "254-M",
+      "hadith_number": 254,
+      "repo_chapter_id": 2,
+      "repo_id": 51,
+      "repo_idInBook": 51,
+      "english_present": true,
+      "shared_repository_entry": [
+        "254-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "255-M",
+      "hadith_number": 255,
+      "repo_chapter_id": 2,
+      "repo_id": 52,
+      "repo_idInBook": 52,
+      "english_present": true,
+      "shared_repository_entry": [
+        "255-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "256-M",
+      "hadith_number": 256,
+      "repo_chapter_id": 2,
+      "repo_id": 53,
+      "repo_idInBook": 53,
+      "english_present": true,
+      "shared_repository_entry": [
+        "256-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "257-M",
+      "hadith_number": 257,
+      "repo_chapter_id": 2,
+      "repo_id": 54,
+      "repo_idInBook": 54,
+      "english_present": true,
+      "shared_repository_entry": [
+        "257-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "258-M",
+      "hadith_number": 258,
+      "repo_chapter_id": 2,
+      "repo_id": 55,
+      "repo_idInBook": 55,
+      "english_present": true,
+      "shared_repository_entry": [
+        "258-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "259-M",
+      "hadith_number": 259,
+      "repo_chapter_id": 2,
+      "repo_id": 56,
+      "repo_idInBook": 56,
+      "english_present": true,
+      "shared_repository_entry": [
+        "259-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "260-M",
+      "hadith_number": 260,
+      "repo_chapter_id": 2,
+      "repo_id": 57,
+      "repo_idInBook": 57,
+      "english_present": true,
+      "shared_repository_entry": [
+        "260-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "261-M",
+      "hadith_number": 261,
+      "repo_chapter_id": 2,
+      "repo_id": 58,
+      "repo_idInBook": 58,
+      "english_present": true,
+      "shared_repository_entry": [
+        "261-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "262-M",
+      "hadith_number": 262,
+      "repo_chapter_id": 2,
+      "repo_id": 59,
+      "repo_idInBook": 59,
+      "english_present": true,
+      "shared_repository_entry": [
+        "262-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "263-M",
+      "hadith_number": 263,
+      "repo_chapter_id": 2,
+      "repo_id": 60,
+      "repo_idInBook": 60,
+      "english_present": true,
+      "shared_repository_entry": [
+        "263-M",
+        "264-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "264-M",
+      "hadith_number": 264,
+      "repo_chapter_id": 2,
+      "repo_id": 60,
+      "repo_idInBook": 60,
+      "english_present": true,
+      "shared_repository_entry": [
+        "263-M",
+        "264-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "265-M",
+      "hadith_number": 265,
+      "repo_chapter_id": 2,
+      "repo_id": 61,
+      "repo_idInBook": 61,
+      "english_present": true,
+      "shared_repository_entry": [
+        "265-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "266-M",
+      "hadith_number": 266,
+      "repo_chapter_id": 2,
+      "repo_id": 62,
+      "repo_idInBook": 62,
+      "english_present": true,
+      "shared_repository_entry": [
+        "266-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "267-M",
+      "hadith_number": 267,
+      "repo_chapter_id": 2,
+      "repo_id": 63,
+      "repo_idInBook": 63,
+      "english_present": true,
+      "shared_repository_entry": [
+        "267-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "268-M",
+      "hadith_number": 268,
+      "repo_chapter_id": 2,
+      "repo_id": 64,
+      "repo_idInBook": 64,
+      "english_present": true,
+      "shared_repository_entry": [
+        "268-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "269-M",
+      "hadith_number": 269,
+      "repo_chapter_id": 2,
+      "repo_id": 65,
+      "repo_idInBook": 65,
+      "english_present": true,
+      "shared_repository_entry": [
+        "269-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "270-M",
+      "hadith_number": 270,
+      "repo_chapter_id": 2,
+      "repo_id": 66,
+      "repo_idInBook": 66,
+      "english_present": true,
+      "shared_repository_entry": [
+        "270-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "271-M",
+      "hadith_number": 271,
+      "repo_chapter_id": 2,
+      "repo_id": 67,
+      "repo_idInBook": 67,
+      "english_present": true,
+      "shared_repository_entry": [
+        "271-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "272-M",
+      "hadith_number": 272,
+      "repo_chapter_id": 2,
+      "repo_id": 68,
+      "repo_idInBook": 68,
+      "english_present": true,
+      "shared_repository_entry": [
+        "272-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "273-M",
+      "hadith_number": 273,
+      "repo_chapter_id": 2,
+      "repo_id": 69,
+      "repo_idInBook": 69,
+      "english_present": true,
+      "shared_repository_entry": [
+        "273-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "274-M",
+      "hadith_number": 274,
+      "repo_chapter_id": 2,
+      "repo_id": 70,
+      "repo_idInBook": 70,
+      "english_present": true,
+      "shared_repository_entry": [
+        "274-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "275-M",
+      "hadith_number": 275,
+      "repo_chapter_id": 2,
+      "repo_id": 71,
+      "repo_idInBook": 71,
+      "english_present": true,
+      "shared_repository_entry": [
+        "275-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "276-M",
+      "hadith_number": 276,
+      "repo_chapter_id": 2,
+      "repo_id": 72,
+      "repo_idInBook": 72,
+      "english_present": true,
+      "shared_repository_entry": [
+        "276-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "277-M",
+      "hadith_number": 277,
+      "repo_chapter_id": 2,
+      "repo_id": 73,
+      "repo_idInBook": 73,
+      "english_present": true,
+      "shared_repository_entry": [
+        "277-M",
+        "278-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "278-M",
+      "hadith_number": 278,
+      "repo_chapter_id": 2,
+      "repo_id": 73,
+      "repo_idInBook": 73,
+      "english_present": true,
+      "shared_repository_entry": [
+        "277-M",
+        "278-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "279-M",
+      "hadith_number": 279,
+      "repo_chapter_id": 2,
+      "repo_id": 74,
+      "repo_idInBook": 74,
+      "english_present": true,
+      "shared_repository_entry": [
+        "279-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    },
+    {
+      "project_id": "280-M",
+      "hadith_number": 280,
+      "repo_chapter_id": 2,
+      "repo_id": 75,
+      "repo_idInBook": 75,
+      "english_present": true,
+      "shared_repository_entry": [
+        "280-M"
+      ],
+      "mapping_basis": "Arabic narrator, report wording and adjoining source notes inspected; mapping does not certify English fidelity."
+    }
+  ],
+  "ancillary": {
+    "project_id": "ILM-B1-S2-XREF01",
+    "repo_id": 45
+  },
+  "observations": [
+    "62 project numbered entries map to 54 repository records (21–44 and 46–75). Repository record 45 is the unnumbered Jabir cross-reference.",
+    "Chapter-local repository IDs must not be used as Mishkat hadith numbers.",
+    "At repository record 37, the Arabic variant clause lacks أو مراء where Mirqat 241 has it. This source is not a replacement Arabic authority.",
+    "No full English translation has been imported into the project edition or represented as verified Robson."
+  ],
+  "authorisation": {
+    "date": "2026-09-22",
+    "user_reply": "Use it for C; proceed to D",
+    "scope": "219–280",
+    "does_not_certify": "Robson attribution or textual fidelity"
+  }
+}

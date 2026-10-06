@@ -1,0 +1,1813 @@
+{
+  "stage": "B1",
+  "version": "01",
+  "date": "2026-09-22",
+  "scope": "Hadith 219–280, 62 numbered matn entries",
+  "status": "source_wording_transcribed_and_visually_checked",
+  "operative_order": [
+    "A",
+    "B1",
+    "B2",
+    "C",
+    "D",
+    "B3"
+  ],
+  "source": {
+    "title": "Mirqat Al Mafatih Sharh Mishkat vol 1.pdf",
+    "drive_url": "https://drive.google.com/file/d/1wvO4-4B1gxNKk5sK4jlTGKZBAvBVqF9Z/view",
+    "sha256": "5184589ccc0fb58dfef5c3e47e4333cefb9f71fa8ff3c8653a2b213edbaa0a2d",
+    "bytes": 24395539,
+    "pdf_pages": 488,
+    "page_mapping": "Printed page equals 1-based PDF page throughout inspected book"
+  },
+  "transcription_policy": [
+    "Source: upper Mishkat matn band of the saved Mirqat scan; the commentary below the rule and lower editorial footnotes are excluded.",
+    "source_ar is a normalized, unvocalised transcription of the source wording, not a diplomatic reproduction of typography or printed diacritics. Arabic letters and hamza are retained; vowel signs and shadda are omitted. Line breaks are joined, spacing and punctuation regularized, and the salawat sign represented by ﷺ. The facsimiles retain the printed vocalisation.",
+    "Narrators, source attributions, transmission notes, printed square brackets and anomalous repetitions in the matn band are retained. Short numbered references remain independent entries and are not expanded.",
+    "vocalized_ar and translation_en are null. No Bushra comparison, Robson verification, commentary acquisition, B3 certification or translation is claimed by this release.",
+    "The captured source layer is frozen by per-entry SHA-256 hashes. Later textual proposals belong in separate layers or a versioned correction record.",
+    "This standalone B1 release preserves previous reviews and Stage A. It does not certify B1 for 198–218."
+  ],
+  "entries": [
+    {
+      "id": "219-M",
+      "hadith_number": 219,
+      "structure_id": "ILM-A-H219",
+      "section": "Second Section",
+      "printed_secondary_number": 22,
+      "printed_pages": [
+        435,
+        436
+      ],
+      "pdf_pages_1based": [
+        435,
+        436
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «خصلتان لا تجتمعان في منافق: حسن سمت، ولا فقه في الدين». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "a90314acc0379faa6af0e941803e3a117f171de920fe055550fe1859b5865d7b",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "220-M",
+      "hadith_number": 220,
+      "structure_id": "ILM-A-H220",
+      "section": "Second Section",
+      "printed_secondary_number": 23,
+      "printed_pages": [
+        436
+      ],
+      "pdf_pages_1based": [
+        436
+      ],
+      "source_ar": "وعن أنس، قال: قال رسول الله ﷺ: «من خرج في طلب العلم فهو في سبيل الله حتى يرجع». رواه الترمذي، والدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "1ecb53321529e6bac3a8e9d1579e4462f72d0499e16bddcd240c87fb95539968",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "221-M",
+      "hadith_number": 221,
+      "structure_id": "ILM-A-H221",
+      "section": "Second Section",
+      "printed_secondary_number": 24,
+      "printed_pages": [
+        436,
+        437
+      ],
+      "pdf_pages_1based": [
+        436,
+        437
+      ],
+      "source_ar": "وعن سخبرة الأزدي، قال: قال رسول الله ﷺ: «من طلب العلم كان كفارة لما مضى». رواه الترمذي، والدارمي، وقال الترمذي: هذا حديث ضعيف الإسناد، وأبو داود الراوي يضعف.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "17caac5fdce133eb43e172b3577b728b510e9fbf78d0970c3c186adad6a687f2",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "222-M",
+      "hadith_number": 222,
+      "structure_id": "ILM-A-H222",
+      "section": "Second Section",
+      "printed_secondary_number": 25,
+      "printed_pages": [
+        437
+      ],
+      "pdf_pages_1based": [
+        437
+      ],
+      "source_ar": "وعن أبي سعيد الخدري، قال: قال رسول الله ﷺ: «لن يشبع المؤمن من خير يسمعه حتى يكون منتهاه الجنة». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "3c3b1bf2323b2e5818205104fa017a5ac43041101509352c9388cef940cbf5fd",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "223-M",
+      "hadith_number": 223,
+      "structure_id": "ILM-A-H223",
+      "section": "Second Section",
+      "printed_secondary_number": 26,
+      "printed_pages": [
+        437,
+        438
+      ],
+      "pdf_pages_1based": [
+        437,
+        438
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «من سئل عن علم علمه ثم كتمه؛ ألجم يوم القيامة بلجام من نار». رواه أحمد، وأبو داود، والترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "85650ed16f9cba749a16ed8a7a115c031b559c83882c7915371f9a7b9eb30ac1",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "224-M",
+      "hadith_number": 224,
+      "structure_id": "ILM-A-H224",
+      "section": "Second Section",
+      "printed_secondary_number": 27,
+      "printed_pages": [
+        438
+      ],
+      "pdf_pages_1based": [
+        438
+      ],
+      "source_ar": "ورواه ابن ماجة عن أنس.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "95e5203d56ebd3ea82feb4054e87d6b251b36ed2564e30fa03ce6a576020311f",
+      "refers_to_hadith": 223,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "225-M",
+      "hadith_number": 225,
+      "structure_id": "ILM-A-H225",
+      "section": "Second Section",
+      "printed_secondary_number": 28,
+      "printed_pages": [
+        438,
+        439
+      ],
+      "pdf_pages_1based": [
+        438,
+        439
+      ],
+      "source_ar": "وعن كعب بن مالك، قال: قال رسول الله ﷺ: «من طلب العلم ليجاري به العلماء، أو ليماري به السفهاء، أو يصرف به وجوه الناس إليه؛ أدخله الله النار». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "afd744eadbb1736835d330dba9f19694d4f62989f4ad1fdff460c052664e4387",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "226-M",
+      "hadith_number": 226,
+      "structure_id": "ILM-A-H226",
+      "section": "Second Section",
+      "printed_secondary_number": 29,
+      "printed_pages": [
+        439
+      ],
+      "pdf_pages_1based": [
+        439
+      ],
+      "source_ar": "ورواه ابن ماجة عن ابن عمر.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "7057bdd4f95948800b9468ad977b6278f773a4b90f8043c0fd40675e2fad3624",
+      "refers_to_hadith": 225,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "227-M",
+      "hadith_number": 227,
+      "structure_id": "ILM-A-H227",
+      "section": "Second Section",
+      "printed_secondary_number": 30,
+      "printed_pages": [
+        439,
+        440
+      ],
+      "pdf_pages_1based": [
+        439,
+        440
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «من تعلم علما مما يبتغى به وجه الله، لا يتعلمه إلا ليصيب به عرضا من الدنيا؛ لم يجد عرف الجنة يوم القيامة». يعني ريحها. رواه أحمد، وأبو داود، وابن ماجة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "e6138592614db2e9c7444e20bc69d707fb198714cc6778ca195ef3cbe346b657",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "228-M",
+      "hadith_number": 228,
+      "structure_id": "ILM-A-H228",
+      "section": "Second Section",
+      "printed_secondary_number": 31,
+      "printed_pages": [
+        440,
+        441,
+        442
+      ],
+      "pdf_pages_1based": [
+        440,
+        441,
+        442
+      ],
+      "source_ar": "وعن ابن مسعود، قال: قال: قال رسول الله ﷺ: «نضر الله عبدا سمع مقالتي فحفظها ووعاها وأداها؛ فرب حامل فقه غير فقيه، ورب حامل فقه إلى من هو أفقه منه. ثلاث لا يغل عليهن قلب مسلم: إخلاص العمل لله، والنصيحة للمسلمين، ولزوم جماعتهم، فإن دعوتهم تحيط من ورائهم». رواه الشافعي والبيهقي في المدخل.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "930ee9d0f6f367fe5112a51224f4b4c5e0f06dd72629e10570cb5feb44c71793",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Printed repetition قال: قال: قال رسول الله retained; no silent correction."
+      ]
+    },
+    {
+      "id": "229-M",
+      "hadith_number": 229,
+      "structure_id": "ILM-A-H229",
+      "section": "Second Section",
+      "printed_secondary_number": 32,
+      "printed_pages": [
+        443
+      ],
+      "pdf_pages_1based": [
+        443
+      ],
+      "source_ar": "ورواه أحمد، والترمذي، وأبو داود، وابن ماجة، والدارمي، عن زيد بن ثابت. إلا أن الترمذي، وأبا داود لم يذكرا: «ثلاث لا يغل عليهن» إلى آخره.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "410d053ed2b1b2a4290093380b53a5c7a66cb1c92e860de6655a2812cb234580",
+      "refers_to_hadith": 228,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "230-M",
+      "hadith_number": 230,
+      "structure_id": "ILM-A-H230",
+      "section": "Second Section",
+      "printed_secondary_number": 33,
+      "printed_pages": [
+        443,
+        444
+      ],
+      "pdf_pages_1based": [
+        443,
+        444
+      ],
+      "source_ar": "وعن ابن مسعود، قال: سمعت رسول الله ﷺ يقول: «نضر الله امرأ سمع منا شيئا فبلغه كما سمعه، فرب مبلغ أوعى له من سامع». رواه الترمذي، وابن ماجة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "2a06bab744a0953004b421adb9988881a741cfffc9b87f2fefae66ac71ac393f",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "له after أوعى retained from p.444; corrected during scan check."
+      ]
+    },
+    {
+      "id": "231-M",
+      "hadith_number": 231,
+      "structure_id": "ILM-A-H231",
+      "section": "Second Section",
+      "printed_secondary_number": 34,
+      "printed_pages": [
+        444
+      ],
+      "pdf_pages_1based": [
+        444
+      ],
+      "source_ar": "ورواه الدارمي عن أبي الدرداء.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "58ac4c6e811c67ce848468f95845cb71f7abf55839b70db9f665a390b5a97989",
+      "refers_to_hadith": 230,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "232-M",
+      "hadith_number": 232,
+      "structure_id": "ILM-A-H232",
+      "section": "Second Section",
+      "printed_secondary_number": 35,
+      "printed_pages": [
+        444
+      ],
+      "pdf_pages_1based": [
+        444
+      ],
+      "source_ar": "وعن ابن عباس، [رضي الله عنه]، قال: قال رسول الله ﷺ: «اتقوا الحديث عني إلا ما علمتم، فمن كذب علي متعمدا فليتبوأ مقعده من النار». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "302c0e9a2da8bdcfe8b88bca42874e1f08948ce4bf05558ec75ca48a4ca1f1be",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Printed square-bracketed رضي الله عنه retained."
+      ]
+    },
+    {
+      "id": "233-M",
+      "hadith_number": 233,
+      "structure_id": "ILM-A-H233",
+      "section": "Second Section",
+      "printed_secondary_number": 36,
+      "printed_pages": [
+        445
+      ],
+      "pdf_pages_1based": [
+        445
+      ],
+      "source_ar": "ورواه ابن ماجة عن ابن مسعود وجابر، ولم يذكر: «اتقوا الحديث عني إلا ما علمتم».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "81574f91cd66fb942208640a060a795f3bb9047ec7d82adc94177fb90a8c490a",
+      "refers_to_hadith": 232,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "234-M",
+      "hadith_number": 234,
+      "structure_id": "ILM-A-H234",
+      "section": "Second Section",
+      "printed_secondary_number": 37,
+      "printed_pages": [
+        445,
+        446
+      ],
+      "pdf_pages_1based": [
+        445,
+        446
+      ],
+      "source_ar": "وعن ابن عباس، قال: قال رسول الله ﷺ: «من قال في القرآن برأيه فليتبوأ مقعده من النار». وفي رواية: «من قال في القرآن بغير علم فليتبوأ مقعده من النار». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "dfdaaa51b8aefe923c0ea8a0099fa2d464b1e0e2d9870d53dae0a986d3e7c232",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "235-M",
+      "hadith_number": 235,
+      "structure_id": "ILM-A-H235",
+      "section": "Second Section",
+      "printed_secondary_number": 38,
+      "printed_pages": [
+        446,
+        447
+      ],
+      "pdf_pages_1based": [
+        446,
+        447
+      ],
+      "source_ar": "وعن جندب، قال: قال رسول الله ﷺ: «من قال في القرآن برأيه فأصاب فقد أخطأ». رواه الترمذي، وأبو داود.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "45e32b358fe5960a92bb03da8722cc202d39213a1e8d1a2080405eea29eb4aea",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "236-M",
+      "hadith_number": 236,
+      "structure_id": "ILM-A-H236",
+      "section": "Second Section",
+      "printed_secondary_number": 39,
+      "printed_pages": [
+        448
+      ],
+      "pdf_pages_1based": [
+        448
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «المراء في القرآن كفر». رواه أحمد، وأبو داود.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "468ffd0eb6a87f0cd85cc65c56e85c363efac40612f00a3d54b6ff34a26aa459",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "237-M",
+      "hadith_number": 237,
+      "structure_id": "ILM-A-H237",
+      "section": "Second Section",
+      "printed_secondary_number": 40,
+      "printed_pages": [
+        448,
+        449,
+        450
+      ],
+      "pdf_pages_1based": [
+        448,
+        449,
+        450
+      ],
+      "source_ar": "وعن عمرو بن شعيب، عن أبيه، عن جده، قال: سمع النبي ﷺ قوما يتدارؤون في القرآن، فقال: «إنما هلك من كان قبلكم بهذا: ضربوا كتاب الله بعضه ببعض، وإنما نزل كتاب الله يصدق بعضه بعضا، فلا تكذبوا بعضه ببعض، فما علمتم منه فقولوا، وما جهلتم فكلوه إلى عالمه». رواه أحمد، وابن ماجة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "f6b4b13894dffe259197e9c0b01727485ffa7bfca67f60fb23f8f8be3272838c",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "238-M",
+      "hadith_number": 238,
+      "structure_id": "ILM-A-H238",
+      "section": "Second Section",
+      "printed_secondary_number": 41,
+      "printed_pages": [
+        450,
+        453,
+        454
+      ],
+      "pdf_pages_1based": [
+        450,
+        453,
+        454
+      ],
+      "source_ar": "وعن ابن مسعود، قال: قال رسول الله ﷺ: «أنزل القرآن على سبعة أحرف، لكل آية منها ظهر وبطن، ولكل حد مطلع». رواه في شرح السنة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "2e3906c7f5cfa77666d9215d7c1179d976426212b220470ea2131ea7fe791459",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Text-bearing pages 450,453,454; dotted upper bands on 451–452 are layout placeholders, not missing matn words."
+      ]
+    },
+    {
+      "id": "239-M",
+      "hadith_number": 239,
+      "structure_id": "ILM-A-H239",
+      "section": "Second Section",
+      "printed_secondary_number": 42,
+      "printed_pages": [
+        456,
+        457
+      ],
+      "pdf_pages_1based": [
+        456,
+        457
+      ],
+      "source_ar": "وعن عبد الله بن عمرو، قال: قال رسول الله ﷺ: «العلم ثلاثة: آية محكمة، أو سنة قائمة، أو فريضة عادلة. وما كان سوى ذلك فهو فضل». رواه أبو داود، وابن ماجة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "bb3efc25dc918ef776b6ddad567dbd50a813835fdf78d622b965d6c71ce1d72c",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "240-M",
+      "hadith_number": 240,
+      "structure_id": "ILM-A-H240",
+      "section": "Second Section",
+      "printed_secondary_number": 43,
+      "printed_pages": [
+        457,
+        458
+      ],
+      "pdf_pages_1based": [
+        457,
+        458
+      ],
+      "source_ar": "وعن عوف بن مالك الأشجعي، قال: قال رسول الله ﷺ: «لا يقص إلا أمير أو مأمور أو مختال». رواه أبو داود.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "3bb9396bb21a36047e9ea2dbfbb62d3d249a68a28dfd95a55adb2f053f042acc",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "241-M",
+      "hadith_number": 241,
+      "structure_id": "ILM-A-H241",
+      "section": "Second Section",
+      "printed_secondary_number": 44,
+      "printed_pages": [
+        458
+      ],
+      "pdf_pages_1based": [
+        458
+      ],
+      "source_ar": "ورواه الدارمي، عن عمرو بن شعيب، عن أبيه، عن جده، وفي روايته «أو مراء» بدل «أو مختال».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "a5c9e4a35f193588a888329fe968cfbbf190cbe937413040e10937ff3f6b02ef",
+      "refers_to_hadith": 240,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "242-M",
+      "hadith_number": 242,
+      "structure_id": "ILM-A-H242",
+      "section": "Second Section",
+      "printed_secondary_number": 45,
+      "printed_pages": [
+        458
+      ],
+      "pdf_pages_1based": [
+        458
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «من أفتي بغير علم كان إثمه على من أفتاه، ومن أشار على أخيه بأمر يعلم أن الرشد في غيره فقد خانه». رواه أبو داود.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "0a09a73d6de5f87bae360d0eacd9a4b1b7edef4279a473cb7f2e058c6b5cd783",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "243-M",
+      "hadith_number": 243,
+      "structure_id": "ILM-A-H243",
+      "section": "Second Section",
+      "printed_secondary_number": 46,
+      "printed_pages": [
+        459
+      ],
+      "pdf_pages_1based": [
+        459
+      ],
+      "source_ar": "وعن معاوية، قال: إن النبي ﷺ نهى عن الأغلوطات. رواه أبو داود.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "ec41f0c3372aa7d1d42c705cac0167dfe902da703705338d178b20fd8c006803",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "244-M",
+      "hadith_number": 244,
+      "structure_id": "ILM-A-H244",
+      "section": "Second Section",
+      "printed_secondary_number": 47,
+      "printed_pages": [
+        459
+      ],
+      "pdf_pages_1based": [
+        459
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «تعلموا الفرائض والقرآن وعلموا الناس فإني مقبوض». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "d4536e5991d7b083c47afbda6fd3309360dd980b407cf1e20d7f31ee877ecbf5",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "245-M",
+      "hadith_number": 245,
+      "structure_id": "ILM-A-H245",
+      "section": "Second Section",
+      "printed_secondary_number": 48,
+      "printed_pages": [
+        459,
+        460
+      ],
+      "pdf_pages_1based": [
+        459,
+        460
+      ],
+      "source_ar": "وعن أبي الدرداء، قال: كنا مع رسول الله ﷺ فشخص ببصره إلى السماء ثم قال: «هذا أوان يختلس فيه العلم من الناس، حتى لا يقدروا منه على شيء». رواه الترمذي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "fa6a14119aa1799b2d7f26e40e40ee104899ba94a239be0b20ecadb3b873e935",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "246-M",
+      "hadith_number": 246,
+      "structure_id": "ILM-A-H246",
+      "section": "Second Section",
+      "printed_secondary_number": 49,
+      "printed_pages": [
+        460,
+        461
+      ],
+      "pdf_pages_1based": [
+        460,
+        461
+      ],
+      "source_ar": "وعن أبي هريرة رواية: «يوشك أن يضرب الناس أكباد الإبل يطلبون العلم، فلا يجدون أحدا أعلم من عالم المدينة». رواه الترمذي في جامعه. قال ابن عيينة: إنه مالك بن أنس، ومثله عن عبد الرزاق، قال إسحاق بن موسى: وسمعت ابن عيينة أنه قال: هو العمري الزاهد واسمه عبد العزيز ابن عبد الله.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "8c845562334346baf84d201215d758bd1d7314f12bab0f75d01ce40464fb413e",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "247-M",
+      "hadith_number": 247,
+      "structure_id": "ILM-A-H247",
+      "section": "Second Section",
+      "printed_secondary_number": 50,
+      "printed_pages": [
+        461,
+        462
+      ],
+      "pdf_pages_1based": [
+        461,
+        462
+      ],
+      "source_ar": "وعنه، فيما أعلم عن رسول الله ﷺ، قال: «إن الله عز وجل يبعث لهذه الأمة على رأس كل مائة سنة من يجدد لها دينها». رواه أبو داود.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "d34df068283c3bf016565f8ffbe4338f5ac2b64b2443100ecf3a40c3f190cabd",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "248-M",
+      "hadith_number": 248,
+      "structure_id": "ILM-A-H248",
+      "section": "Second Section",
+      "printed_secondary_number": 51,
+      "printed_pages": [
+        462,
+        463
+      ],
+      "pdf_pages_1based": [
+        462,
+        463
+      ],
+      "source_ar": "وعن إبراهيم بن عبد الرحمن العذري، قال: قال رسول الله ﷺ: «يحمل هذا العلم من كل خلف عدوله، ينفون عنه تحريف الغالين، وانتحال المبطلين، وتأويل الجاهلين». رواه البيهقي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "97370200191b9689b0c51c95b7cb0147611bf6b0b5771a78bfa6d241cbba0ea2",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "249-M",
+      "hadith_number": 249,
+      "structure_id": "ILM-A-H249",
+      "section": "Third Section",
+      "printed_secondary_number": 52,
+      "printed_pages": [
+        464
+      ],
+      "pdf_pages_1based": [
+        464
+      ],
+      "source_ar": "وعن الحسن مرسلا، قال: قال رسول الله ﷺ: «من جاءه الموت وهو يطلب العلم ليحيي به الإسلام، فبينه وبين النبيين درجة واحدة في الجنة». رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "78eac23acc47bbd631504d616718fe6f03ddd3fabce988ab78de47722d79c8b9",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "250-M",
+      "hadith_number": 250,
+      "structure_id": "ILM-A-H250",
+      "section": "Third Section",
+      "printed_secondary_number": 53,
+      "printed_pages": [
+        464,
+        465
+      ],
+      "pdf_pages_1based": [
+        464,
+        465
+      ],
+      "source_ar": "وعنه مرسلا، قال: سئل رسول الله ﷺ عن رجلين كانا في بني إسرائيل: أحدهما كان عالما يصلي المكتوبة، ثم يجلس فيعلم الناس الخير، والآخر يصوم النهار ويقوم الليل أيهما أفضل؟ قال رسول الله ﷺ: «فضل هذا العالم الذي يصلي المكتوبة ثم يجلس فيعلم الناس الخير على العابد الذي يصوم النهار ويقوم الليل كفضلي على أدناكم». رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "0c12807a9deea786f2fd4c3915930e32c712d6305b307ee49224d950ce302a3e",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "251-M",
+      "hadith_number": 251,
+      "structure_id": "ILM-A-H251",
+      "section": "Third Section",
+      "printed_secondary_number": 54,
+      "printed_pages": [
+        465,
+        466
+      ],
+      "pdf_pages_1based": [
+        465,
+        466
+      ],
+      "source_ar": "وعن علي، رضي الله عنه، قال: قال رسول الله ﷺ: «نعم الرجل الفقيه في الدين؛ إن احتيج إليه نفع، وإن استغني عنه أغنى نفسه». رواه رزين.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "9dc85b6ec3a6a073ed90f7be49a2fe2f221873bf4ad95639f6a49354b120fcac",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "252-M",
+      "hadith_number": 252,
+      "structure_id": "ILM-A-H252",
+      "section": "Third Section",
+      "printed_secondary_number": 55,
+      "printed_pages": [
+        466,
+        467
+      ],
+      "pdf_pages_1based": [
+        466,
+        467
+      ],
+      "source_ar": "وعن عكرمة، أن ابن عباس قال: حدث الناس كل جمعة مرة، فإن أبيت فمرتين، فإن أكثرت فثلاث مرات، ولا تمل الناس هذا القرآن؛ ولا ألفينك تأتي القوم وهم في حديث من حديثهم فتقص عليهم فتقطع عليهم حديثهم فتملهم؛ ولكن أنصت، فإذا أمروك فحدثهم وهم يشتهونه، وانظر السجع من الدعاء فاجتنبه، فإني عهدت رسول الله ﷺ وأصحابه لا يفعلون ذلك. رواه البخاري.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "d89505b68af634a6689908dfba843b39a859fa8ea53777cbab13e755917d6f5c",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "253-M",
+      "hadith_number": 253,
+      "structure_id": "ILM-A-H253",
+      "section": "Third Section",
+      "printed_secondary_number": 56,
+      "printed_pages": [
+        467
+      ],
+      "pdf_pages_1based": [
+        467
+      ],
+      "source_ar": "وعن واثلة بن الأسقع، قال: قال رسول الله ﷺ: «من طلب العلم فأدركه، كان له كفلان من الأجر؛ فإن لم يدركه، كان له كفل من الأجر». رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "ee63fa04d76d575c20430b37fb72cf95d2e5ae7f538ae3eea78c091fec60f870",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "254-M",
+      "hadith_number": 254,
+      "structure_id": "ILM-A-H254",
+      "section": "Third Section",
+      "printed_secondary_number": 57,
+      "printed_pages": [
+        467,
+        468
+      ],
+      "pdf_pages_1based": [
+        467,
+        468
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «إن مما يلحق المؤمن من عمله وحسناته بعد موته: علما علمه ونشره، وولدا صالحا تركه، أو مصحفا ورثه، أو مسجدا بناه، أو بيتا لابن السبيل بناه، أو نهرا أجراه، أو صدقة أخرجها من ماله في صحته وحياته، تلحقه من بعد موته». رواه ابن ماجة والبيهقي في «شعب الإيمان».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "4e0f6af3d9153662e0faad6599aa171869e54e2392f436ef0eb770f0fd139e9d",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "255-M",
+      "hadith_number": 255,
+      "structure_id": "ILM-A-H255",
+      "section": "Third Section",
+      "printed_secondary_number": 58,
+      "printed_pages": [
+        468,
+        469
+      ],
+      "pdf_pages_1based": [
+        468,
+        469
+      ],
+      "source_ar": "وعن عائشة، أنها قالت: سمعت رسول الله ﷺ يقول: «إن الله عز وجل أوحى إلي: أنه من سلك مسلكا في طلب العلم، سهلت له طريق الجنة؛ ومن سلبت كريمتيه؛ أثبته عليهما الجنة. وفضل في علم خير من فضل في عبادة. وملاك الدين الورع». رواه البيهقي في «شعب الإيمان».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "63d7f1a17bac27e0656694967878b712acc4ee77ab5b7f1006194690d49faddd",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Printed أثبته retained; no substitution from another edition."
+      ]
+    },
+    {
+      "id": "256-M",
+      "hadith_number": 256,
+      "structure_id": "ILM-A-H256",
+      "section": "Third Section",
+      "printed_secondary_number": 59,
+      "printed_pages": [
+        469
+      ],
+      "pdf_pages_1based": [
+        469
+      ],
+      "source_ar": "وعن ابن عباس، قال: تدارس العلم ساعة من الليل خير من إحيائها. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "f888d35cce39b1f2e1a2488fbeb31cc55a52c94a5c7731438a88afda947cbb62",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "257-M",
+      "hadith_number": 257,
+      "structure_id": "ILM-A-H257",
+      "section": "Third Section",
+      "printed_secondary_number": 60,
+      "printed_pages": [
+        469,
+        470
+      ],
+      "pdf_pages_1based": [
+        469,
+        470
+      ],
+      "source_ar": "وعن عبد الله بن عمرو، أن رسول الله ﷺ مر بمجلسين في مسجده فقال: «كلاهما على خير، وأحدهما أفضل من صاحبه؛ أما هؤلاء فيدعون الله ويرغبون إليه، فإن شاء أعطاهم وإن شاء منعهم. وأما هؤلاء، فيتعلمون الفقه أو العلم ويعلمون الجاهل، فهم أفضل، وإنما بعثت معلما». ثم جلس فيهم. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "3e04c67a771b9e3943d58a229bf77e07f6c2ecd764f97be07b3b83d477bc3bb7",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "258-M",
+      "hadith_number": 258,
+      "structure_id": "ILM-A-H258",
+      "section": "Third Section",
+      "printed_secondary_number": 61,
+      "printed_pages": [
+        470,
+        471
+      ],
+      "pdf_pages_1based": [
+        470,
+        471
+      ],
+      "source_ar": "وعن أبي الدرداء، قال: سئل رسول الله ﷺ: ما حد العلم الذي إذا بلغه الرجل كان فقيها؟ فقال رسول الله ﷺ: «من حفظ على أمتي أربعين حديثا في أمر دينها، بعثه الله فقيها، وكنت له يوم القيامة شافعا وشهيدا».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "dd67be9c7ac6207dbae104a09e1d4c10bbdba58d1ab1eca670a7746e31d68f8e",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": "260-M",
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Shared attribution occurs after 260; not duplicated into source_ar."
+      ]
+    },
+    {
+      "id": "259-M",
+      "hadith_number": 259,
+      "structure_id": "ILM-A-H259",
+      "section": "Third Section",
+      "printed_secondary_number": 62,
+      "printed_pages": [
+        471,
+        472
+      ],
+      "pdf_pages_1based": [
+        471,
+        472
+      ],
+      "source_ar": "وعن أنس بن مالك، قال: قال رسول الله ﷺ: «هل تدرون من أجود جودا؟» قالوا: الله ورسوله أعلم. قال: «الله أجود جودا، ثم أنا أجود بني آدم، وأجودهم من بعدي رجل علم علما فنشره، يأتي يوم القيامة أميرا وحده، أو قال: أمة واحدة».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "c24d0ee1cc415850029347fdd43e32cc5ce3158ba6d2f42ca12a59ba63284c56",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": "260-M",
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Shared attribution occurs after 260; not duplicated into source_ar."
+      ]
+    },
+    {
+      "id": "260-M",
+      "hadith_number": 260,
+      "structure_id": "ILM-A-H260",
+      "section": "Third Section",
+      "printed_secondary_number": 63,
+      "printed_pages": [
+        472
+      ],
+      "pdf_pages_1based": [
+        472
+      ],
+      "source_ar": "وعنه، أن النبي ﷺ قال: «منهومان لا يشبعان: منهوم في العلم لا يشبع منه، ومنهوم في الدنيا لا يشبع منها». روى البيهقي الأحاديث الثلاثة في «شعب الإيمان» وقال: قال الإمام أحمد في حديث أبي الدرداء: هذا متن مشهور فيما بين الناس، وليس له إسناد صحيح.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "ae1fce0d6b5efbf4adfaaa09b0f9cb2ee86e9dbbc0e1c70878e6ab6ced91d6e2",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": "260-M",
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Closing attribution covers 258–260; the printed assessment specifically concerns the Abu al-Darda report (258)."
+      ]
+    },
+    {
+      "id": "261-M",
+      "hadith_number": 261,
+      "structure_id": "ILM-A-H261",
+      "section": "Third Section",
+      "printed_secondary_number": 64,
+      "printed_pages": [
+        473
+      ],
+      "pdf_pages_1based": [
+        473
+      ],
+      "source_ar": "وعن عون، قال: قال عبد الله بن مسعود: منهومان لا يشبعان صاحب العلم، وصاحب الدنيا، ولا يستويان؛ أما صاحب العلم فيزداد رضى للرحمن، وأما صاحب الدنيا فيتمادى في الطغيان. ثم قرأ عبد الله: ﴿كلا إن الإنسان ليطغى أن رآه استغنى﴾ وقال الآخر: ﴿إنما يخشى الله من عباده العلماء﴾. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "54df6aa932c4e25ea3317fb2215f56bf220ecd7a5319b71d33d859db349fadc7",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "262-M",
+      "hadith_number": 262,
+      "structure_id": "ILM-A-H262",
+      "section": "Third Section",
+      "printed_secondary_number": 65,
+      "printed_pages": [
+        473,
+        474
+      ],
+      "pdf_pages_1based": [
+        473,
+        474
+      ],
+      "source_ar": "وعن ابن عباس، قال: قال رسول الله ﷺ: «إن أناسا من أمتي سيتفقهون في الدين ويقرؤون القرآن، يقولون: نأتي الأمراء فنصيب من دنياهم ونعتزلهم بديننا. ولا يكون ذلك، كما لا يجتنى من القتاد إلا الشوك، كذلك لا يجتنى من قربهم إلا - قال محمد بن الصباح: كأنه يعني - الخطايا». رواه ابن ماجة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "6d59f4c3e43dcb8dbf2dc2dc4f97d0b4a26ef45e5a4b54569f3ff15c968ea1f6",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "263-M",
+      "hadith_number": 263,
+      "structure_id": "ILM-A-H263",
+      "section": "Third Section",
+      "printed_secondary_number": 66,
+      "printed_pages": [
+        474,
+        475
+      ],
+      "pdf_pages_1based": [
+        474,
+        475
+      ],
+      "source_ar": "وعن عبد الله بن مسعود، قال: لو أن أهل العلم صانوا العلم، ووضعوه عند أهله، لسادوا به أهل زمانهم، ولكنهم بذلوه لأهل الدنيا لينالوا به من دنياهم؛ فهانوا عليهم. سمعت نبيكم ﷺ يقول: «من جعل الهموم هما واحدا هم آخرته، كفاه الله هم دنياه، ومن تشعبت به الهموم [في] أحوال الدنيا، لم يبال الله في أي أوديتها هلك». رواه ابن ماجة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "bae4e227113bf36692e45d95ea738b1b3c2ad518cd00061e4216e177633b0e0b",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Printed bracketed [في] retained."
+      ]
+    },
+    {
+      "id": "264-M",
+      "hadith_number": 264,
+      "structure_id": "ILM-A-H264",
+      "section": "Third Section",
+      "printed_secondary_number": 67,
+      "printed_pages": [
+        475
+      ],
+      "pdf_pages_1based": [
+        475
+      ],
+      "source_ar": "ورواه البيهقي في «شعب الإيمان»، عن ابن عمر من قوله: «من جعل الهموم» إلى آخره.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "556dea23026bcf404363cf8ebf2dde21963e3e5183b542e14cdd4873acdf43fe",
+      "refers_to_hadith": 263,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "265-M",
+      "hadith_number": 265,
+      "structure_id": "ILM-A-H265",
+      "section": "Third Section",
+      "printed_secondary_number": 68,
+      "printed_pages": [
+        475,
+        476
+      ],
+      "pdf_pages_1based": [
+        475,
+        476
+      ],
+      "source_ar": "وعن الأعمش، قال: قال رسول الله ﷺ: «آفة العلم النسيان، وإضاعته أن تحدث به غير أهله». رواه الدارمي مرسلا.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "bdd9f64e249cf1aa8e472cb0977fc3cbc96ac3bd353fac444de4c25c68dad210",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "266-M",
+      "hadith_number": 266,
+      "structure_id": "ILM-A-H266",
+      "section": "Third Section",
+      "printed_secondary_number": 69,
+      "printed_pages": [
+        476
+      ],
+      "pdf_pages_1based": [
+        476
+      ],
+      "source_ar": "وعن سفيان، أن عمر بن الخطاب، رضي الله عنه، قال لكعب: من أرباب العلم؟ قال: الذين يعملون بما يعلمون. قال: فما أخرج العلم من قلوب العلماء؟ قال: الطمع. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "4d5c526d9481e0062776809bacb03652134413eac4303cb9e22ed4121bd5d217",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "267-M",
+      "hadith_number": 267,
+      "structure_id": "ILM-A-H267",
+      "section": "Third Section",
+      "printed_secondary_number": 70,
+      "printed_pages": [
+        476,
+        477
+      ],
+      "pdf_pages_1based": [
+        476,
+        477
+      ],
+      "source_ar": "وعن الأحوص بن حكيم، عن أبيه، قال: سأل رجل النبي ﷺ عن الشر. فقال: «لا تسألوني عن الشر، وسلوني عن الخير» يقولها ثلاثا، ثم قال: «ألا إن شر الشر شرار العلماء، وإن خير الخير خيار العلماء». رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "80845de99e1d1281448d0d54348e0ccecc2d6cd2ca0075fc7feb9690c66485d4",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "268-M",
+      "hadith_number": 268,
+      "structure_id": "ILM-A-H268",
+      "section": "Third Section",
+      "printed_secondary_number": 71,
+      "printed_pages": [
+        477
+      ],
+      "pdf_pages_1based": [
+        477
+      ],
+      "source_ar": "وعن أبي الدرداء، قال: إن من أشر الناس عند الله منزلة يوم القيامة: عالم لا ينتفع بعلمه. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "a95f79dd9a8143178dac3ab3e4718d5fccf1de8fb4def052862f0d6119276c89",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "269-M",
+      "hadith_number": 269,
+      "structure_id": "ILM-A-H269",
+      "section": "Third Section",
+      "printed_secondary_number": 72,
+      "printed_pages": [
+        477,
+        478
+      ],
+      "pdf_pages_1based": [
+        477,
+        478
+      ],
+      "source_ar": "وعن زياد بن حدير، قال: قال لي عمر: هل تعرف ما يهدم الإسلام؟ قال: قلت: لا! قال: يهدمه زلة العالم، وجدال المنافق بالكتاب، وحكم الأئمة المضلين. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "2878e345b9be496209c72be96c941b630a5218db65e957f22f08aedfe439ea75",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "270-M",
+      "hadith_number": 270,
+      "structure_id": "ILM-A-H270",
+      "section": "Third Section",
+      "printed_secondary_number": 73,
+      "printed_pages": [
+        478
+      ],
+      "pdf_pages_1based": [
+        478
+      ],
+      "source_ar": "وعن الحسن، قال: العلم علمان: فعلم في القلب فذاك العلم النافع، وعلم على اللسان فذاك حجة الله عز وجل على ابن آدم. رواه الدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "cc7b87393165e77fd28d7ad28435e89e7c2d85320a6f79496a161c5ade77a205",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "271-M",
+      "hadith_number": 271,
+      "structure_id": "ILM-A-H271",
+      "section": "Third Section",
+      "printed_secondary_number": 74,
+      "printed_pages": [
+        478,
+        479
+      ],
+      "pdf_pages_1based": [
+        478,
+        479
+      ],
+      "source_ar": "وعن أبي هريرة، قال: حفظت من رسول الله ﷺ وعاءين؛ فأما أحدهما فبثثته فيكم، وأما الآخر فلو بثثته قطع هذا البلعوم - يعني مجرى الطعام. رواه البخاري.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "1cd5b67b864d958279f6fade650d218c66d7ca036ff2d366378941753dc914a1",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "272-M",
+      "hadith_number": 272,
+      "structure_id": "ILM-A-H272",
+      "section": "Third Section",
+      "printed_secondary_number": 75,
+      "printed_pages": [
+        479,
+        480
+      ],
+      "pdf_pages_1based": [
+        479,
+        480
+      ],
+      "source_ar": "وعن عبد الله بن مسعود، قال: يا أيها الناس! من علم شيئا فليقل به، ومن لم يعلم فليقل: الله أعلم، فإن من العلم أن تقول لما لا تعلم: الله أعلم. قال الله تعالى لنبيه: ﴿قل ما أسألكم عليه من أجر وما أنا من المتكلفين﴾ متفق عليه.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "143506b4e58d4befd9b9d03803542be02063f239eb4625335ae20e8a9c0c5c59",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "273-M",
+      "hadith_number": 273,
+      "structure_id": "ILM-A-H273",
+      "section": "Third Section",
+      "printed_secondary_number": 76,
+      "printed_pages": [
+        480
+      ],
+      "pdf_pages_1based": [
+        480
+      ],
+      "source_ar": "وعن ابن سيرين، قال: إن هذا العلم دين؛ فانظروا عمن تأخذون دينكم. رواه مسلم.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "2953c1b362ea162b54d04a6b98090478fdecc322a80b516d715e4cf7c2cb6455",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "274-M",
+      "hadith_number": 274,
+      "structure_id": "ILM-A-H274",
+      "section": "Third Section",
+      "printed_secondary_number": 77,
+      "printed_pages": [
+        480,
+        481
+      ],
+      "pdf_pages_1based": [
+        480,
+        481
+      ],
+      "source_ar": "وعن حذيفة، قال: يا معشر القراء! استقيموا، فقد سبقتم سبقا بعيدا، وإن أخذتم يمينا وشمالا لقد ضللتم ضلالا بعيدا. رواه البخاري.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "f40ed0f49e1445d486da4b2a7ca61dd9657b6c327054b89443c9ced6a1c8fed7",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "275-M",
+      "hadith_number": 275,
+      "structure_id": "ILM-A-H275",
+      "section": "Third Section",
+      "printed_secondary_number": 78,
+      "printed_pages": [
+        481,
+        482
+      ],
+      "pdf_pages_1based": [
+        481,
+        482
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «تعوذوا بالله من جب الحزن». قالوا: يا رسول الله! وما جب الحزن؟ قال: «واد في جهنم تتعوذ منه جهنم كل يوم أربعمائة مرة». قيل: يا رسول الله! ومن يدخله؟ قال: «القراء المراؤون بأعمالهم». رواه الترمذي، وكذا ابن ماجة، وزاد فيه: «وإن من أبغض القراء إلى الله [تعالى] الذين يزورون الأمراء». قال المحاربي: يعني الجورة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "a0ae36787b94d0a3e432bd512b87e09fcae8b99057f931d7ee0f9aa1e8b016f7",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": [
+        "Printed bracketed [تعالى] retained."
+      ]
+    },
+    {
+      "id": "276-M",
+      "hadith_number": 276,
+      "structure_id": "ILM-A-H276",
+      "section": "Third Section",
+      "printed_secondary_number": 79,
+      "printed_pages": [
+        482,
+        483
+      ],
+      "pdf_pages_1based": [
+        482,
+        483
+      ],
+      "source_ar": "وعن علي، قال: قال رسول الله ﷺ: «يوشك أن يأتي على الناس زمان لا يبقى من الإسلام إلا اسمه، ولا يبقى من القرآن إلا رسمه، مساجدهم عامرة وهي خراب من الهدى، علماؤهم شر من تحت أديم السماء، من عندهم تخرج الفتنة، وفيهم تعود». رواه البيهقي في «شعب الإيمان».",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "de70fe45542e36ad2481c3107fd8b00db9b57d8ada862ef5018688361980dddb",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "277-M",
+      "hadith_number": 277,
+      "structure_id": "ILM-A-H277",
+      "section": "Third Section",
+      "printed_secondary_number": 80,
+      "printed_pages": [
+        484
+      ],
+      "pdf_pages_1based": [
+        484
+      ],
+      "source_ar": "وعن زياد بن لبيد، قال: ذكر النبي ﷺ شيئا، فقال: «ذاك عند أوان ذهاب العلم». قلت: يا رسول الله! وكيف يذهب العلم ونحن نقرأ القرآن ونقرئه أبناءنا، ويقرئه أبناؤنا أبناءهم إلى يوم القيامة؟ فقال: «ثكلتك أمك زياد! إن كنت لأراك من أفقه رجل بالمدينة! أوليس هذه اليهود والنصارى يقرؤون التوراة والإنجيل لا يعملون بشيء مما فيهما؟!». رواه أحمد، وابن ماجة، وروى الترمذي عنه نحوه.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "6adfec8ec319471844aeb3328b7a6bdfb59ff60a95e3e679b954e474e83bd744",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "278-M",
+      "hadith_number": 278,
+      "structure_id": "ILM-A-H278",
+      "section": "Third Section",
+      "printed_secondary_number": 81,
+      "printed_pages": [
+        484
+      ],
+      "pdf_pages_1based": [
+        484
+      ],
+      "source_ar": "وكذا الدارمي عن أبي أمامة.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "e6ba93e94fbbffbf047dda7250d9439d02a7860fbba9d6a04338bc9fa512babe",
+      "refers_to_hadith": 277,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "279-M",
+      "hadith_number": 279,
+      "structure_id": "ILM-A-H279",
+      "section": "Third Section",
+      "printed_secondary_number": 82,
+      "printed_pages": [
+        485
+      ],
+      "pdf_pages_1based": [
+        485
+      ],
+      "source_ar": "وعن ابن مسعود، قال: قال لي رسول الله ﷺ: «تعلموا العلم وعلموه الناس، تعلموا الفرائض وعلموها الناس، تعلموا القرآن وعلموه الناس؛ فإني امرؤ مقبوض، والعلم سيقبض، وتظهر الفتن حتى يختلف اثنان في فريضة لا يجدان أحدا يفصل بينهما». رواه الدارمي، والدارقطني.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "46ae32e0ddfdfbff451304114b519a825c1250017c88c244b2384a0e16d643cb",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    },
+    {
+      "id": "280-M",
+      "hadith_number": 280,
+      "structure_id": "ILM-A-H280",
+      "section": "Third Section",
+      "printed_secondary_number": 83,
+      "printed_pages": [
+        485
+      ],
+      "pdf_pages_1based": [
+        485
+      ],
+      "source_ar": "وعن أبي هريرة، قال: قال رسول الله ﷺ: «مثل علم لا ينتفع به كمثل كنز لا ينفق منه في سبيل الله». رواه أحمد، والدارمي.",
+      "vocalized_ar": null,
+      "translation_en": null,
+      "source_ar_sha256": "196e3d615eacf0a68ad6d526ae5acb34bcdbf8260dc6e5fae20f95a912acf277",
+      "refers_to_hadith": null,
+      "shared_attribution_at_id": null,
+      "status_B1": "transcribed_and_visually_checked",
+      "later_stages": {
+        "B2": "not_assessed_in_this_B1_release",
+        "C": "not_assessed_in_this_B1_release",
+        "D": "not_assessed_in_this_B1_release",
+        "B3": "not_assessed_in_this_B1_release"
+      },
+      "notes": []
+    }
+  ],
+  "ancillary": [
+    {
+      "id": "ILM-B1-S2-XREF01",
+      "type": "unnumbered_section_closing_cross_reference",
+      "position": "after 248-M and before Third Section heading",
+      "printed_page": 464,
+      "source_ar": "وسنذكر حديث جابر: «فإنما شفاء العي السؤال» في باب التيمم إن شاء الله تعالى.",
+      "vocalized_ar": null
+    }
+  ]
+}

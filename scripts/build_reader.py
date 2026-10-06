@@ -1,4 +1,6 @@
 """Rebuild the standalone reader, retaining its editorial JSON byte for byte."""
+import sys
+sys.dont_write_bytecode = True
 from pathlib import Path
 import re
 import json
@@ -21,3 +23,6 @@ def build():
 if __name__ == '__main__':
     TARGET.write_text(build())
     print('Built src/fitan-reader-current.html; embedded editorial JSON retained verbatim.')
+    from build_ilm_reader import build as build_ilm, TARGET as ILM_TARGET
+    ILM_TARGET.write_text(build_ilm())
+    print('Built src/ilm-reader-current.html from frozen editorial records.')

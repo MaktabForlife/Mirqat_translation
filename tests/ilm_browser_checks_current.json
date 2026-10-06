@@ -1,0 +1,150 @@
+{
+  "integrity": {
+    "matn": 83,
+    "commentary": 206,
+    "editorialNotes": 450,
+    "failures": []
+  },
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    },
+    {
+      "width": 1600,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "original"
+    },
+    {
+      "width": 1600,
+      "overflow": false,
+      "unitsOverflow": [],
+      "nonAdjacent": [],
+      "layer": "vocalised"
+    }
+  ],
+  "checks": [
+    "source and reading layers",
+    "450 note IDs/texts",
+    "hadith English pending",
+    "keyboard controls",
+    "study mode",
+    "deep-link reload",
+    "search through 280",
+    "supplementary navigation",
+    "offline book switching",
+    "blocked storage"
+  ],
+  "javascriptErrors": [],
+  "externalRequests": []
+}

@@ -1,6 +1,6 @@
-# Mirqāt al-Mafātīḥ — Kitāb al-Fitan Reader Migration
+# Mirqāt al-Mafātīḥ — Online Readers
 
-This repository is a **technical working copy** for bringing the existing Kitāb al-Fitan online reader to the current Mirqāt reader standard.
+This repository is a **technical working copy** of the Kitāb al-Fitan and Kitāb al-ʿIlm online readers. Kitāb al-ʿIlm includes the introduction and entries 198–280.
 
 ## First Codex task
 
@@ -43,8 +43,10 @@ Rebuild and validate from the repository root:
 ```sh
 python3 scripts/build_reader.py
 python3 tests/check_integrity.py
+python3 tests/check_ilm_integrity.py
 node --check src/reader.js
 node tests/check_browser.cjs
+node tests/check_ilm_browser.cjs
 ```
 
 The browser check requires Playwright and Google Chrome. Set `CHROME_PATH` for
@@ -67,3 +69,32 @@ source. Hadith Arabic and supplied English are unchanged.
 Integrity checks cover all 179 source/reading pairs, protected editorial content,
 and stable IDs. Browser checks exercise both Arabic layers at nine viewport
 widths, keyboard switching, translation state, and the original default on reload.
+
+## Kitāb al-ʿIlm through 280
+
+Open `src/ilm-reader-current.html`, or use the book links at the top of either
+reader. Both files are standalone and use the same reader controls and styling.
+Keep them in the same folder for offline book switching. The common build command
+above rebuilds both books; `scripts/build_ilm_reader.py` can also build Ilm alone.
+
+The Ilm edition contains the introduction, all 83 numbered entries 198–280, the
+supplementary cross-reference after 248, 206 introduction/commentary units with
+original Arabic, vocalised Arabic and English, and all 450 commentary editorial
+notes. Source passage IDs and note IDs are retained. The 21 supplied Review 06
+matn/Robson pairs through 218 remain intact. The later 62 matn texts use the saved
+B1 Arabic, with B2 comparison notes retained; their separate vocalisation has not
+been supplied. Their **hadith English remains pending at the user's request**.
+This does not affect the complete supplied commentary translations.
+
+The frozen Drive files are stored byte-for-byte under `data/ilm/sources/`;
+`data/ilm/source_manifest.json` records their exact titles, URLs and SHA-256 hashes.
+The cumulative D3 source is dated 24 September 2026. Its review notes and D4/E
+pending status are preserved; adding material to the reader is not scholarly
+verification. The English witness register is provenance only: its referenced
+third-party English text was not fetched or added.
+
+Known source issues retained: the repeated قال in matn 228; unresolved readings
+and quotation boundaries identified in the supplied notes; and pending separate
+matn vocalisation/verified Robson for 219–280. These were not silently corrected.
+Browser results are in `tests/ilm_browser_checks_current.json`; the Fitān
+regression results remain in `tests/browser_checks_current.json`.

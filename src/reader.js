@@ -2,12 +2,13 @@
 (() => {
   'use strict';
   const DATA = JSON.parse(document.getElementById('reader-data').textContent);
+  const book = DATA.book || null;
   const ORIGINALS = JSON.parse(document.getElementById('original-arabic-data').textContent);
   const $ = id => document.getElementById(id);
   const root = $('reading-content');
   const wide = matchMedia('(min-width:1280px)');
   const reduceMotion = matchMedia('(prefers-reduced-motion:reduce)');
-  const storeKey = 'mirqat.fitan.online01';
+  const storeKey = book ? 'mirqat.'+book.key+'.online01' : 'mirqat.fitan.online01';
   const saved = (() => {try {return JSON.parse(localStorage.getItem(storeKey) || '{}') || {};} catch (_) {return {};}})();
   let selected = null, study = false, textSize = Number(saved.textSize) || (innerWidth <= 600 ? 24 : 27);
   textSize = Math.max(20, Math.min(38, textSize));
@@ -43,12 +44,14 @@
     const notes=u.notes || [];
     if(notes.length){
       const det=el('details','review-note'),sum=el('summary','',`Editorial review notes (${notes.length})`);det.append(sum);
-      notes.forEach((text,i)=>{const p=el('p','note-item');appendAnnotated(p,text,(u.note_annotations||[])[i]||[]);det.append(p);});host.append(det);
+      notes.forEach((text,i)=>{const p=el('p','note-item');if(u.note_ids?.[i])p.id=u.note_ids[i];appendAnnotated(p,text,(u.note_annotations||[])[i]||[]);det.append(p);});host.append(det);
     }
   }
   function addEnglish(host,u,withSource=true) {
     const body=el('div','translation-text'); body.lang='en'; body.dir='ltr';
-    if(u.kind==='matn') {
+    if(u.kind==='matn' && book){
+      body.append(el('p',u.english_pending?'translation-pending':'hadith-translation',u.english_pending || u.english));
+    } else if(u.kind==='matn') {
       // Exact, pre-escaped paragraph markup carried over from the accepted Draft 04 package.
       const template=document.createElement('template');template.innerHTML=u.english_html_from_draft04;
       body.append(template.content.cloneNode(true));
@@ -58,7 +61,11 @@
     host.append(body);addNotes(host,u);
     if(withSource){
       const source=el('div','source-note');
-      if(u.kind==='matn') {
+      if(u.source_lines){
+        u.source_lines.forEach(line=>source.append(el('div','',line)));
+        if(u.source_refs?.length){const refs=el('details','source-fragments');refs.append(el('summary','','Source passage references'));
+          u.source_refs.forEach(ref=>{const line=el('p','',ref.id+' · printed page '+ref.page);line.id=ref.id;refs.append(line);});source.append(refs);}
+      } else if(u.kind==='matn') {
         source.append(el('div','',`Mishkāt al-Maṣābīḥ ${u.hadith} · James Robson, as supplied.`));
         source.append(el('div','','Arabic: the Draft 04 collated reading. English wording and supplied notes are unchanged.'));
         const url=safeSourceURL(u.source_url);
@@ -102,6 +109,7 @@
     addEnglish(box,u);
     const actions=el('div','inline-actions');
     const copyEnglish=el('button','text-copy','Copy English');copyEnglish.type='button';
+    copyEnglish.disabled=!!u.english_pending;
     copyEnglish.addEventListener('click',()=>copy(matn?u.english_source_paragraphs.join('\n\n'):enrichPlain(u.english,u.annotations)));
     const ref=el('button','text-copy','Copy reference');ref.type='button';ref.addEventListener('click',()=>copy(location.protocol==='file:'?u.id:location.href.split('#')[0]+'#'+u.id));
     actions.append(copyEnglish,ref);box.append(actions);
@@ -115,6 +123,7 @@
     }
   }
   function makeContent() {
+    if(book){makeBookContent();return;}
     let section=0;
     const frag=document.createDocumentFragment();
     for(let h=5379;h<=5409;h++) {
@@ -136,6 +145,33 @@
     for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(ORIGINALS[u.id]||'')+' '+u.english+' '+(u.english_with_arabic||''));
     makeNavigation();
   }
+  function makeBookContent(){
+    const frag=document.createDocumentFragment();
+    for(const group of DATA.groups){
+      const article=el('section','hadith-section');article.id=group.reader_id;article.dataset.groupKey=group.hadith || group.reader_id;
+      const heading=el('div','hadith-heading');const title=el('h2','',group.title);title.id='heading-'+group.reader_id;
+      if(group.hadith)heading.append(el('div','hadith-id','MISHKĀT '+group.hadith));heading.append(title);article.setAttribute('aria-labelledby',title.id);article.append(heading);
+      if(group.hadith){const h=group.hadith,u=DATA.hadith[String(h)];
+        addUnit(article,{...u,id:h+'-M',hadith:h,group_id:group.reader_id,kind:'matn',arabic:u.ar_reading,english:u.english_source_paragraphs.join('\n\n')});}
+      for(const id of group.unit_ids){const u=allData.find(u=>u.id===id);
+        addUnit(article,{...u,group_id:group.reader_id,kind:u.kind || 'commentary',arabic:u.reading_ar,tone:'tone-'+(ordinal.get(id)%4)});}
+      frag.append(article);
+    }
+    root.append(frag);
+    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(ORIGINALS[u.id]||'')+' '+u.english);
+    const nav=$('nav-list');
+    for(const group of DATA.groups){
+      const a=el('a','nav-entry');a.href='#'+group.reader_id;if(group.hadith)a.append(el('span','nav-number',String(group.hadith)));a.append(el('span','',group.title));
+      a.addEventListener('click',e=>{e.preventDefault();goGroup(group.reader_id);});nav.append(a);navLinks.set(group.hadith || group.reader_id,a);
+    }
+    setCurrent(DATA.groups[0].reader_id);updateResume();
+  }
+  function goGroup(id,{hash=true}={}){
+    const article=$(id);if(!article)return;
+    closePanel({focus:false,hash:false});closeMenu(false);
+    const target=$('heading-'+id);target.tabIndex=-1;target.focus({preventScroll:true});
+    if(hash)setHash(id);article.scrollIntoView({block:'start',behavior:reduceMotion.matches?'auto':'smooth'});
+  }
   function makeNavigation(){const nav=$('nav-list');let sec=0;
     for(let h=5379;h<=5409;h++){
       const s=sectionFor(h);if(s!==sec){sec=s;const group=el('div','section-link');group.append(el('span','',sectionEn[s]),el('span','',s===1?'14':s===2?'15':'2'));nav.append(group);}
@@ -148,7 +184,7 @@
   }
   function setCurrent(h){observedHadith=h;navLinks.forEach((a,n)=>a.setAttribute('aria-current',String(n===h)));$('current-number').textContent=h;}
   function updateResume(){const id=typeof saved.lastUnit==='string'&&unitMap.has(saved.lastUnit)?saved.lastUnit:null;const btn=$('resume-button');btn.hidden=!id;if(id){$('resume-label').textContent=`Resume ${id}`;btn.dataset.target=id;}}
-  function remember(u){saved.lastUnit=u.id;setCurrent(u.hadith);persist();updateResume();}
+  function remember(u){saved.lastUnit=u.id;setCurrent(u.hadith || u.group_id);persist();updateResume();}
   function ensureVisible(id,force=false){
     const n=nodes.get(id);if(!n)return;
     const r=n.getBoundingClientRect(),header=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--bar')) || 76;
@@ -180,12 +216,12 @@
   function closePanel({focus=true,hash=true}={}) {
     const id=selected;if(!id)return;
     setExpanded(id,false);selected=null;
-    if(hash)setHash('h'+unitMap.get(id).hadith,true);
+    if(hash)setHash(unitMap.get(id).group_id || 'h'+unitMap.get(id).hadith,true);
     if(focus&&returnFocus)returnFocus.focus({preventScroll:true});
     updateProgress();
   }
   function moveUnit(delta){if(!selected)return;const i=units.findIndex(u=>u.id===selected),u=units[i+delta];if(u)openUnit(u.id);}
-  function goHadith(h,{hash=true}={}) {const article=$('h'+h);if(!article)return;closePanel({focus:false,hash:false});closeMenu(false);setCurrent(h);if(hash)setHash('h'+h);const target=$('heading-'+h);target.tabIndex=-1;target.focus({preventScroll:true});article.scrollIntoView({block:'start',behavior:reduceMotion.matches?'auto':'smooth'});}
+  function goHadith(h,{hash=true}={}) {if(book){goGroup('h'+h,{hash});return;}const article=$('h'+h);if(!article)return;closePanel({focus:false,hash:false});closeMenu(false);setCurrent(h);if(hash)setHash('h'+h);const target=$('heading-'+h);target.tabIndex=-1;target.focus({preventScroll:true});article.scrollIntoView({block:'start',behavior:reduceMotion.matches?'auto':'smooth'});}
   function setStudy(value){
     study=value;selected=null;
     for(const u of allData)setExpanded(u.id,value);
@@ -201,13 +237,13 @@
   function closeDialog(id){const d=$(id);if(typeof d.close==='function')d.close();else d.removeAttribute('open');}
   function runSearch(){
     const q=normalise($('search-input').value),out=$('search-results');out.replaceChildren();
-    if(!q){$('search-count').textContent='Search Arabic, English or a reference, such as 5396-C04.';return;}
+    if(!q){$('search-count').textContent=book?'Search Arabic, English or a reference, such as ILM-D-H280.':'Search Arabic, English or a reference, such as 5396-C04.';return;}
     const qs=q.split(/\s+/).filter(Boolean);const hits=units.filter(u=>qs.every(t=>u.searchText.includes(t)));
     $('search-count').textContent=hits.length?`${hits.length} matching passage${hits.length===1?'':'s'}${hits.length>50?' · showing first 50':''}`:'No matching passages.';
     if(!hits.length){out.append(el('p','search-empty','Try a hadith number, an Arabic word without vowel marks, or an English expression.'));return;}
     const wantsArabic=/[\u0600-\u06ff]/.test($('search-input').value)||/^\d/.test(q);
     for(const u of hits.slice(0,50)){
-      const b=el('button','search-result');b.type='button';b.append(el('span','result-meta',`${u.id} · ${u.kind==='matn'?'Hadith matn':'Mirqāt commentary'}`));
+      const b=el('button','search-result');b.type='button';b.append(el('span','result-meta',`${u.id} · ${u.kind==='matn'?'Hadith matn':u.kind==='introduction'?'Introduction':u.kind==='supplementary'?'Supplementary passage':'Mirqāt commentary'}`));
       const text=wantsArabic?u.arabic:u.english;let start=0;
       if(!wantsArabic){const needle=$('search-input').value.toLowerCase();const pos=text.toLowerCase().indexOf(needle);start=Math.max(0,pos-60);}
       const snippet=el('span','result-snippet',(start?'… ':'')+text.slice(start,start+(wantsArabic?115:185))+(text.length>start+185?' …':''));snippet.lang=wantsArabic?'ar':'en';snippet.dir=wantsArabic?'rtl':'ltr';b.append(snippet);
@@ -217,7 +253,7 @@
   async function copy(text){try{if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText(text);toast('Copied');return;}}catch(_){}
     const area=el('textarea','',text);area.value=text;area.style.cssText='position:fixed;left:-9999px;top:0';document.body.append(area);area.select();let ok=false;try{ok=document.execCommand('copy');}catch(_){}area.remove();toast(ok?'Copied':'Copy unavailable here. Select the text to copy it.');
   }
-  function routeFromHash(){let hash='';try{hash=decodeURIComponent(location.hash.slice(1));}catch(_){return;}if(unitMap.has(hash))openUnit(hash,{focus:false,hash:false});else if(/^h\d{4}$/.test(hash))goHadith(+hash.slice(1),{hash:false});}
+  function routeFromHash(){let hash='';try{hash=decodeURIComponent(location.hash.slice(1));}catch(_){return;}if(unitMap.has(hash))openUnit(hash,{focus:false,hash:false});else if(book && DATA.groups.some(g=>g.reader_id===hash))goGroup(hash,{hash:false});else if(/^h\d{4}$/.test(hash))goHadith(+hash.slice(1),{hash:false});}
   function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;const fraction=max>0?scrollY/max:0;$('progress-fill').style.width=Math.max(0,Math.min(100,fraction*100))+'%';}
   // Bind controls before enabling the reader.
   $('study-toggle').addEventListener('click',()=>setStudy(!study));
@@ -235,7 +271,7 @@
       if($('contents').classList.contains('is-open')){e.preventDefault();closeMenu();}
       else if(!document.querySelector('dialog[open]')){
         const active=document.activeElement.closest('.unit-wrap');
-        if(active&&unitMap.get(active.id)?.kind==='commentary'&&!$('en-'+active.id).hidden){selected=active.id;returnFocus=nodes.get(active.id);}
+        if(active&&unitMap.has(active.id)&&unitMap.get(active.id).kind!=='matn'&&!$('en-'+active.id).hidden){selected=active.id;returnFocus=nodes.get(active.id);}
         if(selected){e.preventDefault();closePanel();}
       }
     }
@@ -253,8 +289,8 @@
   window.addEventListener('resize',()=>{updateProgress();});
   let scheduled=false;window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(()=>{updateProgress();scheduled=false;});}},{passive:true});
   makeContent();applySize();syncMenuAccessibility();updateProgress();
-  const observer = new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)setCurrent(+e.target.dataset.observeHadith);},{rootMargin:'-80px 0px -70% 0px',threshold:0});
-  document.querySelectorAll('.hadith-heading').forEach(n=>{n.dataset.observeHadith=n.parentElement.id.slice(1);observer.observe(n);});
+  const observer = new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)setCurrent(book ? (Number(e.target.dataset.observeHadith)||e.target.dataset.observeHadith) : +e.target.dataset.observeHadith);},{rootMargin:'-80px 0px -70% 0px',threshold:0});
+  document.querySelectorAll('.hadith-heading').forEach(n=>{n.dataset.observeHadith=book?n.parentElement.dataset.groupKey:n.parentElement.id.slice(1);observer.observe(n);});
   requestAnimationFrame(()=>{routeFromHash();$('loading-message').hidden=true;});
-  window.MIRQAT_READER=Object.freeze({version:'Inline 02',textVersion:'Draft 04',unitCount:units.length,hadithCount:31,commentaryCount:179,openUnit,closePanel,setStudy,goHadith,getSelected:()=>selected});
+  window.MIRQAT_READER=Object.freeze({version:'Inline 02',textVersion:book?book.version:'Draft 04',unitCount:units.length,hadithCount:Object.keys(DATA.hadith).length,commentaryCount:allData.length,openUnit,closePanel,setStudy,goHadith,getSelected:()=>selected});
 })();

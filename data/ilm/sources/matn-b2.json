@@ -1,0 +1,1576 @@
+{
+  "stage": "B2",
+  "version": "01",
+  "date": "2026-09-22",
+  "status": "visual_matn_comparison_complete",
+  "scope": "219–280",
+  "operative_order": [
+    "A",
+    "B1",
+    "B2",
+    "C",
+    "D",
+    "B3"
+  ],
+  "b1_file_sha256": "f1c7d94a6f3f3d0a6cbfebd93f679e7c0fa3013b1816b8387eac1d3e5b9b91ca",
+  "witness": {
+    "title": "bushra vol 1 and 2 .pdf",
+    "drive_url": "https://drive.google.com/file/d/1EQ4-uvu2xZ0lM_FNDkPZkbDbd5GvzoTL/view",
+    "sha256": "9b79a15246696ccb892ddb59aeaed515f2d95762e5a54436bb937db2c7fd2c7f",
+    "pages": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ]
+  },
+  "policy": [
+    "Direct visual comparison of each numbered Bushra matn with the frozen B1 transcription. All 62 entries are accounted for across Bushra printed/PDF pages 68–75.",
+    "Comparison covers narrator wording, report wording, numbered short references and closing attributions. Decorative honorific glyphs, ordinary punctuation, spacing, Quranic orthography, diacritics and equivalent spelling conventions are not treated as substantive word variants. Bracket boundaries and the distinctive quotation boundary at 262 are explicitly recorded.",
+    "Bushra interlinear glosses and bottom-page commentary are excluded. Bushra is a comparison witness only; no wording replaces Mirqat source_ar.",
+    "Selective vocalised readings are transcribed as witness evidence. They are not a full vocalised Bushra transcription or a certification of project tashkil. Full printed marks are retained in the page facsimiles. vocalized_ar remains null.",
+    "B2 records observations and proposed review points; variant adjudication belongs at B3 after C and D. No Robson translation, Mirqat commentary extraction, commentary vocalisation or translation is certified in this release."
+  ],
+  "entries": [
+    {
+      "id": "219-M",
+      "hadith_number": 219,
+      "mirqat_pages": [
+        435,
+        436
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "a90314acc0379faa6af0e941803e3a117f171de920fe055550fe1859b5865d7b",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "حُسْنُ سَمْتٍ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "220-M",
+      "hadith_number": 220,
+      "mirqat_pages": [
+        436
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "1ecb53321529e6bac3a8e9d1579e4462f72d0499e16bddcd240c87fb95539968",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "221-M",
+      "hadith_number": 221,
+      "mirqat_pages": [
+        436,
+        437
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "17caac5fdce133eb43e172b3577b728b510e9fbf78d0970c3c186adad6a687f2",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "سَخْبَرَةَ الْأَزْدِيِّ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "222-M",
+      "hadith_number": 222,
+      "mirqat_pages": [
+        437
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "3c3b1bf2323b2e5818205104fa017a5ac43041101509352c9388cef940cbf5fd",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "223-M",
+      "hadith_number": 223,
+      "mirqat_pages": [
+        437,
+        438
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "85650ed16f9cba749a16ed8a7a115c031b559c83882c7915371f9a7b9eb30ac1",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "أُلْجِمَ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "224-M",
+      "hadith_number": 224,
+      "mirqat_pages": [
+        438
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "95e5203d56ebd3ea82feb4054e87d6b251b36ed2564e30fa03ce6a576020311f",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "225-M",
+      "hadith_number": 225,
+      "mirqat_pages": [
+        438,
+        439
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "afd744eadbb1736835d330dba9f19694d4f62989f4ad1fdff460c052664e4387",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "لِيُجَارِيَ بِهِ الْعُلَمَاءَ أَوْ لِيُمَارِيَ بِهِ السُّفَهَاءَ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "226-M",
+      "hadith_number": 226,
+      "mirqat_pages": [
+        439
+      ],
+      "bushra_printed_pages": [
+        68
+      ],
+      "bushra_pdf_pages_1based": [
+        68
+      ],
+      "b1_source_ar_sha256": "7057bdd4f95948800b9468ad977b6278f773a4b90f8043c0fd40675e2fad3624",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "227-M",
+      "hadith_number": 227,
+      "mirqat_pages": [
+        439,
+        440
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "e6138592614db2e9c7444e20bc69d707fb198714cc6778ca195ef3cbe346b657",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "عَرْفَ الْجَنَّةِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "228-M",
+      "hadith_number": 228,
+      "mirqat_pages": [
+        440,
+        441,
+        442
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "930ee9d0f6f367fe5112a51224f4b4c5e0f06dd72629e10570cb5feb44c71793",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "قال: قال: قال رسول الله",
+          "bushra_ar": "قال: قال رسول الله",
+          "note": "Mirqat repeats قال once more than Bushra. Preserve B1; flag for B3."
+        }
+      ],
+      "selective_printed_vocalization": "لَا يَغِلُّ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "229-M",
+      "hadith_number": 229,
+      "mirqat_pages": [
+        443
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "410d053ed2b1b2a4290093380b53a5c7a66cb1c92e860de6655a2812cb234580",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "230-M",
+      "hadith_number": 230,
+      "mirqat_pages": [
+        443,
+        444
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "2a06bab744a0953004b421adb9988881a741cfffc9b87f2fefae66ac71ac393f",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "مُبَلِّغٍ أَوْعَى لَهُ مِنْ سَامِعٍ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "231-M",
+      "hadith_number": 231,
+      "mirqat_pages": [
+        444
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "58ac4c6e811c67ce848468f95845cb71f7abf55839b70db9f665a390b5a97989",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "232-M",
+      "hadith_number": 232,
+      "mirqat_pages": [
+        444
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "302c0e9a2da8bdcfe8b88bca42874e1f08948ce4bf05558ec75ca48a4ca1f1be",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "[رضي الله عنه]",
+          "bushra_ar": "رضي الله عنه (honorific glyph, no square brackets)",
+          "note": "Presentation of honorific differs; no change to the prophetic wording."
+        }
+      ],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "233-M",
+      "hadith_number": 233,
+      "mirqat_pages": [
+        445
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "81574f91cd66fb942208640a060a795f3bb9047ec7d82adc94177fb90a8c490a",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "234-M",
+      "hadith_number": 234,
+      "mirqat_pages": [
+        445,
+        446
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "dfdaaa51b8aefe923c0ea8a0099fa2d464b1e0e2d9870d53dae0a986d3e7c232",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "وعن ابن عباس",
+          "bushra_ar": "وعنه",
+          "note": "Explicit narrator in Mirqat; pronoun in Bushra."
+        }
+      ],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "235-M",
+      "hadith_number": 235,
+      "mirqat_pages": [
+        446,
+        447
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "45e32b358fe5960a92bb03da8722cc202d39213a1e8d1a2080405eea29eb4aea",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "جُنْدُبٍ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "236-M",
+      "hadith_number": 236,
+      "mirqat_pages": [
+        448
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "468ffd0eb6a87f0cd85cc65c56e85c363efac40612f00a3d54b6ff34a26aa459",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "237-M",
+      "hadith_number": 237,
+      "mirqat_pages": [
+        448,
+        449,
+        450
+      ],
+      "bushra_printed_pages": [
+        69
+      ],
+      "bushra_pdf_pages_1based": [
+        69
+      ],
+      "b1_source_ar_sha256": "f6b4b13894dffe259197e9c0b01727485ffa7bfca67f60fb23f8f8be3272838c",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "يَتَدَارَؤُونَ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "238-M",
+      "hadith_number": 238,
+      "mirqat_pages": [
+        450,
+        453,
+        454
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "2e3906c7f5cfa77666d9215d7c1179d976426212b220470ea2131ea7fe791459",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "ظَهْرٌ وَبَطْنٌ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "239-M",
+      "hadith_number": 239,
+      "mirqat_pages": [
+        456,
+        457
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "bb3efc25dc918ef776b6ddad567dbd50a813835fdf78d622b965d6c71ce1d72c",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "240-M",
+      "hadith_number": 240,
+      "mirqat_pages": [
+        457,
+        458
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "3bb9396bb21a36047e9ea2dbfbb62d3d249a68a28dfd95a55adb2f053f042acc",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "لَا يَقُصُّ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "241-M",
+      "hadith_number": 241,
+      "mirqat_pages": [
+        458
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "a5c9e4a35f193588a888329fe968cfbbf190cbe937413040e10937ff3f6b02ef",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "أَوْ مُرَاءٍ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "242-M",
+      "hadith_number": 242,
+      "mirqat_pages": [
+        458
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "0a09a73d6de5f87bae360d0eacd9a4b1b7edef4279a473cb7f2e058c6b5cd783",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "مَنْ أُفْتِيَ بِغَيْرِ عِلْمٍ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "243-M",
+      "hadith_number": 243,
+      "mirqat_pages": [
+        459
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "ec41f0c3372aa7d1d42c705cac0167dfe902da703705338d178b20fd8c006803",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "الْأُغْلُوطَاتِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "244-M",
+      "hadith_number": 244,
+      "mirqat_pages": [
+        459
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "d4536e5991d7b083c47afbda6fd3309360dd980b407cf1e20d7f31ee877ecbf5",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "245-M",
+      "hadith_number": 245,
+      "mirqat_pages": [
+        459,
+        460
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "fa6a14119aa1799b2d7f26e40e40ee104899ba94a239be0b20ecadb3b873e935",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "يُخْتَلَسُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "246-M",
+      "hadith_number": 246,
+      "mirqat_pages": [
+        460,
+        461
+      ],
+      "bushra_printed_pages": [
+        70
+      ],
+      "bushra_pdf_pages_1based": [
+        70
+      ],
+      "b1_source_ar_sha256": "8c845562334346baf84d201215d758bd1d7314f12bab0f75d01ce40464fb413e",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "رواه الترمذي في جامعه. قال ابن عيينة",
+          "bushra_ar": "رواه الترمذي. وفي «جامعه»: قال ابن عيينة",
+          "note": "Attribution transition differs: Bushra adds وفي before جامعه."
+        }
+      ],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "247-M",
+      "hadith_number": 247,
+      "mirqat_pages": [
+        461,
+        462
+      ],
+      "bushra_printed_pages": [
+        70,
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        70,
+        71
+      ],
+      "b1_source_ar_sha256": "d34df068283c3bf016565f8ffbe4338f5ac2b64b2443100ecf3a40c3f190cabd",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "248-M",
+      "hadith_number": 248,
+      "mirqat_pages": [
+        462,
+        463
+      ],
+      "bushra_printed_pages": [
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        71
+      ],
+      "b1_source_ar_sha256": "97370200191b9689b0c51c95b7cb0147611bf6b0b5771a78bfa6d241cbba0ea2",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "رواه البيهقي",
+          "bushra_ar": "رواه البيهقي في كتاب «المدخل» مرسلا",
+          "note": "Bushra has an expanded attribution and explicit مرسلا; not inserted into B1."
+        }
+      ],
+      "selective_printed_vocalization": "عُدُولُهُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "249-M",
+      "hadith_number": 249,
+      "mirqat_pages": [
+        464
+      ],
+      "bushra_printed_pages": [
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        71
+      ],
+      "b1_source_ar_sha256": "78eac23acc47bbd631504d616718fe6f03ddd3fabce988ab78de47722d79c8b9",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "لِيُحْيِيَ بِهِ الْإِسْلَامَ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "250-M",
+      "hadith_number": 250,
+      "mirqat_pages": [
+        464,
+        465
+      ],
+      "bushra_printed_pages": [
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        71
+      ],
+      "b1_source_ar_sha256": "0c12807a9deea786f2fd4c3915930e32c712d6305b307ee49224d950ce302a3e",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "251-M",
+      "hadith_number": 251,
+      "mirqat_pages": [
+        465,
+        466
+      ],
+      "bushra_printed_pages": [
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        71
+      ],
+      "b1_source_ar_sha256": "9dc85b6ec3a6a073ed90f7be49a2fe2f221873bf4ad95639f6a49354b120fcac",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "252-M",
+      "hadith_number": 252,
+      "mirqat_pages": [
+        466,
+        467
+      ],
+      "bushra_printed_pages": [
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        71
+      ],
+      "b1_source_ar_sha256": "d89505b68af634a6689908dfba843b39a859fa8ea53777cbab13e755917d6f5c",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "وَلَا أُلْفِيَنَّكَ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "253-M",
+      "hadith_number": 253,
+      "mirqat_pages": [
+        467
+      ],
+      "bushra_printed_pages": [
+        71
+      ],
+      "bushra_pdf_pages_1based": [
+        71
+      ],
+      "b1_source_ar_sha256": "ee63fa04d76d575c20430b37fb72cf95d2e5ae7f538ae3eea78c091fec60f870",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "كِفْلَانِ مِنَ الْأَجْرِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "254-M",
+      "hadith_number": 254,
+      "mirqat_pages": [
+        467,
+        468
+      ],
+      "bushra_printed_pages": [
+        71,
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        71,
+        72
+      ],
+      "b1_source_ar_sha256": "4e0f6af3d9153662e0faad6599aa171869e54e2392f436ef0eb770f0fd139e9d",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "255-M",
+      "hadith_number": 255,
+      "mirqat_pages": [
+        468,
+        469
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "63d7f1a17bac27e0656694967878b712acc4ee77ab5b7f1006194690d49faddd",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "أَثَبْتُهُ عَلَيْهِمَا الْجَنَّةَ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "256-M",
+      "hadith_number": 256,
+      "mirqat_pages": [
+        469
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "f888d35cce39b1f2e1a2488fbeb31cc55a52c94a5c7731438a88afda947cbb62",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "257-M",
+      "hadith_number": 257,
+      "mirqat_pages": [
+        469,
+        470
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "3e04c67a771b9e3943d58a229bf77e07f6c2ecd764f97be07b3b83d477bc3bb7",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "258-M",
+      "hadith_number": 258,
+      "mirqat_pages": [
+        470,
+        471
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "dd67be9c7ac6207dbae104a09e1d4c10bbdba58d1ab1eca670a7746e31d68f8e",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "بَعَثَهُ اللَّهُ فَقِيهًا",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "259-M",
+      "hadith_number": 259,
+      "mirqat_pages": [
+        471,
+        472
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "c24d0ee1cc415850029347fdd43e32cc5ce3158ba6d2f42ca12a59ba63284c56",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "الله أجود جودا",
+          "bushra_ar": "الله تعالى أجود جودا",
+          "note": "Bushra adds تعالى."
+        }
+      ],
+      "selective_printed_vocalization": "أَمِيرًا وَحْدَهُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "260-M",
+      "hadith_number": 260,
+      "mirqat_pages": [
+        472
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "ae1fce0d6b5efbf4adfaaa09b0f9cb2ee86e9dbbc0e1c70878e6ab6ced91d6e2",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "مَنْهُومَانِ لَا يَشْبَعَانِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "261-M",
+      "hadith_number": 261,
+      "mirqat_pages": [
+        473
+      ],
+      "bushra_printed_pages": [
+        72
+      ],
+      "bushra_pdf_pages_1based": [
+        72
+      ],
+      "b1_source_ar_sha256": "54df6aa932c4e25ea3317fb2215f56bf220ecd7a5319b71d33d859db349fadc7",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "262-M",
+      "hadith_number": 262,
+      "mirqat_pages": [
+        473,
+        474
+      ],
+      "bushra_printed_pages": [
+        72,
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        72,
+        73
+      ],
+      "b1_source_ar_sha256": "6d59f4c3e43dcb8dbf2dc2dc4f97d0b4a26ef45e5a4b54569f3ff15c968ea1f6",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "كذلك لا يجتنى من قربهم إلا - قال محمد بن الصباح: كأنه يعني - الخطايا",
+          "bushra_ar": "كذلك لا يجتنى من قربهم إلا ... قال محمد بن الصباح: كأنه يعني الخطايا",
+          "note": "Bushra closes the quoted report after إلا with an ellipsis; the transmitter comment follows outside. Preserve this quotation-boundary evidence for editorial review."
+        }
+      ],
+      "selective_printed_vocalization": "الْقَتَادِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "263-M",
+      "hadith_number": 263,
+      "mirqat_pages": [
+        474,
+        475
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "bae4e227113bf36692e45d95ea738b1b3c2ad518cd00061e4216e177633b0e0b",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "ومن تشعبت به الهموم [في] أحوال الدنيا",
+          "bushra_ar": "ومن تشعبت به الهموم أحوال الدنيا",
+          "note": "Bushra omits the bracketed في found in Mirqat."
+        }
+      ],
+      "selective_printed_vocalization": "تَشَعَّبَتْ بِهِ الْهُمُومُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "264-M",
+      "hadith_number": 264,
+      "mirqat_pages": [
+        475
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "556dea23026bcf404363cf8ebf2dde21963e3e5183b542e14cdd4873acdf43fe",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "265-M",
+      "hadith_number": 265,
+      "mirqat_pages": [
+        475,
+        476
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "bdd9f64e249cf1aa8e472cb0977fc3cbc96ac3bd353fac444de4c25c68dad210",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "آفَةُ الْعِلْمِ النِّسْيَانُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "266-M",
+      "hadith_number": 266,
+      "mirqat_pages": [
+        476
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "4d5c526d9481e0062776809bacb03652134413eac4303cb9e22ed4121bd5d217",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "267-M",
+      "hadith_number": 267,
+      "mirqat_pages": [
+        476,
+        477
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "80845de99e1d1281448d0d54348e0ccecc2d6cd2ca0075fc7feb9690c66485d4",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "268-M",
+      "hadith_number": 268,
+      "mirqat_pages": [
+        477
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "a95f79dd9a8143178dac3ab3e4718d5fccf1de8fb4def052862f0d6119276c89",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "269-M",
+      "hadith_number": 269,
+      "mirqat_pages": [
+        477,
+        478
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "2878e345b9be496209c72be96c941b630a5218db65e957f22f08aedfe439ea75",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "زِيَادِ بْنِ حُدَيْرٍ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "270-M",
+      "hadith_number": 270,
+      "mirqat_pages": [
+        478
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "cc7b87393165e77fd28d7ad28435e89e7c2d85320a6f79496a161c5ade77a205",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "271-M",
+      "hadith_number": 271,
+      "mirqat_pages": [
+        478,
+        479
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "1cd5b67b864d958279f6fade650d218c66d7ca036ff2d366378941753dc914a1",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "الْبُلْعُومُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "272-M",
+      "hadith_number": 272,
+      "mirqat_pages": [
+        479,
+        480
+      ],
+      "bushra_printed_pages": [
+        73
+      ],
+      "bushra_pdf_pages_1based": [
+        73
+      ],
+      "b1_source_ar_sha256": "143506b4e58d4befd9b9d03803542be02063f239eb4625335ae20e8a9c0c5c59",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "وعن عبد الله بن مسعود",
+          "bushra_ar": "وعن عبد الله",
+          "note": "Bushra uses the shorter narrator name; its interlinear identification is a gloss and is not matn."
+        }
+      ],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "273-M",
+      "hadith_number": 273,
+      "mirqat_pages": [
+        480
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "2953c1b362ea162b54d04a6b98090478fdecc322a80b516d715e4cf7c2cb6455",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "274-M",
+      "hadith_number": 274,
+      "mirqat_pages": [
+        480,
+        481
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "f40ed0f49e1445d486da4b2a7ca61dd9657b6c327054b89443c9ced6a1c8fed7",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "275-M",
+      "hadith_number": 275,
+      "mirqat_pages": [
+        481,
+        482
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "a0ae36787b94d0a3e432bd512b87e09fcae8b99057f931d7ee0f9aa1e8b016f7",
+      "comparison_status": "visually_compared",
+      "result": "recorded_difference",
+      "differences": [
+        {
+          "mirqat_ar": "إلى الله [تعالى]",
+          "bushra_ar": "إلى الله تعالى",
+          "note": "Bushra prints تعالى without square brackets."
+        }
+      ],
+      "selective_printed_vocalization": "جُبِّ الْحَزَنِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "276-M",
+      "hadith_number": 276,
+      "mirqat_pages": [
+        482,
+        483
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "de70fe45542e36ad2481c3107fd8b00db9b57d8ada862ef5018688361980dddb",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "أَدِيمِ السَّمَاءِ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "277-M",
+      "hadith_number": 277,
+      "mirqat_pages": [
+        484
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "6adfec8ec319471844aeb3328b7a6bdfb59ff60a95e3e679b954e474e83bd744",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "278-M",
+      "hadith_number": 278,
+      "mirqat_pages": [
+        484
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "e6ba93e94fbbffbf047dda7250d9439d02a7860fbba9d6a04338bc9fa512babe",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": null,
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "279-M",
+      "hadith_number": 279,
+      "mirqat_pages": [
+        485
+      ],
+      "bushra_printed_pages": [
+        74
+      ],
+      "bushra_pdf_pages_1based": [
+        74
+      ],
+      "b1_source_ar_sha256": "46ae32e0ddfdfbff451304114b519a825c1250017c88c244b2384a0e16d643cb",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "وَالْعِلْمُ سَيُقْبَضُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    },
+    {
+      "id": "280-M",
+      "hadith_number": 280,
+      "mirqat_pages": [
+        485
+      ],
+      "bushra_printed_pages": [
+        75
+      ],
+      "bushra_pdf_pages_1based": [
+        75
+      ],
+      "b1_source_ar_sha256": "196e3d615eacf0a68ad6d526ae5acb34bcdbf8260dc6e5fae20f95a912acf277",
+      "comparison_status": "visually_compared",
+      "result": "no_wording_difference_observed_under_policy",
+      "differences": [],
+      "selective_printed_vocalization": "لَا يُنْفَقُ مِنْهُ",
+      "vocalization_status": "witness_consulted_not_project_certified",
+      "vocalized_ar": null,
+      "C": "awaiting_Robson_source",
+      "D": "not_started_pending_C",
+      "B3": "not_started"
+    }
+  ],
+  "ancillary_comparison": {
+    "id": "ILM-B1-S2-XREF01",
+    "mirqat_page": 464,
+    "bushra_page": 71,
+    "result": "Section-ending Jabir cross-reference agrees in wording, allowing punctuation and honorific presentation."
+  }
+}
