@@ -1,6 +1,6 @@
 {
   "retrieved": "2026-10-06",
-  "hadith_english_219_280": "Left pending at the user’s explicit request; external witness not imported.",
+  "hadith_english_219_280": "Included at the user’s request, labelled Robson verification pending; supplied C assessment dated 2026-10-06, not promoted to approved C.",
   "files": [
     {
       "path": "data/ilm/sources/commentary-d3.json",
@@ -31,6 +31,12 @@
       "title": "AhmedBaset_English_Witness_219-280_Source_Register_02.json",
       "url": "https://drive.google.com/file/d/1C13DrLCh2rRRB-Mr58nEDu4V-e77UkLE/view",
       "sha256": "ad38f9a658a57f39a5281f6424ff1d0a4ab1f1d9cda602debf2fbf6c001d2cce"
+    },
+    {
+      "path": "data/ilm/sources/english-c-assessment.json",
+      "title": "Mirqat_Ilm_C_Assessment_2026-10-06_Register.json",
+      "url": "https://drive.google.com/file/d/1cFXnFFmCpA6Z-tPLaGViIdLwYlNcC55e/view",
+      "sha256": "9612b6058b9a4278d640882fc767d299fb18920b495ce1763a01228086673f66"
     }
   ]
 }

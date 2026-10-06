@@ -27,8 +27,12 @@ const assert=require('node:assert/strict');
    check(ar.querySelector('.arabic-text').textContent===data.hadith[n].ar_reading,n+' matn');
    check(en.id==='en-'+n+'-M'&&!en.hidden,n+' adjacent English');
    check(!wrap.matches('[class*=tone-]')&&!wrap.querySelector('[class*=tone-]'),n+' no commentary colour');
-   if(n>=219)check(en.querySelector('.translation-pending')&&en.querySelector('.text-copy').disabled,n+' pending');
-   else check(en.querySelector('.hadith-translation').textContent===data.hadith[n].english_source_paragraphs[0],n+' Robson');
+   check(en.querySelector('.hadith-translation').textContent===data.hadith[n].english_source_paragraphs[0],n+' English');
+   check(!en.querySelector('.text-copy').disabled,n+' English copy enabled');
+   if(n>=219){
+    check(en.querySelector('.english-status')?.textContent==='Robson verification pending',n+' verification label');
+    check(en.querySelectorAll('.hadith-translation i').length===(data.hadith[n].english_source_markup.match(/<i>/g)||[]).length,n+' italics');
+   }
   }
   return {matn:83,commentary:206,editorialNotes:450,failures};
  },source);assert.deepEqual(integrity.failures,[]);
@@ -67,6 +71,6 @@ const assert=require('node:assert/strict');
  await denied.goto('file://'+resolve(__dirname,'../src/ilm-reader-current.html'));await denied.waitForFunction(()=>window.MIRQAT_READER);
  await denied.locator('[data-unit="ILM-I01"]').click();assert.equal(await denied.locator('#en-ILM-I01').isVisible(),true);
  assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
- writeFileSync(resolve(__dirname,'ilm_browser_checks_current.json'),JSON.stringify({integrity,layouts,checks:['source and reading layers','450 note IDs/texts','hadith English pending','keyboard controls','study mode','deep-link reload','search through 280','supplementary navigation','offline book switching','blocked storage'],javascriptErrors:errors,externalRequests:requests},null,2)+'\n');
+ writeFileSync(resolve(__dirname,'ilm_browser_checks_current.json'),JSON.stringify({integrity,layouts,checks:['source and reading layers','450 note IDs/texts','62 supplied English texts and verification labels','keyboard controls','study mode','deep-link reload','search through 280','supplementary navigation','offline book switching','blocked storage'],javascriptErrors:errors,externalRequests:requests},null,2)+'\n');
  console.log('PASS: Ilm content, all 18 layer/viewport layouts, navigation, keyboard controls, search, reload and offline book switching.');await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

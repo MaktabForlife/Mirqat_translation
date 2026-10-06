@@ -83,8 +83,11 @@ original Arabic, vocalised Arabic and English, and all 450 commentary editorial
 notes. Source passage IDs and note IDs are retained. The 21 supplied Review 06
 matn/Robson pairs through 218 remain intact. The later 62 matn texts use the saved
 B1 Arabic, with B2 comparison notes retained; their separate vocalisation has not
-been supplied. Their **hadith English remains pending at the user's request**.
-This does not affect the complete supplied commentary translations.
+been supplied. Their hadith English now uses the supplied 6 October 2026
+C-assessment register, labelled **Robson verification pending**, as authorised
+by the user. All 62 entries map to 54 source rows; eight paired translations
+remain whole at both corresponding entries, with their coverage noted.
+Source wording and italic markup are preserved; C approval remains pending.
 
 The frozen Drive files are stored byte-for-byte under `data/ilm/sources/`;
 `data/ilm/source_manifest.json` records their exact titles, URLs and SHA-256 hashes.
@@ -95,6 +98,8 @@ third-party English text was not fetched or added.
 
 Known source issues retained: the repeated قال in matn 228; unresolved readings
 and quotation boundaries identified in the supplied notes; and pending separate
-matn vocalisation/verified Robson for 219–280. These were not silently corrected.
+matn vocalisation/verified Robson for 219–280. The new register also records
+bracketed wording differences at 246, 261 and 272; these are retained exactly.
+These issues were not silently corrected.
 Browser results are in `tests/ilm_browser_checks_current.json`; the Fitān
 regression results remain in `tests/browser_checks_current.json`.

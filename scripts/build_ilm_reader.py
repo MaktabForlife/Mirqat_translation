@@ -53,21 +53,34 @@ def reader_data():
                     'Mirqāt · printed pages ' + ', '.join(map(str, u['source_pages']))] +
                     [u[k] for k in ('tashkil_status', 'crosscheck_status') if u.get(k)],
             }
+    english = read('english-c-assessment.json')
+    english_rows = {r['englishURN']: r for r in english['source_rows']}
+    english_records = {r['hadith_number']: r for r in english['records'] if isinstance(r['hadith_number'], int)}
     b2 = {e['id']: e for e in comparison['entries']}
     for u in matn['entries']:
         witness = b2[u['id']]
-        # Keep the original matn text; do not invent a vocalised reading or English.
+        # Keep the original matn text and the supplied English; no editorial synthesis.
+        record = english_records[u['hadith_number']]
+        row = english_rows[record['candidate_english_urn']]
+        raw_english = row['englishText']
+        plain_english = raw_english.replace('<i>', '').replace('</i>', '')
         review_notes = list(u['notes'])
         for difference in witness['differences']:
             review_notes.append('Mirqāt: ' + difference['mirqat_ar'] + '\nBushra: ' + difference['bushra_ar'] + '\n' + difference['note'])
         if witness.get('selective_printed_vocalization'):
             review_notes.append('Selective Bushra reading (comparison only): ' + witness['selective_printed_vocalization'])
         data['hadith'][str(u['hadith_number'])] = {
-            'ar_reading': u['source_ar'], 'english_source_paragraphs': [],
-            'english_pending': 'Hadith English pending · verified Robson text has not been supplied for this entry.',
+            'ar_reading': u['source_ar'], 'english_source_paragraphs': [plain_english],
+            'english_source_markup': raw_english,
+            'english_status': 'Robson verification pending',
+            'english_urn': row['englishURN'],
+            'english_source_number': row['hadithNumber'],
             'notes': review_notes,
             'source_lines': ['Mirqāt matn · saved source transcription, printed pages ' + ', '.join(map(str, u['printed_pages'])),
-                'Separate matn vocalisation and verified Robson English remain pending.',
+                'Separate matn vocalisation remains pending.',
+                'Supplied English · C assessment, 6 October 2026 · unverified candidate Robson.',
+                'Source hadith ' + row['hadithNumber'] + ' · English URN ' + row['englishURN'],
+                *(['The supplied translation covers paired hadiths ' + row['hadithNumber'] + '; retained in full at both entries.'] if record['shared_source_row'] else []),
                 'Bushra comparison: ' + witness['result']],
         }
     return data, originals

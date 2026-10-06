@@ -50,7 +50,18 @@
   function addEnglish(host,u,withSource=true) {
     const body=el('div','translation-text'); body.lang='en'; body.dir='ltr';
     if(u.kind==='matn' && book){
-      body.append(el('p',u.english_pending?'translation-pending':'hadith-translation',u.english_pending || u.english));
+      const p=el('p',u.english_pending?'translation-pending':'hadith-translation');
+      if(u.english_source_markup){
+        // Preserve supplied italics without interpreting arbitrary source HTML.
+        let target=p;
+        for(const part of u.english_source_markup.split(/(<i>|<\/i>)/)){
+          if(part==='<i>'){target=el('i');p.append(target);}
+          else if(part==='</i>')target=p;
+          else target.append(document.createTextNode(part));
+        }
+      } else p.textContent=u.english_pending || u.english;
+      body.append(p);
+      if(u.english_status)body.append(el('p','source-note english-status',u.english_status));
     } else if(u.kind==='matn') {
       // Exact, pre-escaped paragraph markup carried over from the accepted Draft 04 package.
       const template=document.createElement('template');template.innerHTML=u.english_html_from_draft04;
