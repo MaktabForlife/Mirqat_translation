@@ -2,6 +2,16 @@
 
 This repository is a **technical working copy** of the Kitāb al-Fitan and Kitāb al-ʿIlm online readers. Kitāb al-ʿIlm includes the introduction and entries 198–280.
 
+## Combined online edition
+
+Open `src/mirqat-reader-current.html` for both books in one downloadable file.
+Use the book links above the reading text to switch between ʿIlm (198–280) and
+the supplied Fitān edition (31 hadiths, 179 commentary units). No companion
+files or internet connection are required. Passage links include the book key
+(e.g. `#ilm/ILM-D-H248`); reload and browser Back/Forward retain that location.
+The common build command also rebuilds this combined edition, embedding both
+standalone readers without changing their editorial payloads.
+
 ## First Codex task
 
 Update the Fitān reader so that:
@@ -47,6 +57,7 @@ python3 tests/check_ilm_integrity.py
 node --check src/reader.js
 node tests/check_browser.cjs
 node tests/check_ilm_browser.cjs
+node tests/check_online_browser.cjs
 ```
 
 The browser check requires Playwright and Google Chrome. Set `CHROME_PATH` for

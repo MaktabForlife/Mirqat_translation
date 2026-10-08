@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mirqāt · Kitāb al-ʿIlm and Kitāb al-Fitan · Review 07</title>
+<style>html,body{margin:0;width:100%;height:100%;background:#fffefa}iframe{display:block;border:0;width:100%;height:100%}</style>
+</head>
+<body>
+<iframe id="reader" title="Mirqāt book reader"></iframe>
+<noscript>This interactive edition requires JavaScript.</noscript>
+<script id="embedded-books" type="application/json">/*__BOOKS__*/</script>
+<script>
+(() => {
+  const books=JSON.parse(document.getElementById('embedded-books').textContent);
+  const frame=document.getElementById('reader');
+  let current='',pending='';
+  function route(){
+    let path='';try{path=decodeURIComponent(location.hash.slice(1));}catch(_){}
+    const slash=path.indexOf('/'),key=slash<0?path:path.slice(0,slash);
+    const book=Object.hasOwn(books,key)?key:'ilm';
+    const id=slash<0?'':path.slice(slash+1);
+    pending=id;
+    if(book!==current){current=book;frame.title=book==='ilm'?'Kitāb al-ʿIlm reader':'Kitāb al-Fitan reader';frame.srcdoc=books[book];}
+    else showPassage(id);
+  }
+  function showPassage(id){
+    const win=frame.contentWindow,doc=frame.contentDocument,api=win?.MIRQAT_READER;
+    if(!api)return;
+    if(!id||id==='top'){api.closePanel({focus:false,hash:false});win.scrollTo(0,0);}
+    else if(/^h\d+$/.test(id))api.goHadith(Number(id.slice(1)),{hash:false});
+    else if(doc.getElementById(id)?.classList.contains('unit-wrap'))api.openUnit(id,{focus:false,hash:false});
+    else doc.getElementById(id)?.scrollIntoView();
+  }
+  function setRoute(book,id='',replace=false){
+    history[replace?'replaceState':'pushState'](null,'','#'+book+(id?'/'+encodeURIComponent(id):''));
+  }
+  frame.addEventListener('load',()=>{
+    const win=frame.contentWindow,doc=frame.contentDocument;
+    if(!win.MIRQAT_READER)return;
+    // Keep reader-generated passage links in the outer, shareable URL.
+    for(const method of ['pushState','replaceState'])win.history[method]=(_state,_title,url)=>{
+      const hash=String(url||'').split('#')[1]||'';
+      setRoute(current,decodeURIComponent(hash),method==='replaceState');
+    };
+    doc.addEventListener('click',event=>{
+      const link=event.target.closest('a');if(!link)return;
+      const href=link.getAttribute('href');
+      const book=Object.keys(books).find(key=>href===key+'-reader-current.html');
+      if(book){event.preventDefault();setRoute(book);route();}
+      else if(href?.startsWith('#')&&!link.classList.contains('nav-entry')){
+        event.preventDefault();setRoute(current,decodeURIComponent(href.slice(1)));route();
+      }
+    });
+    requestAnimationFrame(()=>showPassage(pending));
+  });
+  window.addEventListener('hashchange',route);
+  window.addEventListener('popstate',route);
+  route();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+{
+  "checks": [
+    "both exact embedded readers",
+    "114 hadiths",
+    "385 commentary units",
+    "offline book switching",
+    "deep links and reload",
+    "Back/Forward",
+    "original Arabic on reload"
+  ],
+  "layouts": [
+    {
+      "book": "fitan",
+      "width": 320,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 320,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 375,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 375,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 390,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 390,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 430,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 430,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 768,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 768,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1024,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1024,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1280,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1280,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1440,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1440,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1600,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "fitan",
+      "width": 1600,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 320,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 320,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 375,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 375,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 390,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 390,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 430,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 430,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 768,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 768,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1024,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1024,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1280,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1280,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1440,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1440,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1600,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "ilm",
+      "width": 1600,
+      "layer": "vocalised",
+      "overflow": false
+    }
+  ],
+  "javascriptErrors": [],
+  "externalRequests": []
+}
