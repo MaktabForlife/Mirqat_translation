@@ -16,7 +16,11 @@ const assert = require('node:assert/strict');
     const ids=[...document.querySelectorAll('[id]')].map(n=>n.id);check(ids.length===new Set(ids).size,'duplicate DOM IDs');
     for(const [h,u] of Object.entries(data.hadith)){
       const wrap=document.getElementById(h+'-M'), ar=wrap.querySelector('.arabic-unit'), en=ar.nextElementSibling;
-      check(ar.querySelector('.arabic-text').textContent===u.ar_reading,h+' Arabic');
+      check(ar.querySelector('.arabic-text').textContent===originals[h+'-M'],h+' original Arabic');
+      wrap.querySelector('[data-layer="vocalised"]').click();
+      check(ar.querySelector('.arabic-text').textContent===u.ar_reading,h+' vocalised Arabic');
+      wrap.querySelector('[data-layer="original"]').click();
+      check(ar.querySelector('.arabic-text').textContent===originals[h+'-M'],h+' restored original');
       const expected=document.createElement('div');expected.innerHTML=u.english_html_from_draft04;
       check(en.querySelector('.translation-text').innerHTML===expected.innerHTML,h+' Robson markup');
       check(!en.hidden&&en.id==='en-'+h+'-M',h+' adjacent English');

@@ -33,3 +33,5 @@
 .translation-pending{font-family:var(--ui);font-size:14px;color:var(--muted)}
 .hadith-heading h2{font-size:20px;line-height:1.5;margin:0;overflow-wrap:anywhere}
 @media print{.book-switch{display:none}}
+
+.arabic-layer:disabled{opacity:.6;cursor:not-allowed;}

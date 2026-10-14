@@ -1,6 +1,7 @@
 {
   "checks": [
     "both exact embedded readers",
+    "hadith layer Enter/Space with English retained",
     "114 hadiths",
     "385 commentary units",
     "offline book switching",

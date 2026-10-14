@@ -47,7 +47,7 @@ def reader_data():
                 continue
             note_fields = [k for k in ('editorial_note', 'tashkil_comparison_note', 'tashkil_note') if u.get(k)]
             data['hadith'][str(u['hadith'])] = {
-                'ar_reading': u['vocalized_ar'], 'english_source_paragraphs': [u['english']],
+                'ar_supplied': u['source_ar'], 'ar_reading': u['vocalized_ar'], 'english_source_paragraphs': [u['english']],
                 'notes': [u[k] for k in note_fields], 'note_ids': [u['id']+'-'+k for k in note_fields],
                 'source_lines': ['James Robson · as supplied in Review 06.',
                     'Mirqāt · printed pages ' + ', '.join(map(str, u['source_pages']))] +
@@ -70,7 +70,7 @@ def reader_data():
         if witness.get('selective_printed_vocalization'):
             review_notes.append('Selective Bushra reading (comparison only): ' + witness['selective_printed_vocalization'])
         data['hadith'][str(u['hadith_number'])] = {
-            'ar_reading': u['source_ar'], 'english_source_paragraphs': [plain_english],
+            'ar_supplied': u['source_ar'], 'vocalisation_pending': True, 'ar_reading': u['source_ar'], 'english_source_paragraphs': [plain_english],
             'english_source_markup': raw_english,
             'english_status': 'Robson verification pending',
             'english_urn': row['englishURN'],

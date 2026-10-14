@@ -35,6 +35,7 @@ for group in read('review06.json')['groups']:
         if u['kind']=='matn':
             actual=data['hadith'][str(u['hadith'])]
             assert actual['ar_reading']==u['vocalized_ar']
+            assert actual['ar_supplied']==u['source_ar']
             assert actual['english_source_paragraphs']==[u['english']]
 english=read('english-c-assessment.json')
 rows={r['englishURN']:r for r in english['source_rows']}
@@ -44,6 +45,7 @@ used=set()
 for u in read('matn-b1.json')['entries']:
     actual=data['hadith'][str(u['hadith_number'])]
     assert actual['ar_reading']==u['source_ar']
+    assert actual['ar_supplied']==u['source_ar'] and actual['vocalisation_pending']
     assert hashlib.sha256(u['source_ar'].encode()).hexdigest()==u['source_ar_sha256']
     record=records[u['hadith_number']]
     row=rows[record['candidate_english_urn']]

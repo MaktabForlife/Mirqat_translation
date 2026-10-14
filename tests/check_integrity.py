@@ -25,7 +25,9 @@ payload = re.search(DATA_PATTERN, current, re.S)[2]
 assert payload == old_payload, 'Embedded editorial JSON changed'
 originals = json.loads(re.search(r'<script id="original-arabic-data" type="application/json">(.*?)</script>', current, re.S)[1])
 source = json.loads((ROOT / 'data/commentary_data.json').read_text())
-assert originals == {u['id']: u['source_ar'] for u in source}, 'Original Arabic layer differs from saved source'
+expected_originals = {u['id']: u['source_ar'] for u in source}
+expected_originals.update({h+'-M': u['ar_supplied'] for h,u in json.loads((ROOT/'data/hadith_data.json').read_text()).items()})
+assert originals == expected_originals, 'Original Arabic layer differs from saved source'
 assert current == build(), 'Standalone HTML is stale'
 data = json.loads(payload)
 assert set(data['hadith']) == {str(n) for n in range(5379, 5410)}

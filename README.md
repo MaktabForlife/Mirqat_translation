@@ -75,7 +75,11 @@ and Vocalised Arabic buttons replace the text in the same space, without opening
 or closing its English translation. Tap the Arabic passage to reveal English
 below. Every reload starts with original Arabic; the selected Arabic version is
 not saved. Original text retains any pointing already present in the supplied
-source. Hadith Arabic and supplied English are unchanged.
+source. Hadith blocks also open with supplied original Arabic and offer the same layer
+controls. Fitān 5379–5409 and ʿIlm 198–218 have supplied vocalised readings;
+ʿIlm 219–280 shows a disabled pending option until that layer is supplied.
+Hadith English stays visible directly below either Arabic layer. Source wording,
+including existing vowel marks and differences between readings, is unchanged.
 
 Integrity checks cover all 179 source/reading pairs, protected editorial content,
 and stable IDs. Browser checks exercise both Arabic layers at nine viewport

@@ -78,7 +78,7 @@
           u.source_refs.forEach(ref=>{const line=el('p','',ref.id+' · printed page '+ref.page);line.id=ref.id;refs.append(line);});source.append(refs);}
       } else if(u.kind==='matn') {
         source.append(el('div','',`Mishkāt al-Maṣābīḥ ${u.hadith} · James Robson, as supplied.`));
-        source.append(el('div','','Arabic: the Draft 04 collated reading. English wording and supplied notes are unchanged.'));
+        source.append(el('div','','Arabic: supplied original / Draft 04 collated reading. English wording and supplied notes are unchanged.'));
         const url=safeSourceURL(u.source_url);
         if(url){const a=el('a','','Source reference · Sunnah.com ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';source.append(a);}
       } else {
@@ -92,6 +92,8 @@
   function addUnit(article,u) {
     unitMap.set(u.id,u);units.push(u);
     const matn=u.kind==='matn';
+    const original=matn?(u.ar_supplied ?? u.arabic):ORIGINALS[u.id];
+    const hasVocalised=!matn || (u.ar_supplied!==undefined && !u.vocalisation_pending);
     const wrap=el('div',`unit-wrap ${matn?'hadith-unit':u.tone}`);wrap.id=u.id;
     const button=el('div',`arabic-unit${matn?' matn':''}`);button.tabIndex=0;button.dataset.unit=u.id;
     const meta=el('div','unit-meta');
@@ -101,14 +103,15 @@
       const hint=el('span','unit-action');hint.append(icon('translate'),el('span','full-hint','Read translation'));meta.append(hint);
     }
     button.append(meta);
-    const text=el('p','arabic-text',matn?u.arabic:ORIGINALS[u.id]);text.id='ar-'+u.id;text.lang='ar';text.dir='rtl';button.append(text);
-    if(!matn){
+    const text=el('p','arabic-text',original);text.id='ar-'+u.id;text.lang='ar';text.dir='rtl';button.append(text);
+    {
       const layers=el('div','arabic-layers');layers.setAttribute('role','group');layers.setAttribute('aria-label','Arabic version for '+u.id);
       for(const [layer,label] of [['original','Original Arabic'],['vocalised','Vocalised Arabic']]){
-        const control=el('button','arabic-layer',label);control.type='button';control.dataset.layer=layer;
+        const control=el('button','arabic-layer',layer==='vocalised'&&!hasVocalised?'Vocalised Arabic · pending':label);control.type='button';control.dataset.layer=layer;
+        control.disabled=layer==='vocalised'&&!hasVocalised;
         control.setAttribute('aria-controls',text.id);control.setAttribute('aria-pressed',String(layer==='original'));
         control.addEventListener('click',()=>{
-          text.textContent=layer==='original'?ORIGINALS[u.id]:u.arabic;
+          text.textContent=layer==='original'?original:u.arabic;
           layers.querySelectorAll('button').forEach(n=>n.setAttribute('aria-pressed',String(n===control)));
           updateProgress();
         });
@@ -147,13 +150,13 @@
       const heading=el('div','hadith-heading');const left=el('div','hadith-id',`MISHKĀT ${h}`);left.append(el('span','hadith-sub',`${h-5378} / 31 · ${sectionEn[s]}`));
       const h3=el('h3','',`الْحَدِيثُ ${arabicNumbers(h)}`);h3.lang='ar';h3.id='heading-'+h;heading.append(left,h3);article.append(heading);
       const hdata=DATA.hadith[String(h)];
-      addUnit(article,{...hdata,id:`${h}-M`,hadith:h,kind:'matn',arabic:hdata.ar_reading,tone:'',english:hdata.english_source_paragraphs.join('\n\n')});
+      addUnit(article,{...hdata,ar_supplied:ORIGINALS[h+'-M'],id:`${h}-M`,hadith:h,kind:'matn',arabic:hdata.ar_reading,tone:'',english:hdata.english_source_paragraphs.join('\n\n')});
       const label=el('div','commentary-label');label.append(el('span','','Mirqāt commentary'));const arLabel=el('bdi','','شَرْحُ الْمِرْقَاةِ');arLabel.lang='ar';arLabel.dir='rtl';label.append(arLabel);article.append(label);
       allData.filter(u=>u.hadith===h).forEach(u=>addUnit(article,{...u,kind:'commentary',arabic:u.reading_ar,tone:'tone-'+(ordinal.get(u.id)%4)}));
       frag.append(article);
     }
     root.append(frag);
-    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(ORIGINALS[u.id]||'')+' '+u.english+' '+(u.english_with_arabic||''));
+    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(u.ar_supplied||ORIGINALS[u.id]||'')+' '+u.english+' '+(u.english_with_arabic||''));
     makeNavigation();
   }
   function makeBookContent(){
@@ -169,7 +172,7 @@
       frag.append(article);
     }
     root.append(frag);
-    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(ORIGINALS[u.id]||'')+' '+u.english);
+    for(const u of units)u.searchText=normalise(u.id+' '+u.arabic+' '+(u.ar_supplied||ORIGINALS[u.id]||'')+' '+u.english);
     const nav=$('nav-list');
     for(const group of DATA.groups){
       const a=el('a','nav-entry');a.href='#'+group.reader_id;if(group.hadith)a.append(el('span','nav-number',String(group.hadith)));a.append(el('span','',group.title));

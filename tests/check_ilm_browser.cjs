@@ -24,7 +24,12 @@ const assert=require('node:assert/strict');
   for(let n=198;n<=280;n++){
    check(document.querySelector('.nav-entry[href="#h'+n+'"] .nav-number')?.textContent===String(n),n+' numbered navigation');
    const wrap=document.getElementById(n+'-M'),ar=wrap.querySelector('.arabic-unit'),en=ar.nextElementSibling;
-   check(ar.querySelector('.arabic-text').textContent===data.hadith[n].ar_reading,n+' matn');
+   check(ar.querySelector('.arabic-text').textContent===data.hadith[n].ar_supplied,n+' original matn');
+   const vocalised=wrap.querySelector('[data-layer=vocalised]');
+   check(vocalised.disabled===(n>=219),n+' vocalisation availability');
+   vocalised.click();
+   check(ar.querySelector('.arabic-text').textContent===(n>=219?data.hadith[n].ar_supplied:data.hadith[n].ar_reading),n+' supplied reading');
+   wrap.querySelector('[data-layer=original]').click();
    check(en.id==='en-'+n+'-M'&&!en.hidden,n+' adjacent English');
    check(!wrap.matches('[class*=tone-]')&&!wrap.querySelector('[class*=tone-]'),n+' no commentary colour');
    check(en.querySelector('.hadith-translation').textContent===data.hadith[n].english_source_paragraphs[0],n+' English');
