@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-10-22",
+  "files": [
+    {
+      "path": "data/taharah/sources/commentary-d1-d3.json",
+      "title": "Mirqat_Kitab_al_Taharah_D1_D3_Release_01.zip",
+      "url": "https://drive.google.com/file/d/1-sxl6R4b3BR-TDxqd9S_olVVKRF2SeKK/view",
+      "archive_member": "Mirqat_Kitab_al_Taharah_D1_D3_Working_Master_01.json",
+      "sha256": "5bc8d2c4e33975ee57c51074df9fbb2bb6a9cfe9acbca001e640aa4b6b78a5f4"
+    },
+    {
+      "path": "data/taharah/sources/matn-b1-b2.json",
+      "title": "Mirqat_Kitab_al_Taharah_B1_B2_Lexical_Review_04.zip",
+      "url": "https://drive.google.com/file/d/10O1Vw7TJlNRpndNKWUsgieF3edkjlQKW/view",
+      "archive_member": "Mirqat_Kitab_al_Taharah_B1_B2_Consolidated_Review_04.json",
+      "sha256": "3b387588f53fcafc4bda079063c0d0adfaf4820b6eb38fede3674b62d7977813"
+    },
+    {
+      "path": "data/taharah/sources/english-c1.json",
+      "title": "Mirqat_Kitab_al_Taharah_C1_Sunnah_Robson_Candidates_01.json",
+      "url": "https://drive.google.com/file/d/1tV7QQdbJyI8RvE1STADXznyni8yhYSqL/view",
+      "archive_member": null,
+      "sha256": "1947c3b537342a22dbd506f7daba9f366f635f487d2617605a32315fd6ba1707"
+    }
+  ],
+  "status": "D1–D3 complete drafts; B1/B2 lexical review; separate matn vocalisation, C2/C, D4/E pending."
+}

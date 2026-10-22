@@ -4,12 +4,12 @@ This repository is a **technical working copy** of the Kitāb al-Fitan and Kitā
 
 ## Combined online edition
 
-Open `src/mirqat-reader-current.html` for both books in one downloadable file.
-Use the book links above the reading text to switch between ʿIlm (198–280) and
-the supplied Fitān edition (31 hadiths, 179 commentary units). No companion
+Open `src/mirqat-reader-current.html` for all three books in one downloadable file.
+Use the book links above the reading text to switch between ʿIlm (198–280) the supplied Fitān edition (31 hadiths, 179 commentary units), and Ṭahārah
+(281–563, 339 commentary/structural units). No companion
 files or internet connection are required. Passage links include the book key
 (e.g. `#ilm/ILM-D-H248`); reload and browser Back/Forward retain that location.
-The common build command also rebuilds this combined edition, embedding both
+The common build command also rebuilds this combined edition, embedding all three
 standalone readers without changing their editorial payloads.
 
 ## First Codex task
@@ -58,6 +58,8 @@ node --check src/reader.js
 node tests/check_browser.cjs
 node tests/check_ilm_browser.cjs
 node tests/check_online_browser.cjs
+python3 tests/check_taharah_integrity.py
+node tests/check_taharah_browser.cjs
 ```
 
 The browser check requires Playwright and Google Chrome. Set `CHROME_PATH` for
@@ -118,3 +120,19 @@ bracketed wording differences at 246, 261 and 272; these are retained exactly.
 These issues were not silently corrected.
 Browser results are in `tests/ilm_browser_checks_current.json`; the Fitān
 regression results remain in `tests/browser_checks_current.json`.
+
+## Version 09 — Kitāb al-Ṭahārah
+
+`src/taharah-reader-current.html` and the combined reader include all 283 entries
+281–563 and 339 D1/D2/D3 units from the 22 October 2026 release, preserving
+56 structural units in source order. Frozen source files and archive-member
+provenance are in `data/taharah/`. All source notes and stable IDs are retained.
+Hadith English uses the supplied 258 C1 rows, with shared rows retained in full
+at each mapped entry and labelled Robson verification pending. Hadith Arabic
+uses scan-checked B1/B2 lexical Review 04. Its separate vocalisation remains
+pending; the older OCR-based vocalisation is not mixed into the newer wording.
+
+D4/E remain pending. Recorded anomalies include the H335 omission, the printed
+Qurʾanic reference at H447, and 34 B2 variant entries. They are not corrected by
+the reader build. The earlier partial status reports are superseded by the
+complete release archive; this software import does not certify the scholarship.

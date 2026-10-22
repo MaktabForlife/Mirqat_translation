@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mirqāt · Kitāb al-ʿIlm and Kitāb al-Fitan · Version 08</title>
+<title>Mirqāt · Kitāb al-ʿIlm, Kitāb al-Fitan and Kitāb al-Ṭahārah · Version 09</title>
 <style>html,body{margin:0;width:100%;height:100%;background:#fffefa}iframe{display:block;border:0;width:100%;height:100%}</style>
 </head>
 <body>
@@ -20,7 +20,7 @@
     const book=Object.hasOwn(books,key)?key:'ilm';
     const id=slash<0?'':path.slice(slash+1);
     pending=id;
-    if(book!==current){current=book;frame.title=book==='ilm'?'Kitāb al-ʿIlm reader':'Kitāb al-Fitan reader';frame.srcdoc=books[book];}
+    if(book!==current){current=book;frame.title=({'ilm':'Kitāb al-ʿIlm','fitan':'Kitāb al-Fitan','taharah':'Kitāb al-Ṭahārah'})[book]+' reader';frame.srcdoc=books[book];}
     else showPassage(id);
   }
   function showPassage(id){

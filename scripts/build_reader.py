@@ -29,6 +29,9 @@ if __name__ == '__main__':
     from build_ilm_reader import build as build_ilm, TARGET as ILM_TARGET
     ILM_TARGET.write_text(build_ilm())
     print('Built src/ilm-reader-current.html from frozen editorial records.')
+    from build_taharah_reader import build as build_taharah, TARGET as TAHARAH_TARGET
+    TAHARAH_TARGET.write_text(build_taharah())
+    print('Built Taharah: 283 matns and 339 commentary/structural units.')
     from build_online_reader import build as build_online, TARGET as ONLINE_TARGET
     ONLINE_TARGET.write_text(build_online())
-    print('Built src/mirqat-reader-current.html with both books embedded.')
+    print('Built src/mirqat-reader-current.html with all three books embedded.')

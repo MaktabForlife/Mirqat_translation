@@ -73,7 +73,7 @@
 </aside>
 <main class="reading-shell" id="top">
  <div class="reader">
-  <nav class="book-switch" aria-label="Choose a book"><a href="fitan-reader-current.html" aria-current="page">Kitāb al-Fitan</a><a href="ilm-reader-current.html">Kitāb al-ʿIlm · 198–280</a></nav>
+  <nav class="book-switch" aria-label="Choose a book"><a href="fitan-reader-current.html" aria-current="page">Kitāb al-Fitan</a><a href="ilm-reader-current.html">Kitāb al-ʿIlm · 198–280</a><a href="taharah-reader-current.html">Kitāb al-Ṭahārah · 281–563</a></nav>
   <section class="book-intro" aria-labelledby="book-title">
    <p class="basmalah" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
    <div class="overline">Mirqāt al-Mafātīḥ · Mullā ʿAlī al-Qārī</div>
@@ -181,11 +181,11 @@
       const p=el('p',u.english_pending?'translation-pending':'hadith-translation');
       if(u.english_source_markup){
         // Preserve supplied italics without interpreting arbitrary source HTML.
-        let target=p;
-        for(const part of u.english_source_markup.split(/(<i>|<\/i>)/)){
-          if(part==='<i>'){target=el('i');p.append(target);}
-          else if(part==='</i>')target=p;
-          else target.append(document.createTextNode(part));
+        const stack=[p];
+        for(const part of u.english_source_markup.split(/(<\/?(?:i|sup)>)/)){
+          if(part==='<i>'||part==='<sup>'){const node=el(part.slice(1,-1));stack.at(-1).append(node);stack.push(node);}
+          else if(part==='</i>'||part==='</sup>'){if(stack.length>1)stack.pop();}
+          else stack.at(-1).append(document.createTextNode(part));
         }
       } else p.textContent=u.english_pending || u.english;
       body.append(p);
@@ -294,7 +294,7 @@
       const heading=el('div','hadith-heading');const title=el('h2','',group.title);title.id='heading-'+group.reader_id;
       if(group.hadith)heading.append(el('div','hadith-id','MISHKĀT '+group.hadith));heading.append(title);article.setAttribute('aria-labelledby',title.id);article.append(heading);
       if(group.hadith){const h=group.hadith,u=DATA.hadith[String(h)];
-        addUnit(article,{...u,id:h+'-M',hadith:h,group_id:group.reader_id,kind:'matn',arabic:u.ar_reading,english:u.english_source_paragraphs.join('\n\n')});}
+        addUnit(article,{...u,id:u.id||h+'-M',hadith:h,group_id:group.reader_id,kind:'matn',arabic:u.ar_reading,english:u.english_source_paragraphs.join('\n\n')});}
       for(const id of group.unit_ids){const u=allData.find(u=>u.id===id);
         addUnit(article,{...u,group_id:group.reader_id,kind:u.kind || 'commentary',arabic:u.reading_ar,tone:'tone-'+(ordinal.get(id)%4)});}
       frag.append(article);

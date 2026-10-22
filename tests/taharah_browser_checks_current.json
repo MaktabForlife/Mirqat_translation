@@ -1,0 +1,18 @@
+{
+  "integrity": {
+    "matn": 283,
+    "commentary": 339,
+    "failures": []
+  },
+  "checks": [
+    "exact source layers and English",
+    "all commentary notes",
+    "neutral hadith blocks",
+    "pending matn vowels",
+    "keyboard and translation state",
+    "search through 563",
+    "reload with original Arabic"
+  ],
+  "javascriptErrors": [],
+  "externalRequests": []
+}

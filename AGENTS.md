@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository contains the technical online readers for Mirqāt al-Mafātīḥ, Kitāb al-Fitan and Kitāb al-ʿIlm (introduction and hadiths 198–280).
+This repository contains the technical online readers for Mirqāt al-Mafātīḥ, Kitāb al-Fitan Kitāb al-ʿIlm (198–280), and Kitāb al-Ṭahārah (281–563).
 
 Codex is authorised to change software, rendering, tests and build tooling.
 Codex is **not** authorised to make scholarly or editorial changes.
@@ -88,3 +88,12 @@ for hadiths 219–280, labelled “Robson verification pending”. Preserve its 
 wording, source mapping, paired-number coverage and unverified status. This
 supersedes the earlier instruction to leave these texts pending. Do not promote
 these texts to approved C or import other witnesses. Retain D4/E review status.
+
+## Kitāb al-Ṭahārah source boundary
+
+Use the frozen D1–D3 Release 01, B1/B2 lexical Review 04 and supplied C1
+working English under `data/taharah/`. Preserve all 339 commentary/structural
+units, 283 matns, source IDs, notes, variants and review statuses. C1 remains
+labelled Robson verification pending. Separate matn vocalisation is pending;
+do not substitute the earlier OCR-based vocalisation for scan-checked B1.
+D4/E review and the recorded H335 question remain open.

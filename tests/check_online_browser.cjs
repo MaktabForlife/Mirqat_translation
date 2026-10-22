@@ -13,19 +13,22 @@ const assert=require('node:assert/strict');
  const embedded=await page.locator('#embedded-books').textContent();
  for(const [key,html] of Object.entries(JSON.parse(embedded)))assert.equal(html,readFileSync(resolve(__dirname,'../src/'+key+'-reader-current.html'),'utf8'));
  const layouts=[];
- for(const key of ['fitan','ilm']){
+ for(const key of ['fitan','ilm','taharah']){
   await reader().locator('.book-switch a[href="'+key+'-reader-current.html"]').click();
-  await page.waitForFunction(count=>document.querySelector('iframe').contentWindow.MIRQAT_READER?.hadithCount===count,key==='fitan'?31:83);
+  await page.waitForFunction(count=>document.querySelector('iframe').contentWindow.MIRQAT_READER?.hadithCount===count,({fitan:31,ilm:83,taharah:283})[key]);
   const f=reader();
-  assert.equal(await f.locator('.unit-wrap').count(),key==='fitan'?210:289);
+  assert.equal(await f.locator('.unit-wrap').count(),({fitan:210,ilm:289,taharah:622})[key]);
   const matn=f.locator('.hadith-unit').first(),original=await matn.locator('.arabic-text').textContent();
   const english=await matn.locator('.hadith-english').textContent();
+  if(key==='taharah'){assert.equal(await matn.locator('[data-layer=vocalised]').isDisabled(),true);}
+  else {
   await matn.locator('[data-layer=vocalised]').press('Enter');
   assert.equal(await matn.locator('[data-layer=vocalised]').getAttribute('aria-pressed'),'true');
   assert.equal(await matn.locator('.hadith-english').textContent(),english);
   assert.equal(await matn.locator('.hadith-english').isVisible(),true);
   await matn.locator('[data-layer=original]').press('Space');
   assert.equal(await matn.locator('.arabic-text').textContent(),original);
+  }
   for(const width of [320,375,390,430,768,1024,1280,1440,1600]){
    await page.setViewportSize({width,height:900});
    await f.evaluate(()=>MIRQAT_READER.setStudy(true));
@@ -46,10 +49,10 @@ const assert=require('node:assert/strict');
  }
  await reader().locator('.book-switch a[href="fitan-reader-current.html"]').click();
  await page.waitForFunction(()=>document.querySelector('iframe').contentWindow.MIRQAT_READER?.hadithCount===31);
- await page.goBack();await page.waitForFunction(()=>document.querySelector('iframe').contentWindow.MIRQAT_READER?.hadithCount===83);
+ await page.goBack();await page.waitForFunction(()=>document.querySelector('iframe').contentWindow.MIRQAT_READER?.hadithCount===283);
  await page.goForward();await page.waitForFunction(()=>document.querySelector('iframe').contentWindow.MIRQAT_READER?.hadithCount===31);
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/mirqat-combined-mobile.png'});
  assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
- writeFileSync(resolve(__dirname,'online_browser_checks_current.json'),JSON.stringify({checks:['both exact embedded readers','hadith layer Enter/Space with English retained','114 hadiths','385 commentary units','offline book switching','deep links and reload','Back/Forward','original Arabic on reload'],layouts,javascriptErrors:errors,externalRequests:requests},null,2)+'\n');
- await browser.close();console.log('PASS: combined edition, 36 book/layer/viewport layouts, exact embedded readers, offline switching and deep links.');
+ writeFileSync(resolve(__dirname,'online_browser_checks_current.json'),JSON.stringify({checks:['three exact embedded readers','hadith layer Enter/Space with English retained','397 hadiths','724 commentary units','offline book switching','deep links and reload','Back/Forward','original Arabic on reload'],layouts,javascriptErrors:errors,externalRequests:requests},null,2)+'\n');
+ await browser.close();console.log('PASS: combined edition, 54 book/layer/viewport layouts, exact embedded readers, offline switching and deep links.');
 })().catch(e=>{console.error(e);process.exit(1)});

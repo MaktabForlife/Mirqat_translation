@@ -1,9 +1,9 @@
 {
   "checks": [
-    "both exact embedded readers",
+    "three exact embedded readers",
     "hadith layer Enter/Space with English retained",
-    "114 hadiths",
-    "385 commentary units",
+    "397 hadiths",
+    "724 commentary units",
     "offline book switching",
     "deep links and reload",
     "Back/Forward",
@@ -222,6 +222,114 @@
     },
     {
       "book": "ilm",
+      "width": 1600,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 320,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 320,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 375,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 375,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 390,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 390,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 430,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 430,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 768,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 768,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1024,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1024,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1280,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1280,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1440,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1440,
+      "layer": "vocalised",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
+      "width": 1600,
+      "layer": "original",
+      "overflow": false
+    },
+    {
+      "book": "taharah",
       "width": 1600,
       "layer": "vocalised",
       "overflow": false
