@@ -1,7 +1,8 @@
 """Reconcile supplied vowel marks onto B1 without transferring OCR consonants.
 
 This creates a review draft, not a claim of diplomatic or scholarly verification.
-Only exact consonant-token alignments in multiword context are eligible.
+Automatic transfers require exact multiword consonant alignment.
+The separate word-review register supplies explicit contextual decisions.
 """
 import difflib,hashlib,json,re
 from pathlib import Path
@@ -26,6 +27,9 @@ def reconcile():
     draft=json.loads((SRC/'matn-vocalisation-draft01.json').read_text())
     old={u['hadith_number']:u for u in draft['entries']}
     commentary={u['hadith_number']:u for u in json.loads((SRC/'commentary-d1-d3.json').read_text())['units'] if u['hadith_number']}
+    review=json.loads((ROOT/'data/taharah/matn_vocalisation_word_review.json').read_text())
+    decisions={(r['hadith'],r['word_index']):r for r in review['entries']}
+    assert len(decisions)==266
     entries=[]
     for u in matn:
         n=u['hadith_number'];text=u['b1_text'];tt=tokens(text);d=old[n]
@@ -45,7 +49,7 @@ def reconcile():
             for j in range(len(tt)-len(pt)+1):
                 if [base(w.group()) for w in tt[j:j+len(pt)]]==pb:
                     for k,w in enumerate(pt):formula[j+k]=(w,len(pt))
-        changes=[];issues=[];parts=[];end=0
+        changes=[];issues=[];resolved=[];parts=[];expected=[];end=0
         for i,m in enumerate(tt):
             original=m.group();chosen=original;source='corrected_B1';reason=None
             c=checked.get(i);o=prior.get(i)
@@ -60,6 +64,17 @@ def reconcile():
             if i in formula:
                 chosen,context=formula[i];source='editorial_formula_reconciliation';reason=None
                 issues=[x for x in issues if x['word_index']!=i]
+            decision=decisions.get((n,i))
+            text_correction=False
+            if decision:
+                assert decision['original']==original and decision['original_sha256']==sha(text), (n,i,'stale review')
+                chosen=decision['reading'];source='contextual_word_review';context=0
+                text_correction=decision['kind']=='authorised_reading_layer_text_correction'
+                assert base(chosen)==base(original) or (n,i,base(original),base(chosen)) in {
+                    (519,30,'والدراقطني','والدارقطني'),(556,12,'تقرب','يقرب')}
+                resolved.append(decision)
+                reason=None
+                issues=[x for x in issues if x['word_index']!=i]
             # Never remove/replace pointing already present in corrected B1.
             # An incompatible B1 mark makes this word unresolved rather than silently overwritten.
             def mark_map(word):
@@ -69,20 +84,21 @@ def reconcile():
                         if out:out[-1][1].add(ch)
                     else:out.append([ch,set()])
                 return out
-            if chosen!=original:
+            if chosen!=original and not text_correction:
                 a,b=mark_map(original),mark_map(chosen)
                 if any(am and not am<=bm for (_,am),(_,bm) in zip(a,b)):
                     reason='corrected_B1_mark_conflict';chosen=original;source='corrected_B1'
             if reason:
                 issues.append({'word_index':i,'base':base(original),'kind':reason,'disposition':'corrected B1 token retained; vowel review required'})
             if source!='corrected_B1':changes.append({'word_index':i,'start':m.start(),'end':m.end(),'original':original,'reading':chosen,'source':source,'matched_context_words':context})
-            parts.extend([text[end:m.start()],chosen]);end=m.end()
+            parts.extend([text[end:m.start()],chosen]);expected.extend([text[end:m.start()],chosen if text_correction else original]);end=m.end()
         parts.append(text[end:]);reading=''.join(parts)
-        assert base(reading)==base(text),(n,'consonants/spacing changed')
+        expected.append(text[end:])
+        assert base(reading)==base(''.join(expected)),(n,'unexpected consonant/spacing change')
         entries.append({'id':u['project_id'],'hadith_number':n,'original_sha256':sha(text),'reading_ar':reading,'reading_sha256':sha(reading),
-            'status':'reconciled_vocalisation_draft; independent vowel proof pending','word_count':len(tt),'transfers':changes,'review_issues':issues})
-    return {'version':'10','method':'Exact consonant alignment in runs of at least three words. Supplied D3 commentary context takes precedence; earlier matn marks transfer only without recorded conflicts. Corrected B1 consonants, spacing, punctuation and existing pointing are preserved. Four explicitly recorded recurring attribution/prayer formulas receive editorial vowel reconciliation. Unresolved tokens retain B1. This is a draft, not independent scholarly verification.',
+            'status':'reconciled_vocalisation_draft; independent vowel proof pending','word_count':len(tt),'transfers':changes,'review_issues':issues,'resolved_word_reviews':resolved})
+    return {'version':'10','method':'Exact consonant alignment in runs of at least three words. Supplied D3 commentary context takes precedence; earlier matn marks transfer only without recorded conflicts. Corrected B1 consonants, spacing, punctuation and existing pointing are preserved. Four explicitly recorded recurring attribution/prayer formulas receive editorial vowel reconciliation. The 266 initial unchanged-word issues have explicit contextual review decisions; two user-approved D3-supported spelling corrections affect only the reading layer (H519 and H556). Original B1 remains exact. The 1,018 other source differences remain recorded. This is a draft, not independent scholarly verification.',
         'entries':entries,'summary':{'entries':len(entries),'words':sum(u['word_count'] for u in entries),'transferred_words':sum(len(u['transfers']) for u in entries),
-        'review_issues':sum(len(u['review_issues']) for u in entries)}}
+        'reviewed_words':sum(len(u['resolved_word_reviews']) for u in entries),'reading_layer_text_corrections':2,'review_issues':sum(len(u['review_issues']) for u in entries)}}
 if __name__=='__main__':
     result=reconcile();TARGET.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(result['summary'])

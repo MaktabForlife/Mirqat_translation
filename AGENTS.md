@@ -99,4 +99,8 @@ reconciling hadith vowel marks against corrected B1 for Version 10. The separate
 reconciliation draft must preserve B1 consonants, spacing, punctuation and existing
 pointing, record provenance and unresolved readings, and remain labelled as a draft.
 Do not substitute earlier OCR wording for scan-checked B1.
+The user subsequently authorised contextual review of all 266 unchanged-word
+issues and specifically approved two D3-supported spelling corrections only in
+the vocalised layer: H519 والدراقطني → والدارقطني and H556 تقرب → يقرب.
+Keep Original Arabic byte-exact and preserve both corrections in the audit trail.
 D4/E review and the recorded H335 question remain open.

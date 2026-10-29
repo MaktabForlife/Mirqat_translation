@@ -153,3 +153,14 @@ review issue and content hash. Reproduce it with
 `python3 scripts/reconcile_taharah_vocalisation.py`, then run the normal build
 and integrity/browser checks. Frozen source files, English, commentary, stable
 IDs, variants and existing anomalies remain unchanged.
+
+### Version 10 contextual word review
+
+The 266 previously unchanged tokens now have individually recorded contextual
+readings in `data/taharah/matn_vocalisation_word_review.json`. This register keeps
+the original issue, B1 context, selected reading, rationale and source-unit link.
+Two user-approved spelling corrections apply only to the vocalised layer:
+H519 والدراقطني → والدارقطني and H556 تقرب → يقرب. Original Arabic is unchanged.
+The 1,018 other D3/earlier-draft differences remain recorded; independent
+scholarly verification is still pending. The historical Version 10 counts above
+describe the initial reconciliation, before this follow-up review.

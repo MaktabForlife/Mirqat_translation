@@ -1,42 +1,310 @@
-# Version 10 — Ṭahārah hadith vocalisation reconciliation
+# Version 10 — completed contextual word review
 
-29 October 2026. User-authorised derived reading layer for all 283 hadiths,
-281–563. This is a reconciliation draft; independent vowel proof is pending.
+29 October 2026. This follow-up supersedes the initial 266 unchanged-word gaps.
+All 266 have individually reviewed readings, now displayed in the online edition.
+Review was performed by Codex against the supplied commentary and B1 sentence
+context; independent scholarly verification remains pending.
 
-## Result
+## Result and editorial boundaries
 
-- 9,373 Arabic word tokens in corrected B1.
-- 9,107 tokens receive a context-aligned supplied reading or an explicitly
-  recorded editorial formula reading.
-- 266 tokens retain B1 because a safe transfer was unavailable: 160 earlier
-  draft mark conflicts and 106 without a matching vocalised context.
-- 1,018 further tokens have differences between D3 and the earlier draft;
-  D3 is used provisionally and both readings are recorded in the review notes.
-- Corrected B1 consonants, whitespace, punctuation and existing pointing
-  remain unchanged. No earlier OCR wording is imported.
+- All 283 hadiths (281–563) retain their exact B1 Original Arabic.
+- All 266 original gap tokens now have recorded readings; no gap token remains
+  unprocessed. The other 9,107 reading tokens are unchanged by this review.
+- 264 decisions affect vowel marks only. Two user-approved corrections change
+  spelling only in the vocalised layer: H519 والدراقطني → وَالدَّارَقُطْنِيُّ;
+  H556 تقرب → يَقْرُبْ. H556 رسول receives the corresponding nominative ending.
+- The 1,018 other differences between D3 and the earlier draft remain recorded
+  for review. Completion of these 266 gaps does not certify the whole layer.
+- Commentary, English, stable IDs, original source files and existing anomalies
+  (including H335, H447 and B2 variants) are unchanged. Robson and D4/E statuses
+  remain pending. The reader opens with Original Arabic by default.
 
-The reconciliation JSON records source and target hashes, every transferred
-word with offsets and provenance, and all 1,284 review issues. Source manifests
-retain exact downloaded bytes and Drive references. Four explicit recurring
-formulas (رواه مسلم، متفق عليه، أخرجه مسلم ومالك، وانتظار الصلاة) have vowel-only
-editorial reconciliation recorded separately from source transfers.
-
-## Reader and preservation
-
-Original Arabic remains the initial view. Every Ṭahārah matn has a working
-“Vocalised Arabic · draft” button; English remains directly below it.
-Review notes disclose unresolved tokens and competing readings. All 339
-Ṭahārah commentary/structural units, English, stable IDs, notes, variants and
-source statuses are preserved. Fitān and ʿIlm editorial payloads are unchanged.
-H335's recorded omission, H447's printed reference and the 34 B2 variant entries
-remain open. Robson verification and D4/E statuses are unchanged.
+The decision register retains each original issue, its B1 context, word index,
+selected reading, rationale, commentary-unit reference and source-text hash.
+Where a literal matching D3 occurrence exists, a comparison excerpt is retained.
+These excerpts are corroboration, not independent certification of D3 pointing.
+The exceptions were explicitly authorised by the user in this conversation.
 
 ## Validation
 
-Passed all three books' integrity checks, including four exact Ṭahārah source
-hashes, reproducible reconciliation and builds, original-pointing preservation,
-and exact B1 bases. Passed JavaScript syntax and whitespace checks. Passed all
-four browser suites, all 283 Ṭahārah matn toggles, and 54 combined reader layouts
-(three books × two layers × nine screen widths), with no horizontal overflow,
-JavaScript errors or external requests. Keyboard controls, English adjacency,
-offline book switching and passage links passed.
+All three books' integrity checks pass. Reconciliation and HTML rebuild exactly.
+The tests require all 266 decisions to be applied, preserve original pointing,
+and allow only the two specifically approved spelling changes. A comparison
+against the initial Version 10 release confirms that exactly the 266 previously
+flagged reading tokens changed. JavaScript syntax and whitespace checks pass.
+The browser checks cover all 283 matn toggles and 54 combined book/layer/width
+layouts, keyboard use, translation adjacency, offline navigation and deep links.
+
+## Reviewed words
+
+Word numbers below are one-based Arabic token positions in B1, including the
+narrator and attribution text. The JSON register uses zero-based positions.
+
+| Hadith | Word | Original | Reviewed reading |
+| --- | ---: | --- | --- |
+| 281 | 34 | حجة | حُجَّةٌ |
+| 282 | 38 | الرباط | الرِّبَاطُ |
+| 285 | 23 | بعينيه | بِعَيْنَيْهِ |
+| 287 | 1 | وعنه | وَعَنْهُ |
+| 289 | 16 | يتوضأ | يَتَوَضَّأُ |
+| 289 | 19 | فيسبغ | فَيُسْبِغُ |
+| 289 | 88 | الترمذي | التِّرْمِذِيُّ |
+| 292 | 8 | ولن | وَلَنْ |
+| 292 | 9 | تحصوا | تُحْصُوا |
+| 293 | 20 | الترمذي | التِّرْمِذِيُّ |
+| 295 | 20 | فالتبس | فَالْتَبَسَ |
+| 296 | 21 | يملؤه | يَمْلَؤُهُ |
+| 298 | 21 | وددت | وَدِدْتُ |
+| 298 | 52 | فقال | فَقَالَ |
+| 298 | 64 | دهم | دُهْمٍ |
+| 298 | 65 | بهم | بُهْمٍ |
+| 299 | 36 | مثل | مِثْلَ |
+| 299 | 72 | غيرهم | غَيْرُهُمْ |
+| 301 | 14 | صدقة | صَدَقَةٌ |
+| 302 | 12 | لمكان | لِمَكَانِ |
+| 302 | 13 | ابنته | ابْنَتِهِ |
+| 302 | 14 | فأمرت | فَأَمَرْتُ |
+| 302 | 20 | ويتوضأ | وَيَتَوَضَّأُ |
+| 303 | 6 | رسول | رَسُولُ |
+| 305 | 21 | تتوضأ | تَتَوَضَّأْ |
+| 306 | 16 | أخرج | أَخَرَجَ |
+| 309 | 18 | أدنى | أَدْنَى |
+| 311 | 10 | عن | عَنِ |
+| 311 | 20 | الترمذي | التِّرْمِذِيُّ |
+| 313 | 1 | ورواه | وَرَوَاهُ |
+| 313 | 2 | ابن | ابْنُ |
+| 313 | 3 | ماجه | مَاجَهْ |
+| 316 | 24 | رحمه | رَحِمَهُ |
+| 316 | 25 | الله | اللَّهُ |
+| 319 | 11 | فليتوضأ | فَلْيَتَوَضَّأْ |
+| 319 | 20 | ماجه | مَاجَهْ |
+| 319 | 21 | والدارمي | وَالدَّارِمِيُّ |
+| 320 | 28 | ماجه | مَاجَهْ |
+| 321 | 19 | فليتوضأ | فَلْيَتَوَضَّأْ |
+| 323 | 19 | ماجه | مَاجَهْ |
+| 323 | 45 | من | مِنْ |
+| 324 | 22 | ماجه | مَاجَهْ |
+| 326 | 11 | بطن | بَطْنَ |
+| 327 | 5 | شاة | شَاةٌ |
+| 329 | 18 | فقالا | فَقَالَا |
+| 334 | 16 | تستدبروها | تَسْتَدْبِرُوهَا |
+| 336 | 11 | لغائط | لِغَائِطٍ |
+| 336 | 30 | بعظم | بِعَظْمٍ |
+| 337 | 17 | والخبائث | وَالْخَبَائِثِ |
+| 338 | 10 | ليعذبان | لَيُعَذَّبَانِ |
+| 341 | 11 | ومن | وَمَنِ |
+| 341 | 12 | استجمر | اسْتَجْمَرَ |
+| 341 | 13 | فليوتر | فَلْيُوتِرْ |
+| 346 | 17 | الترمذي | التِّرْمِذِيُّ |
+| 347 | 14 | أعلمكم | أُعَلِّمُكُمْ |
+| 347 | 24 | بثلاثة | بِثَلَاثَةِ |
+| 347 | 37 | ماجه | مَاجَهْ |
+| 347 | 38 | والدارمي | وَالدَّارِمِيُّ |
+| 348 | 18 | أذى | أَذًى |
+| 349 | 18 | تجزئ | تُجْزِئُ |
+| 350 | 19 | الترمذي | التِّرْمِذِيُّ |
+| 351 | 31 | عظم | عَظْمٍ |
+| 351 | 34 | بريء | بَرِيءٌ |
+| 352 | 41 | فليبتلع | فَلْيَبْتَلِعْ |
+| 352 | 56 | يجد | يَجِدْ |
+| 352 | 63 | فليستدبره | فَلْيَسْتَدْبِرْهُ |
+| 352 | 82 | ماجه | مَاجَهْ |
+| 352 | 83 | والدارمي | وَالدَّارِمِيُّ |
+| 353 | 16 | يغتسل | يَغْتَسِلُ |
+| 355 | 15 | والظل | وَالظِّلِّ |
+| 355 | 19 | وابن | وَابْنُ |
+| 355 | 20 | ماجه | مَاجَهْ |
+| 356 | 11 | يضربان | يَضْرِبَانِ |
+| 356 | 16 | يتحدثان | يَتَحَدَّثَانِ |
+| 356 | 27 | ماجه | مَاجَهْ |
+| 357 | 12 | محتضرة | مُحْتَضَرَةٌ |
+| 357 | 27 | ماجه | مَاجَهْ |
+| 359 | 15 | ماجه | مَاجَهْ |
+| 359 | 16 | والدارمي | وَالدَّارِمِيُّ |
+| 363 | 23 | الترمذي | التِّرْمِذِيُّ |
+| 363 | 25 | ماجه | مَاجَهْ |
+| 363 | 31 | رحمه | رَحِمَهُ |
+| 365 | 24 | والنسائي | وَالنَّسَائِيُّ |
+| 366 | 23 | غرفة | غُرْفَةً |
+| 366 | 30 | الدارقطني | الدَّارَقُطْنِيُّ |
+| 366 | 31 | وأحمد | وَأَحْمَدُ |
+| 367 | 18 | فانتضح | فَانْتَضِحْ |
+| 368 | 23 | تتوضأ | تَتَوَضَّأُ |
+| 368 | 40 | ماجه | مَاجَهْ |
+| 369 | 48 | ماجه | مَاجَهْ |
+| 370 | 14 | الخراءة | الْخَرَاءَةَ |
+| 370 | 32 | رجيع | رَجِيعٌ |
+| 370 | 34 | عظم | عَظْمٌ |
+| 371 | 4 | بن | بْنِ |
+| 371 | 21 | انظروا | انْظُرُوا |
+| 374 | 19 | ابن | ابْنُ |
+| 377 | 4 | هانئ | هَانِئٍ |
+| 379 | 16 | اللحية | اللِّحْيَةِ |
+| 379 | 39 | المضمضة | الْمَضْمَضَةَ |
+| 379 | 47 | اللحية | اللِّحْيَةِ |
+| 381 | 10 | مرضاة | مَرْضَاةٌ |
+| 382 | 15 | والتعطر | وَالتَّعَطُّرُ |
+| 382 | 19 | الترمذي | التِّرْمِذِيُّ |
+| 384 | 9 | فأبدأ | فَأَبْدَأُ |
+| 386 | 20 | أحفي | أُحْفِيَ |
+| 386 | 21 | مقدم | مُقَدَّمَ |
+| 388 | 17 | فأوحي | فَأُوحِيَ |
+| 390 | 56 | موضعه | مَوْضِعِهِ |
+| 393 | 36 | المرفقين | الْمِرْفَقَيْنِ |
+| 393 | 55 | يرجع | يَرْجِعَ |
+| 394 | 17 | بإناء | بِإِنَاءٍ |
+| 394 | 18 | فأكفأ | فَأَكْفَأَ |
+| 394 | 66 | الكعبين | الْكَعْبَيْنِ |
+| 398 | 30 | تلوح | تَلُوحُ |
+| 399 | 14 | الخفين | الْخُفَّيْنِ |
+| 400 | 19 | وتنعله | وَتَنَعُّلِهِ |
+| 405 | 4 | صبرة | صَبِرَةَ |
+| 406 | 16 | الترمذي | التِّرْمِذِيُّ |
+| 407 | 3 | بن | بْنِ |
+| 410 | 52 | الترمذي | التِّرْمِذِيُّ |
+| 411 | 40 | طهوره | طُهُورُهُ |
+| 413 | 9 | باطنهما | بَاطِنِهِمَا |
+| 413 | 11 | وظاهرهما | وَظَاهِرِهِمَا |
+| 414 | 3 | بنت | بِنْتِ |
+| 414 | 18 | وأذنيه | وَأُذُنَيْهِ |
+| 414 | 29 | أذنيه | أُذُنَيْهِ |
+| 418 | 20 | بني | بُنَيَّ |
+| 418 | 41 | الطهور | الطُّهُورِ |
+| 419 | 10 | شيطانا | شَيْطَانًا |
+| 420 | 13 | بطرف | بِطَرَفِ |
+| 420 | 16 | الترمذي | التِّرْمِذِيُّ |
+| 422 | 21 | مرتين | مَرَّتَيْنِ |
+| 422 | 22 | وثلاثا | وَثَلَاثًا |
+| 422 | 23 | ثلاثا | ثَلَاثًا |
+| 428 | 17 | يطهر | يَطْهُرُ |
+| 428 | 18 | جسده | جَسَدُهُ |
+| 429 | 15 | أصبعه | أُصْبُعِهِ |
+| 432 | 11 | الترمذي | التِّرْمِذِيُّ |
+| 433 | 16 | الحق | الْحَقِّ |
+| 433 | 28 | فغطت | فَغَطَّتْ |
+| 435 | 10 | الجنابة | الْجَنَابَةِ |
+| 435 | 24 | فيخلل | فَيُخَلِّلُ |
+| 435 | 26 | أصول | أُصُولَ |
+| 435 | 29 | يصب | يَصُبُّ |
+| 436 | 11 | بثوب | بِثَوْبٍ |
+| 438 | 17 | قال | قَالَ |
+| 438 | 31 | فتطهرين | فَتَطْهُرِينَ |
+| 441 | 44 | النساء | النِّسَاءَ |
+| 442 | 18 | الترمذي | التِّرْمِذِيُّ |
+| 443 | 15 | البشر | الْبَشَرَ |
+| 443 | 29 | وجيه | وَجِيهٍ |
+| 443 | 31 | شيخ | شَيْخٌ |
+| 443 | 32 | ليس | لَيْسَ |
+| 443 | 33 | بذاك | بِذَاكَ |
+| 444 | 24 | و | وَ |
+| 445 | 18 | والنسائي | وَالنَّسَائِيُّ |
+| 446 | 9 | جنب | جُنُبٌ |
+| 446 | 10 | يجتزئ | يَجْتَزِئُ |
+| 451 | 20 | فأتيت | فَأَتَيْتُ |
+| 451 | 24 | جئت | جِئْتُ |
+| 451 | 61 | وكذا | وَكَذَا |
+| 454 | 17 | فليتوضأ | فَلْيَتَوَضَّأْ |
+| 455 | 9 | بغسل | بِغُسْلٍ |
+| 456 | 2 | عائشة | عَائِشَةَ |
+| 457 | 30 | الترمذي | التِّرْمِذِيُّ |
+| 459 | 2 | عائشة | عَائِشَةَ |
+| 460 | 24 | شيء | شَيْءٌ |
+| 461 | 17 | الترمذي | التِّرْمِذِيُّ |
+| 469 | 24 | مرة | مَرَّةً |
+| 472 | 2 | حميد | حُمَيْدٍ |
+| 472 | 45 | كل | كُلَّ |
+| 474 | 13 | أحدكم | أَحَدُكُمْ |
+| 480 | 38 | مجهول | مَجْهُولٌ |
+| 485 | 2 | أم | أُمِّ |
+| 491 | 23 | ماء | مَاءٍ |
+| 491 | 25 | بعثتم | بُعِثْتُمْ |
+| 492 | 2 | أنس | أَنَسٍ |
+| 492 | 49 | والقذر | وَالْقَذَرِ |
+| 493 | 27 | تصنع | تَصْنَعُ |
+| 493 | 38 | فلتقرصه | فَلْتَقْرُصْهُ |
+| 493 | 39 | ثم | ثُمَّ |
+| 493 | 40 | لتنضحه | لِتَنْضَحْهُ |
+| 495 | 2 | الأسود | الْأَسْوَدِ |
+| 497 | 5 | محصن | مِحْصَنٍ |
+| 499 | 22 | ميتة | مَيْتَةٌ |
+| 501 | 39 | وأبو | وَأَبُو |
+| 501 | 40 | داود | دَاوُدَ |
+| 503 | 16 | طهور | طَهُورٌ |
+| 505 | 5 | كرب | كَرِبَ |
+| 506 | 5 | أسامة | أُسَامَةَ |
+| 507 | 12 | كتاب | كِتَابِ |
+| 507 | 21 | جيد | جَيِّدٌ |
+| 508 | 20 | الترمذي | التِّرْمِذِيُّ |
+| 510 | 24 | ميتة | مَيْتَةٌ |
+| 511 | 2 | سلمة | سَلَمَةَ |
+| 511 | 4 | المحبق | الْمُحَبِّقِ |
+| 511 | 19 | فسأل | فَسَأَلَ |
+| 511 | 27 | ميتة | مَيْتَةٌ |
+| 513 | 15 | الموطئ | الْمَوْطِئِ |
+| 513 | 16 | رواه | رَوَاهُ |
+| 513 | 17 | الترمذي | التِّرْمِذِيُّ |
+| 514 | 9 | وتدبر | وَتُدْبِرُ |
+| 517 | 4 | هانىء | هَانِىءٍ |
+| 518 | 10 | تبوك | تَبُوكَ |
+| 518 | 26 | أهريق | أُهَرِيقُ |
+| 518 | 34 | وعليه | وَعَلَيْهِ |
+| 518 | 39 | يحسر | يَحْسِرُ |
+| 518 | 41 | ذراعيه | ذِرَاعَيْهِ |
+| 518 | 96 | يتأخر | يَتَأَخَّرُ |
+| 518 | 99 | فأدرك | فَأَدْرَكَ |
+| 518 | 100 | النبي | النَّبِيُّ |
+| 519 | 31 | والدراقطني | وَالدَّارَقُطْنِيُّ |
+| 520 | 2 | صفوان | صَفْوَانَ |
+| 521 | 35 | فقالا | فَقَالَا |
+| 521 | 37 | بصحيح | بِصَحِيحٍ |
+| 522 | 12 | الترمذي | التِّرْمِذِيُّ |
+| 523 | 1 | وعنه | وَعَنْهُ |
+| 524 | 13 | أنسيت | أَنَسِيتَ |
+| 526 | 7 | فضلنا | فُضِّلْنَا |
+| 526 | 12 | صفوفنا | صُفُوفُنَا |
+| 528 | 15 | أجنبت | أَجْنَبْتُ |
+| 529 | 12 | وهو | وَهُوَ |
+| 529 | 23 | فحته | فَحَتَّهُ |
+| 529 | 49 | ذكره | ذَكَرَهُ |
+| 530 | 11 | وضوء | وُضُوءُ |
+| 531 | 42 | قتلهم | قَتَلَهُمُ |
+| 531 | 58 | ويعصب | وَيَعْصِبَ |
+| 536 | 25 | ثم | ثُمَّ |
+| 541 | 10 | ميتا | مَيِّتًا |
+| 541 | 11 | فليغتسل | فَلْيَغْتَسِلْ |
+| 541 | 22 | فليتوضأ | فَلْيَتَوَضَّأْ |
+| 544 | 64 | ثارت | ثَارَتْ |
+| 544 | 85 | وليمس | وَلْيَمَسَّ |
+| 544 | 105 | ووسع | وَوُسِّعَ |
+| 545 | 22 | النبي | النَّبِيَّ |
+| 545 | 83 | فاستقبلتهما | فَاسْتَقْبَلَتْهُمَا |
+| 545 | 86 | لبن | لَبَنٍ |
+| 546 | 18 | فأتزر | فَأَتَّزِرُ |
+| 551 | 16 | كاهنا | كَاهِنًا |
+| 552 | 13 | من | مِنِ |
+| 552 | 14 | امرأتي | امْرَأَتِي |
+| 554 | 17 | الترمذي | التِّرْمِذِيُّ |
+| 556 | 13 | تقرب | يَقْرُبْ |
+| 556 | 14 | رسول | رَسُولُ |
+| 556 | 15 | الله | اللَّهِ |
+| 557 | 2 | عائشة | عَائِشَةَ |
+| 557 | 28 | ذلك | ذَلِكَ |
+| 557 | 38 | أدبرت | أَدْبَرَتْ |
+| 558 | 26 | ذلك | ذَلِكَ |
+| 558 | 35 | فإنما | فَإِنَّمَا |
+| 559 | 45 | لتستثفر | لِتَسْتَثْفِرْ |
+| 559 | 48 | لتصل | لِتُصَلِّ |
+| 560 | 40 | الترمذي | التِّرْمِذِيُّ |
+| 561 | 2 | حمنة | حَمْنَةَ |
+| 561 | 4 | جحش | جَحْشٍ |
+| 561 | 35 | منعتني | مَنَعَتْنِي |
+| 561 | 71 | بأمرين | بِأَمْرَيْنِ |
+| 561 | 120 | ذلك | ذَلِكَ |
+| 561 | 121 | يجزئك | يُجْزِئُكِ |
+| 561 | 130 | يطهرن | يَطْهُرْنَ |
+| 561 | 135 | قويت | قَوِيتِ |
+| 561 | 147 | والعصر | وَالْعَصْرِ |
+| 562 | 30 | لتجلس | لِتَجْلِسْ |
+| 562 | 34 | رأت | رَأَتْ |
+| 562 | 37 | الماء | الْمَاءِ |
+| 562 | 52 | وتوضأ | وَتَوَضَّأْ |

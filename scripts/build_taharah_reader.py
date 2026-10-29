@@ -35,7 +35,9 @@ def reader_data():
         if u['b2_text']:notes.append('Bushrā comparison text: '+u['b2_text'])
         reading=readings[u['project_id']]
         issues=reading['review_issues']
-        notes.append('Hadith vocalisation: reconciliation draft; independent vowel proof pending. Corrected B1 wording is unchanged.')
+        notes.append('Hadith vocalisation: contextual review draft; independent vowel proof pending. Original Arabic preserves corrected B1 exactly. Two documented reading-layer spelling corrections occur in H519 and H556.')
+        for review in reading['resolved_word_reviews']:
+            notes.append('Completed vowel review · word '+str(review['word_index']+1)+': '+review['original']+' → '+review['reading']+'. '+review['rationale'])
         for issue in issues:
             detail='; D3: '+issue['D3']+'; earlier draft: '+issue['earlier_draft'] if 'D3' in issue else ''
             notes.append('Vowel review · word '+str(issue['word_index']+1)+' ('+issue['base']+'): '+issue['kind'].replace('_',' ')+detail+'. '+issue['disposition'])
@@ -45,7 +47,7 @@ def reader_data():
             'english_urn':r['englishURN_raw'],'english_source_number':r['hadithNumber_raw'],'notes':notes,
             'source_lines':['Mirqāt volume 2 · PDF pages '+', '.join(map(str,u['mirqat_pages'])),u['b1_status'],
                 'Bushrā · PDF pages '+', '.join(map(str,u['bushra_pages'])),u['b2_status'],
-                'Version 10 hadith vocalisation reconciles supplied D3 and earlier draft marks onto corrected B1; uncertain readings are recorded below. Independent vowel proof remains pending.',
+                'Version 10 revised: the 266 previously unresolved words have contextual review decisions. Original B1 is preserved; H519/H556 have documented user-approved reading-layer spelling corrections. Other source differences and independent vowel proof remain pending.',
                 'English source number '+r['hadithNumber_raw']+' · URN '+r['englishURN_raw'],
                 *(['Supplied English covers '+', '.join(r['project_ids'])+'; retained in full at each entry.'] if len(r['project_ids'])>1 else [])]}
     return data,originals
