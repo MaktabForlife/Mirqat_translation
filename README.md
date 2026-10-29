@@ -164,3 +164,17 @@ H519 والدراقطني → والدارقطني and H556 تقرب → يقر�
 The 1,018 other D3/earlier-draft differences remain recorded; independent
 scholarly verification is still pending. The historical Version 10 counts above
 describe the initial reconciliation, before this follow-up review.
+
+### Current Version 10 source — Editorial Vocalisation 03
+
+The user-approved archive `Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.zip`
+now supplies all 283 matn readings. The exact ZIP, master JSON, errata, report and
+focused review queue are frozen under `data/taharah/sources/` with Drive
+provenance and hashes. Earlier reconciliation and 266-word decisions are retained
+as historical audit records, superseded as the active vocalisation source.
+
+Original Arabic still shows B1 Review 04 unchanged. Vocalised Arabic uses the
+archive’s H518/H528 errata and retains the previously approved H519/H556
+corrections as explicit overlays. Source proof statuses, variants and H335/H356
+open decisions appear in the notes. The layer remains labelled draft: approval
+for inclusion does not certify final printed-vowel or scholarly proof.

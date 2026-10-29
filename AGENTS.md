@@ -104,3 +104,14 @@ issues and specifically approved two D3-supported spelling corrections only in
 the vocalised layer: H519 والدراقطني → والدارقطني and H556 تقرب → يقرب.
 Keep Original Arabic byte-exact and preserve both corrections in the audit trail.
 D4/E review and the recorded H335 question remain open.
+
+## Approved Editorial Vocalisation 03
+
+The user supplied and approved the 29 October 2026 Editorial Vocalisation 03
+archive for reader inclusion. Use its 283 vocalised matns instead of the earlier
+local reconciliation. Keep its bytes and per-entry proof statuses unchanged;
+approval for inclusion is not final scholarly certification. Retain H335/H356
+open decisions. Apply its documented H518/H528 errata in the vocalised layer
+only, and retain the user-approved H519/H556 reading-layer corrections. Original
+Arabic remains B1 Review 04. Earlier local reconciliation records remain
+historical audit data, not the active source. Do not fetch new witnesses.

@@ -1,5 +1,6 @@
 """Render supplied Taharah drafts without editing their wording or review status."""
 import json
+from taharah_editorial_vocalisation import source as vocalisation_source, reading as editorial_reading, notes as editorial_notes
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SOURCES=ROOT/'data/taharah/sources'
@@ -12,8 +13,7 @@ def reader_data():
     master=read('commentary-d1-d3.json')
     matn=read('matn-b1-b2.json')
     english=read('english-c1.json')
-    reconciled=json.loads((ROOT/'data/taharah/matn_vocalisation_reconciled.json').read_text())
-    readings={u['id']:u for u in reconciled['entries']}
+    readings={u['project_id']:u for u in vocalisation_source()['entries']}
     english_by_id={pid:r for r in english['records'] for pid in r['project_ids']}
     data={'book':{'key':'taharah','version':'Version 10 · D1–D3 Release 01 / B1–B2 Review 04'},'groups':[],'hadith':{},'commentary':[]}
     originals={}
@@ -34,20 +34,14 @@ def reader_data():
         notes=[u['b2_note']]+[note_text(n) for n in u['anomalies']]+[note_text(n) for n in u['unresolved']]
         if u['b2_text']:notes.append('Bushrā comparison text: '+u['b2_text'])
         reading=readings[u['project_id']]
-        issues=reading['review_issues']
-        notes.append('Hadith vocalisation: contextual review draft; independent vowel proof pending. Original Arabic preserves corrected B1 exactly. Two documented reading-layer spelling corrections occur in H519 and H556.')
-        for review in reading['resolved_word_reviews']:
-            notes.append('Completed vowel review · word '+str(review['word_index']+1)+': '+review['original']+' → '+review['reading']+'. '+review['rationale'])
-        for issue in issues:
-            detail='; D3: '+issue['D3']+'; earlier draft: '+issue['earlier_draft'] if 'D3' in issue else ''
-            notes.append('Vowel review · word '+str(issue['word_index']+1)+' ('+issue['base']+'): '+issue['kind'].replace('_',' ')+detail+'. '+issue['disposition'])
-        data['hadith'][str(u['hadith_number'])]={'id':u['project_id'],'ar_supplied':u['b1_text'],'ar_reading':reading['reading_ar'],
+        notes.extend(editorial_notes(reading))
+        data['hadith'][str(u['hadith_number'])]={'id':u['project_id'],'ar_supplied':u['b1_text'],'ar_reading':editorial_reading(reading),'vocalisation_source_status':reading['status'],'vocalisation_open_decisions':reading['unresolved_word_indexes'],
             'vocalisation_pending':False,'vocalisation_draft':True,'english_source_paragraphs':[plain],'english_source_markup':raw,
             'english_status':'Robson verification pending · supplied C1 working translation',
             'english_urn':r['englishURN_raw'],'english_source_number':r['hadithNumber_raw'],'notes':notes,
             'source_lines':['Mirqāt volume 2 · PDF pages '+', '.join(map(str,u['mirqat_pages'])),u['b1_status'],
                 'Bushrā · PDF pages '+', '.join(map(str,u['bushra_pages'])),u['b2_status'],
-                'Version 10 revised: the 266 previously unresolved words have contextual review decisions. Original B1 is preserved; H519/H556 have documented user-approved reading-layer spelling corrections. Other source differences and independent vowel proof remain pending.',
+                'Version 10 · approved Editorial Vocalisation 03. Original B1 remains unchanged; archive errata H518/H528 and previously approved H519/H556 corrections affect the vocalised layer only. Supplied proof statuses and open decisions are retained.',
                 'English source number '+r['hadithNumber_raw']+' · URN '+r['englishURN_raw'],
                 *(['Supplied English covers '+', '.join(r['project_ids'])+'; retained in full at each entry.'] if len(r['project_ids'])>1 else [])]}
     return data,originals

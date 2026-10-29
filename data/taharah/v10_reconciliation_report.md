@@ -1,3 +1,7 @@
+> Historical report: the local reconciliation described below has been superseded
+> in the reader by the user-approved Editorial Vocalisation 03 archive. See
+> `v10_editorial03_import_report.md` for the current source and status.
+
 # Version 10 — completed contextual word review
 
 29 October 2026. This follow-up supersedes the initial 266 unchanged-word gaps.

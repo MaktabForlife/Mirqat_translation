@@ -28,7 +28,47 @@
       "url": "https://drive.google.com/file/d/1KsP6NUjYnysQjuPPlFfZ6hNyxr-hDZS1/view",
       "retrieved": "2026-10-29",
       "sha256": "5dad65e670f7b41d8b0a3b9b2e168df6abe7e003084da3f83ce13c2ea0c6748c"
+    },
+    {
+      "path": "data/taharah/sources/matn-editorial-vocalisation03.json",
+      "title": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.zip",
+      "url": "https://drive.google.com/file/d/1vZQXX1q6DJhytFLEg9LVKm8-65InK8ap/view",
+      "archive_member": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.json",
+      "retrieved": "2026-10-29",
+      "sha256": "6aded51487b4e8384c7beeb188497080d50871c0773a1d5c85e5d21988204d5e"
+    },
+    {
+      "path": "data/taharah/sources/matn-editorial-vocalisation03-errata.json",
+      "title": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.zip",
+      "url": "https://drive.google.com/file/d/1vZQXX1q6DJhytFLEg9LVKm8-65InK8ap/view",
+      "archive_member": "Taharah_B1_04_to_05_Errata.json",
+      "retrieved": "2026-10-29",
+      "sha256": "6b7f476058ff3d490ada70dec80b5716b82d8845817af2456394ac680324edb8"
+    },
+    {
+      "path": "data/taharah/sources/matn-editorial-vocalisation03-report.md",
+      "title": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.zip",
+      "url": "https://drive.google.com/file/d/1vZQXX1q6DJhytFLEg9LVKm8-65InK8ap/view",
+      "archive_member": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03_Report.md",
+      "retrieved": "2026-10-29",
+      "sha256": "c50f2ae4f73f086d26894289226e60f094e7d718e99aa07600f83876ad6fd0f3"
+    },
+    {
+      "path": "data/taharah/sources/matn-editorial-vocalisation03-focused-queue.json",
+      "title": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.zip",
+      "url": "https://drive.google.com/file/d/1vZQXX1q6DJhytFLEg9LVKm8-65InK8ap/view",
+      "archive_member": "Taharah_B1_Vocalisation_371_470_03_Review_Queue.json",
+      "retrieved": "2026-10-29",
+      "sha256": "edce1bdb1d1d660fdaee239e239192f4d18232822bd64abf2fa040f838bb104c"
+    },
+    {
+      "path": "data/taharah/sources/matn-editorial-vocalisation03.zip",
+      "title": "Mirqat_Kitab_al_Taharah_B1_Matn_Editorial_Vocalisation_03.zip",
+      "url": "https://drive.google.com/file/d/1vZQXX1q6DJhytFLEg9LVKm8-65InK8ap/view",
+      "archive_member": null,
+      "retrieved": "2026-10-29",
+      "sha256": "a9572cb12a2e67fb79b436504052e4baf1be7eeeab790e517d9519d417d3c741"
     }
   ],
-  "status": "D1–D3 complete drafts; B1/B2 lexical review; Version 10 derived matn vocalisation reconciliation draft; independent vowel proof, C2/C, D4/E pending."
+  "status": "Editorial Vocalisation 03 approved for reader inclusion; its per-entry draft/proof statuses and H335/H356 open decisions remain. Original B1/B2, C2/C and D4/E source statuses unchanged."
 }

@@ -1,0 +1,24 @@
+{
+  "base_review_sha256": "3b387588f53fcafc4bda079063c0d0adfaf4820b6eb38fede3674b62d7977813",
+  "application": "Apply each old/new substring pair once to the specified 04 b1_text, in listed order; the result is the corrected 05 lexical base used for vocalisation_03. The uploaded 04 file is unchanged.",
+  "entries": [
+    {
+      "hadith_number": 518,
+      "old_substrings": ["معه إدواة قبل الفجر", "من الإدواة،"],
+      "new_substrings": ["معه إداوة قبل الفجر", "من الإداوة،"],
+      "mirqat_page": 200,
+      "mirqat_page_sha256": "962cc103a55fa831305d4899791678196a4d528d0a31c7cc82f40978832d2699",
+      "note": "Mirqāt p200 prints إداوة and الإداوة; 04 transposed alif and wāw in both words. This is a lexical correction, not vowel transfer."
+    },
+    {
+      "hadith_number": 528,
+      "old_substrings": ["فذكرت ذلك للنبي ولللق. فقال:"],
+      "new_substrings": ["فذكرت ذلك للنبي ﷺ. فقال:"],
+      "mirqat_page": 211,
+      "mirqat_page_sha256": "45bb6491d9f94f526dd3bfa0e8706ad8478a2123b79d5f6965acbbe5ecf8a5f6",
+      "bushra_page": 103,
+      "bushra_page_sha256": "ae30bdf0bb1f41009620700bb68340ebb22910cf9dc20002b9705557f5639fb0",
+      "note": "Mirqāt p211 and Bushrā p103 show the ﷺ honorific after النبي. The 04 string ولللق is OCR corruption of that glyph; retained Mirqāt's sentence punctuation."
+    }
+  ]
+}

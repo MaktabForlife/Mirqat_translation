@@ -1,0 +1,3907 @@
+{
+  "range": "371–470",
+  "exact_base_fully_marked_bushra_sunnah_agreements": 1975,
+  "retained_exceptions": [
+    {
+      "hadith_number": 428,
+      "word_index": 18,
+      "lexical_token": "كله",
+      "chosen": "كُلُّهُ",
+      "bushra_and_sunnah": "كُلَّهُ",
+      "reason": "Mirqat commentary p123 explicitly calls كله emphasis of subject جسده; nominative chosen."
+    }
+  ],
+  "focused_review_queue_size": 327,
+  "review_states": {
+    "provisional_requires_scan_review": 239,
+    "scan_checked_editorial_reading": 47,
+    "editorial_reading_without_token_scan_proof": 21,
+    "full_entry_scan_reviewed": 20
+  },
+  "focused_review_queue": [
+    {
+      "hadith_number": 371,
+      "word_index": 27,
+      "lexical_token": "النبي",
+      "draft_token": "النَّبِيُّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 371,
+      "word_index": 29,
+      "lexical_token": "ويحك",
+      "draft_token": "وَيْحَكَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 78,
+        "note": "Mirqat scan and vocative context; final vowel editorially supplied."
+      }
+    },
+    {
+      "hadith_number": 371,
+      "word_index": 30,
+      "lexical_token": "أما",
+      "draft_token": "أَمَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 78,
+        "note": "Mirqat scan and interrogative context; completes partially bare token."
+      }
+    },
+    {
+      "hadith_number": 371,
+      "word_index": 51,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 78,
+        "note": "Mirqat citation context; case ending editorially supplied."
+      }
+    },
+    {
+      "hadith_number": 373,
+      "word_index": 0,
+      "lexical_token": "وعن",
+      "draft_token": "وَعَنْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 373,
+      "word_index": 26,
+      "lexical_token": "بل",
+      "draft_token": "بَلْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 374,
+      "word_index": 4,
+      "lexical_token": "النبي",
+      "draft_token": "النَّبِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 374,
+      "word_index": 11,
+      "lexical_token": "لله",
+      "draft_token": "لِلَّهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 374,
+      "word_index": 18,
+      "lexical_token": "ابن",
+      "draft_token": "ابْنُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 85,
+        "note": "Bushra citation scan; nominative subject of رواه."
+      }
+    },
+    {
+      "hadith_number": 374,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 85,
+        "note": "Editorial case after Ibn; Mirqat spells final ta marbuta, Sunnah witness spells ha. No exact-letter vowel transfer."
+      }
+    },
+    {
+      "hadith_number": 375,
+      "word_index": 20,
+      "lexical_token": "روثة",
+      "draft_token": "رَوْثَةِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 376,
+      "word_index": 20,
+      "lexical_token": "كل",
+      "draft_token": "كُلِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 86,
+        "note": "Bushra citation scan; genitive after عند."
+      }
+    },
+    {
+      "hadith_number": 376,
+      "word_index": 22,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 86,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 376,
+      "word_index": 23,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 377,
+      "word_index": 10,
+      "lexical_token": "يبدأ",
+      "draft_token": "يَبْدَأُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 378,
+      "word_index": 1,
+      "lexical_token": "حذيفة",
+      "draft_token": "حُذَيْفَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 378,
+      "word_index": 13,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 86,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 378,
+      "word_index": 14,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 379,
+      "word_index": 38,
+      "lexical_token": "المضمضة",
+      "draft_token": "الْمَضْمَضَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 86,
+        "note": "Bushra matn scan; predicate of تكون."
+      }
+    },
+    {
+      "hadith_number": 381,
+      "word_index": 6,
+      "lexical_token": "السواك",
+      "draft_token": "السِّوَاكُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 381,
+      "word_index": 9,
+      "lexical_token": "مرضاة",
+      "draft_token": "مَرْضَاةٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 381,
+      "word_index": 15,
+      "lexical_token": "والنسائي",
+      "draft_token": "وَالنَّسَائِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 382,
+      "word_index": 7,
+      "lexical_token": "أربع",
+      "draft_token": "أَرْبَعٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 382,
+      "word_index": 18,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 383,
+      "word_index": 2,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 383,
+      "word_index": 3,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 383,
+      "word_index": 4,
+      "lexical_token": "عنها",
+      "draft_token": "عَنْهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 383,
+      "word_index": 11,
+      "lexical_token": "ليل",
+      "draft_token": "لَيْلٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 384,
+      "word_index": 6,
+      "lexical_token": "السواك",
+      "draft_token": "السِّوَاكَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 384,
+      "word_index": 8,
+      "lexical_token": "فأبدأ",
+      "draft_token": "فَأَبْدَأُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 3,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 4,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 5,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 9,
+      "lexical_token": "أراني",
+      "draft_token": "أَرَانِي",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 12,
+      "lexical_token": "أتسوك",
+      "draft_token": "أَتَسَوَّكُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 21,
+      "lexical_token": "السواك",
+      "draft_token": "السِّوَاكَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 31,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 86,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 385,
+      "word_index": 32,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 386,
+      "word_index": 9,
+      "lexical_token": "جبريل",
+      "draft_token": "جَبْرِيلُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 386,
+      "word_index": 19,
+      "lexical_token": "أحفي",
+      "draft_token": "أُحْفِيَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 386,
+      "word_index": 20,
+      "lexical_token": "مقدم",
+      "draft_token": "مُقَدَّمَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 387,
+      "word_index": 10,
+      "lexical_token": "السواك",
+      "draft_token": "السِّوَاكِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 388,
+      "word_index": 16,
+      "lexical_token": "فأوحي",
+      "draft_token": "فَأُوحِيَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 388,
+      "word_index": 20,
+      "lexical_token": "السواك",
+      "draft_token": "السِّوَاكِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 388,
+      "word_index": 24,
+      "lexical_token": "السواك",
+      "draft_token": "السِّوَاكَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 390,
+      "word_index": 21,
+      "lexical_token": "كل",
+      "draft_token": "كُلِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 93,
+        "note": "Mirqat matn scan; genitive after عند."
+      }
+    },
+    {
+      "hadith_number": 390,
+      "word_index": 38,
+      "lexical_token": "وسواكه",
+      "draft_token": "وَسِوَاكُهُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 93,
+        "note": "Mirqat matn scan; nominative subject."
+      }
+    },
+    {
+      "hadith_number": 391,
+      "word_index": 0,
+      "lexical_token": "عن",
+      "draft_token": "عَنْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 391,
+      "word_index": 25,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment",
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 87,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 391,
+      "word_index": 26,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 392,
+      "word_index": 10,
+      "lexical_token": "فتوضأ",
+      "draft_token": "فَتَوَضَّأَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 392,
+      "word_index": 18,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 87,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 393,
+      "word_index": 4,
+      "lexical_token": "زيد",
+      "draft_token": "زَيْدِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 88,
+        "note": "Bushra matn scan; genitive in ابن زيد."
+      }
+    },
+    {
+      "hadith_number": 393,
+      "word_index": 5,
+      "lexical_token": "بن",
+      "draft_token": "بْنِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 393,
+      "word_index": 6,
+      "lexical_token": "عاصم",
+      "draft_token": "عَاصِمٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 393,
+      "word_index": 23,
+      "lexical_token": "واستنثر",
+      "draft_token": "وَاسْتَنْثَرَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 393,
+      "word_index": 35,
+      "lexical_token": "المرفقين",
+      "draft_token": "الْمِرْفَقَيْنِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 394,
+      "word_index": 10,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأْ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 394,
+      "word_index": 17,
+      "lexical_token": "فأكفأ",
+      "draft_token": "فَأَكْفَأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 394,
+      "word_index": 30,
+      "lexical_token": "كف",
+      "draft_token": "كَفِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 394,
+      "word_index": 65,
+      "lexical_token": "الكعبين",
+      "draft_token": "الْكَعْبَيْنِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 394,
+      "word_index": 71,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 395,
+      "word_index": 5,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 395,
+      "word_index": 6,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 395,
+      "word_index": 7,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 395,
+      "word_index": 9,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 395,
+      "word_index": 13,
+      "lexical_token": "مرة",
+      "draft_token": "مَرَّةٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 397,
+      "word_index": 14,
+      "lexical_token": "فتوضأ",
+      "draft_token": "فَتَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 398,
+      "word_index": 20,
+      "lexical_token": "قوم",
+      "draft_token": "قَوْمٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 88,
+        "note": "Bushra matn scan; subject of تعجل."
+      }
+    },
+    {
+      "hadith_number": 398,
+      "word_index": 25,
+      "lexical_token": "عجال",
+      "draft_token": "عُجَّالٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 398,
+      "word_index": 29,
+      "lexical_token": "تلوح",
+      "draft_token": "تَلُوحُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 398,
+      "word_index": 32,
+      "lexical_token": "الماء",
+      "draft_token": "الْمَاءُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 399,
+      "word_index": 13,
+      "lexical_token": "الخفين",
+      "draft_token": "الْخُفَّيْنِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 400,
+      "word_index": 19,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 88,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 400,
+      "word_index": 20,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 401,
+      "word_index": 0,
+      "lexical_token": "عن",
+      "draft_token": "عَنْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 401,
+      "word_index": 2,
+      "lexical_token": "هريرة",
+      "draft_token": "هُرَيْرَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 402,
+      "word_index": 17,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 402,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 89,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 405,
+      "word_index": 3,
+      "lexical_token": "صبرة",
+      "draft_token": "صَبْرَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 405,
+      "word_index": 28,
+      "lexical_token": "والترمذي",
+      "draft_token": "وَالتِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 405,
+      "word_index": 29,
+      "lexical_token": "والنسائي",
+      "draft_token": "وَالنِّسَائِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 405,
+      "word_index": 32,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 89,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 406,
+      "word_index": 0,
+      "lexical_token": "وعن",
+      "draft_token": "وَعَنْ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 406,
+      "word_index": 15,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 406,
+      "word_index": 18,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 89,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 406,
+      "word_index": 21,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 407,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 89,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 408,
+      "word_index": 1,
+      "lexical_token": "أنس",
+      "draft_token": "أَنَسٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 408,
+      "word_index": 17,
+      "lexical_token": "لحيته",
+      "draft_token": "لِحْيَتَهُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 89,
+        "note": "Bushra matn scan; object of خلل."
+      }
+    },
+    {
+      "hadith_number": 409,
+      "word_index": 11,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 2,
+      "lexical_token": "حية",
+      "draft_token": "حَيَّةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 6,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 7,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 8,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 9,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 47,
+      "lexical_token": "طهور",
+      "draft_token": "طُهُورُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 410,
+      "word_index": 51,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 411,
+      "word_index": 9,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 411,
+      "word_index": 10,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 411,
+      "word_index": 11,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 411,
+      "word_index": 13,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 411,
+      "word_index": 35,
+      "lexical_token": "طهور",
+      "draft_token": "طُهُورِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 411,
+      "word_index": 39,
+      "lexical_token": "طهوره",
+      "draft_token": "طُهُورُهُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 412,
+      "word_index": 12,
+      "lexical_token": "كف",
+      "draft_token": "كَفٍّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 412,
+      "word_index": 20,
+      "lexical_token": "والترمذي",
+      "draft_token": "وَالتِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 413,
+      "word_index": 7,
+      "lexical_token": "وأذنيه",
+      "draft_token": "وَأُذُنَيْهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 413,
+      "word_index": 8,
+      "lexical_token": "باطنهما",
+      "draft_token": "بَاطِنِهِمَا",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 413,
+      "word_index": 10,
+      "lexical_token": "وظاهرهما",
+      "draft_token": "وَظَاهِرِهُمَا",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 2,
+      "lexical_token": "بنت",
+      "draft_token": "بِنْتِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 112,
+        "note": "Mirqat matn scan; genitive in al-Rubayyi bint Muawwith."
+      }
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 6,
+      "lexical_token": "النبي",
+      "draft_token": "النَّبِيِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 12,
+      "lexical_token": "أقبل",
+      "draft_token": "أَقْبَلَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 17,
+      "lexical_token": "وأذنيه",
+      "draft_token": "وَأُذُنَيْهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 25,
+      "lexical_token": "أصبعيه",
+      "draft_token": "أُصْبُعَيْهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 27,
+      "lexical_token": "حجري",
+      "draft_token": "حُجْرَيْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 28,
+      "lexical_token": "أذنيه",
+      "draft_token": "أُذْنَيْهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 414,
+      "word_index": 38,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 113,
+        "note": "Editorial diptote case of Ibn Maja in citation; keep Mirqat ta marbuta spelling."
+      }
+    },
+    {
+      "hadith_number": 415,
+      "word_index": 8,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 415,
+      "word_index": 14,
+      "lexical_token": "فضل",
+      "draft_token": "فَضْلِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 12,
+      "lexical_token": "الأذنان",
+      "draft_token": "الْأُذْنَانِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 17,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 90,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 20,
+      "lexical_token": "والترمذي",
+      "draft_token": "وَالتِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 26,
+      "lexical_token": "الأذنان",
+      "draft_token": "الْأُذْنَانِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 30,
+      "lexical_token": "قول",
+      "draft_token": "قَوْلٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 32,
+      "lexical_token": "أمامة",
+      "draft_token": "أُمَامَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 416,
+      "word_index": 35,
+      "lexical_token": "قول",
+      "draft_token": "قَوْلِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 417,
+      "word_index": 10,
+      "lexical_token": "أعرابي",
+      "draft_token": "أَعْرَابِيِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 417,
+      "word_index": 13,
+      "lexical_token": "يسأله",
+      "draft_token": "يَسْأَلُهُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 417,
+      "word_index": 14,
+      "lexical_token": "عن",
+      "draft_token": "عَنْ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 417,
+      "word_index": 34,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 90,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 418,
+      "word_index": 9,
+      "lexical_token": "اللهم",
+      "draft_token": "اللَّهُمَّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 90,
+        "note": "Vocative formula, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 418,
+      "word_index": 19,
+      "lexical_token": "بني",
+      "draft_token": "بُنَيِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 418,
+      "word_index": 36,
+      "lexical_token": "الأمة",
+      "draft_token": "الْأَمَّةِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 418,
+      "word_index": 40,
+      "lexical_token": "الطهور",
+      "draft_token": "الطُّهُورِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 418,
+      "word_index": 47,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 90,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 419,
+      "word_index": 17,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 419,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 90,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 419,
+      "word_index": 21,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 420,
+      "word_index": 5,
+      "lexical_token": "رأيت",
+      "draft_token": "رَأَيْتُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 420,
+      "word_index": 15,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 421,
+      "word_index": 16,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 421,
+      "word_index": 23,
+      "lexical_token": "معاذ",
+      "draft_token": "مُعَاذِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 422,
+      "word_index": 13,
+      "lexical_token": "جابر",
+      "draft_token": "جَابِرٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 422,
+      "word_index": 16,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 422,
+      "word_index": 26,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 422,
+      "word_index": 28,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 91,
+        "note": "Editorial diptote case of Ibn Maja in citation; keep Mirqat ta marbuta spelling."
+      }
+    },
+    {
+      "hadith_number": 423,
+      "word_index": 9,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 91,
+        "note": "Past verb, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 424,
+      "word_index": 9,
+      "lexical_token": "توضأ",
+      "draft_token": "تَوَضَّأَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 425,
+      "word_index": 7,
+      "lexical_token": "لكل",
+      "draft_token": "لِكُلِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 425,
+      "word_index": 17,
+      "lexical_token": "الدارمي",
+      "draft_token": "الدَّارِمِيُّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 91,
+        "note": "Citation name, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 5,
+      "lexical_token": "حبان",
+      "draft_token": "حَبَّانَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 91,
+        "note": "Bushra p91 scan of name in Muhammad ibn Yahya ibn Habban; diptote proper name."
+      }
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 6,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 7,
+      "lexical_token": "قلت",
+      "draft_token": "قُلْتُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 8,
+      "lexical_token": "لعبيد",
+      "draft_token": "لِعُبَيْدِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 44,
+      "lexical_token": "عامر",
+      "draft_token": "عَامِرِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 91,
+        "note": "Bushra p91 scan of name in Abi Amir al-Ghasil, chosen without tanwin as printed."
+      }
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 69,
+      "lexical_token": "كل",
+      "draft_token": "كُلِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 426,
+      "word_index": 87,
+      "lexical_token": "ففعله",
+      "draft_token": "فَفَعَلَهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 427,
+      "word_index": 22,
+      "lexical_token": "سرف",
+      "draft_token": "سَرَفٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 427,
+      "word_index": 33,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 91,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 428,
+      "word_index": 7,
+      "lexical_token": "عن",
+      "draft_token": "عَنْ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 429,
+      "word_index": 14,
+      "lexical_token": "أصبعه",
+      "draft_token": "أُصْبُعِهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 91,
+        "note": "Genitive noun in fi usbu'ihi, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 429,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 91,
+        "note": "Editorial diptote case of Ibn Maja in citation; keep Mirqat ta marbuta spelling."
+      }
+    },
+    {
+      "hadith_number": 430,
+      "word_index": 4,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 430,
+      "word_index": 5,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 430,
+      "word_index": 6,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 430,
+      "word_index": 9,
+      "lexical_token": "أحدكم",
+      "draft_token": "أَحَدُكُمْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 430,
+      "word_index": 21,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 91,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 430,
+      "word_index": 22,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 431,
+      "word_index": 12,
+      "lexical_token": "مسلم",
+      "draft_token": "مُسْلِمُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 431,
+      "word_index": 14,
+      "lexical_token": "الشيخ",
+      "draft_token": "الشَّيْخُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 432,
+      "word_index": 10,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 433,
+      "word_index": 15,
+      "lexical_token": "الحق",
+      "draft_token": "الْحَقِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 433,
+      "word_index": 23,
+      "lexical_token": "نعم",
+      "draft_token": "نَعَمْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 433,
+      "word_index": 35,
+      "lexical_token": "أو",
+      "draft_token": "أَوَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 433,
+      "word_index": 36,
+      "lexical_token": "تحتلم",
+      "draft_token": "تَحْتَلِمُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Indicative verb, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 433,
+      "word_index": 45,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 433,
+      "word_index": 46,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 434,
+      "word_index": 5,
+      "lexical_token": "إن",
+      "draft_token": "إِنَّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 434,
+      "word_index": 14,
+      "lexical_token": "فمن",
+      "draft_token": "فَمِنْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 1,
+      "lexical_token": "عائشة",
+      "draft_token": "عَائِشَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 2,
+      "lexical_token": "قالت",
+      "draft_token": "قَالَتْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 4,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 5,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 9,
+      "lexical_token": "الجنابة",
+      "draft_token": "الْجُنَابَةِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 23,
+      "lexical_token": "فيخلل",
+      "draft_token": "فَيُخَلِّلُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 32,
+      "lexical_token": "غرفات",
+      "draft_token": "غَرَفَاتٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 38,
+      "lexical_token": "جسده",
+      "draft_token": "جَسَدِهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Genitive noun with pronoun, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 40,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 435,
+      "word_index": 41,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 436,
+      "word_index": 10,
+      "lexical_token": "بثوب",
+      "draft_token": "بِثَوْبِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 436,
+      "word_index": 19,
+      "lexical_token": "شماله",
+      "draft_token": "شِمَالِهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 436,
+      "word_index": 52,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 436,
+      "word_index": 53,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 8,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Object of verb in context, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 10,
+      "lexical_token": "عن",
+      "draft_token": "عَنْ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 17,
+      "lexical_token": "ثم",
+      "draft_token": "ثُمَّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 28,
+      "lexical_token": "بها",
+      "draft_token": "بِهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 29,
+      "lexical_token": "فقال",
+      "draft_token": "فَقَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 34,
+      "lexical_token": "أتطهر",
+      "draft_token": "أَتَطَهَّرُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 130,
+        "note": "Mirqat p130 repeats same question verb as earlier occurrence; prior doubled ta shadda was an OCR-transfer error."
+      }
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 35,
+      "lexical_token": "بها",
+      "draft_token": "بِهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 40,
+      "lexical_token": "بها",
+      "draft_token": "بِهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 41,
+      "lexical_token": "فاجتذبتها",
+      "draft_token": "فَاجْتَذَبْتُهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 44,
+      "lexical_token": "لها",
+      "draft_token": "لَهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 49,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 437,
+      "word_index": 50,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 438,
+      "word_index": 13,
+      "lexical_token": "أفأنقضه",
+      "draft_token": "أَفَأَنْقُضُهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 92,
+        "note": "Question verb with object pronoun, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 438,
+      "word_index": 30,
+      "lexical_token": "فتطهرين",
+      "draft_token": "فَتَطْهُرِينَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 439,
+      "word_index": 12,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 439,
+      "word_index": 13,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 1,
+      "lexical_token": "معاذة",
+      "draft_token": "مُعَاذَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Proper name in accusative context, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 3,
+      "lexical_token": "قالت",
+      "draft_token": "قَالَتْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 4,
+      "lexical_token": "عائشة",
+      "draft_token": "عَائِشَةُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Proper name as subject, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 11,
+      "lexical_token": "إناء",
+      "draft_token": "إِنَاءِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 12,
+      "lexical_token": "واحد",
+      "draft_token": "وَاحِدٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 25,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 440,
+      "word_index": 26,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 0,
+      "lexical_token": "عن",
+      "draft_token": "عَنْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 2,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 3,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 4,
+      "lexical_token": "عنها",
+      "draft_token": "عَنْهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 24,
+      "lexical_token": "ولا",
+      "draft_token": "وَلَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 32,
+      "lexical_token": "أم",
+      "draft_token": "أُمُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Bushra matn scan; Umm Sulaym is subject of قالت."
+      }
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 33,
+      "lexical_token": "سليم",
+      "draft_token": "سُلَيْمٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 43,
+      "lexical_token": "النساء",
+      "draft_token": "النَّسَاءَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 47,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 441,
+      "word_index": 53,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 93,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 442,
+      "word_index": 0,
+      "lexical_token": "وعنها",
+      "draft_token": "وَعَنْهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 442,
+      "word_index": 17,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 442,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 93,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 443,
+      "word_index": 2,
+      "lexical_token": "هريرة",
+      "draft_token": "هُرَيْرَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 443,
+      "word_index": 14,
+      "lexical_token": "البشر",
+      "draft_token": "الْبَشَرَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Bushra matn scan; object of أنقوا."
+      }
+    },
+    {
+      "hadith_number": 443,
+      "word_index": 20,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 93,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 443,
+      "word_index": 28,
+      "lexical_token": "وجيه",
+      "draft_token": "وَجِيهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 443,
+      "word_index": 32,
+      "lexical_token": "بذاك",
+      "draft_token": "بِذَاكَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 5,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 6,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 7,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 12,
+      "lexical_token": "شعرة",
+      "draft_token": "شَعْرَةٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 23,
+      "lexical_token": "و",
+      "draft_token": "وَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Standalone coordinating waw in Mirqat lexical text and Bushra context."
+      }
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 25,
+      "lexical_token": "علي",
+      "draft_token": "عَلِيٌّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "mirqat_visual_editorial_review",
+        "page": 136,
+        "note": "Subject of وقال علي after direct quotation; nominative, not prior genitive."
+      }
+    },
+    {
+      "hadith_number": 444,
+      "word_index": 43,
+      "lexical_token": "والدارمي",
+      "draft_token": "وَالدَّارِمِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 445,
+      "word_index": 10,
+      "lexical_token": "يتوضأ",
+      "draft_token": "يَتَوَضَّأُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Indicative verb, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 445,
+      "word_index": 17,
+      "lexical_token": "والنسائي",
+      "draft_token": "وَالنَّسَائِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 445,
+      "word_index": 19,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 93,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 446,
+      "word_index": 0,
+      "lexical_token": "وعنها",
+      "draft_token": "وَعَنْهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 446,
+      "word_index": 3,
+      "lexical_token": "النبي",
+      "draft_token": "النَّبِيَّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 447,
+      "word_index": 2,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 447,
+      "word_index": 3,
+      "lexical_token": "إن",
+      "draft_token": "إِنَّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 447,
+      "word_index": 16,
+      "lexical_token": "ثم",
+      "draft_token": "ثُمَّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 93,
+        "note": "Sequence particle, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 447,
+      "word_index": 17,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 447,
+      "word_index": 24,
+      "lexical_token": "والتستر",
+      "draft_token": "وَالتَّسَتُّرَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 448,
+      "word_index": 1,
+      "lexical_token": "أبي",
+      "draft_token": "أُبَيِّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 448,
+      "word_index": 17,
+      "lexical_token": "رواه",
+      "draft_token": "رَوَاهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 448,
+      "word_index": 18,
+      "lexical_token": "الترمذي",
+      "draft_token": "التَّرْمِذِيُّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 448,
+      "word_index": 19,
+      "lexical_token": "وأبو",
+      "draft_token": "وَأَبُو",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 448,
+      "word_index": 20,
+      "lexical_token": "داود",
+      "draft_token": "دَاوُدَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 448,
+      "word_index": 21,
+      "lexical_token": "والدارمي",
+      "draft_token": "وَالدَّارِمِيُّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 94,
+        "note": "Citation name, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 449,
+      "word_index": 2,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 449,
+      "word_index": 3,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 449,
+      "word_index": 4,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 449,
+      "word_index": 7,
+      "lexical_token": "رجل",
+      "draft_token": "رَجُلٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 449,
+      "word_index": 19,
+      "lexical_token": "موضع",
+      "draft_token": "مَوْضِعٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 449,
+      "word_index": 35,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 94,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 1,
+      "lexical_token": "ابن",
+      "draft_token": "ابْنِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 11,
+      "lexical_token": "مرات",
+      "draft_token": "مَرَّاتٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 17,
+      "lexical_token": "مرات",
+      "draft_token": "مَرَّاتٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 20,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 22,
+      "lexical_token": "يسأل",
+      "draft_token": "يَسْأَلُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 27,
+      "lexical_token": "وغسل",
+      "draft_token": "وَغُسْلُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 32,
+      "lexical_token": "من",
+      "draft_token": "مِنَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 450,
+      "word_index": 33,
+      "lexical_token": "البول",
+      "draft_token": "الْبَوْلِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 3,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 4,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 5,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 19,
+      "lexical_token": "فأتيت",
+      "draft_token": "فَأْتَيْتُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 44,
+      "lexical_token": "ولمسلم",
+      "draft_token": "وَلِمُسْلِمِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 54,
+      "lexical_token": "جنب",
+      "draft_token": "جُنْبٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 60,
+      "lexical_token": "وكذا",
+      "draft_token": "وَكَذًا",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 451,
+      "word_index": 61,
+      "lexical_token": "البخاري",
+      "draft_token": "الْبُخَارِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 94,
+        "note": "Citation name, checked against Bushra page."
+      }
+    },
+    {
+      "hadith_number": 452,
+      "word_index": 0,
+      "lexical_token": "وعن",
+      "draft_token": "وَعَنِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 452,
+      "word_index": 1,
+      "lexical_token": "ابن",
+      "draft_token": "ابْنِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 452,
+      "word_index": 24,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 94,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 452,
+      "word_index": 25,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 453,
+      "word_index": 10,
+      "lexical_token": "جنبا",
+      "draft_token": "جُنُبًا",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 453,
+      "word_index": 19,
+      "lexical_token": "متفق",
+      "draft_token": "مُتَّفَقٌ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 94,
+        "note": "Independent citation formula visually checked in Bushra."
+      }
+    },
+    {
+      "hadith_number": 453,
+      "word_index": 20,
+      "lexical_token": "عليه",
+      "draft_token": "عَلَيْهِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 454,
+      "word_index": 2,
+      "lexical_token": "سعيد",
+      "draft_token": "سَعِيدٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 455,
+      "word_index": 8,
+      "lexical_token": "بغسل",
+      "draft_token": "بِغُسْلٍ",
+      "reasons": [
+        "sunnah_nonexact_alignment",
+        "witness_vowel_variant"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 94,
+        "note": "Bushra matn scan; prepositional phrase بغسل واحد."
+      }
+    },
+    {
+      "hadith_number": 456,
+      "word_index": 1,
+      "lexical_token": "عائشة",
+      "draft_token": "عَائِشَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 456,
+      "word_index": 2,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 456,
+      "word_index": 3,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 456,
+      "word_index": 4,
+      "lexical_token": "عنها",
+      "draft_token": "عَنْهَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 456,
+      "word_index": 27,
+      "lexical_token": "تعالى",
+      "draft_token": "تَعَالَى",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 457,
+      "word_index": 13,
+      "lexical_token": "أن",
+      "draft_token": "أَنْ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 457,
+      "word_index": 29,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 457,
+      "word_index": 33,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 95,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 1,
+      "lexical_token": "عائشة",
+      "draft_token": "عَائِشَةَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 8,
+      "lexical_token": "الجنابة",
+      "draft_token": "الْجَنَابَةِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 17,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 95,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 21,
+      "lexical_token": "وفي",
+      "draft_token": "وَفِي",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 22,
+      "lexical_token": "شرح",
+      "draft_token": "شَرْحِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 23,
+      "lexical_token": "السنة",
+      "draft_token": "السُّنَّةِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 24,
+      "lexical_token": "بلفظ",
+      "draft_token": "بِلَفْظِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 459,
+      "word_index": 25,
+      "lexical_token": "المصابيح",
+      "draft_token": "الْمَصَابِيحِ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 2,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 3,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 4,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 18,
+      "lexical_token": "يحجبه",
+      "draft_token": "يَحْجُبُهُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 20,
+      "lexical_token": "يحجزه",
+      "draft_token": "يَحْجُزُهُ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 23,
+      "lexical_token": "شيء",
+      "draft_token": "شَيْءٌ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 460,
+      "word_index": 32,
+      "lexical_token": "ماجة",
+      "draft_token": "مَاجَةَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "editorial_reading_without_token_scan_proof",
+      "review_evidence": {
+        "source": "editorial_grammar_formula",
+        "page": 95,
+        "note": "Editorial Ibn Maja citation case; Mirqat retains ta marbuta spelling, external witness has ha."
+      }
+    },
+    {
+      "hadith_number": 461,
+      "word_index": 1,
+      "lexical_token": "ابن",
+      "draft_token": "ابْنِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 461,
+      "word_index": 16,
+      "lexical_token": "الترمذي",
+      "draft_token": "التِّرْمِذِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 463,
+      "word_index": 2,
+      "lexical_token": "رضي",
+      "draft_token": "رَضِيَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 463,
+      "word_index": 3,
+      "lexical_token": "الله",
+      "draft_token": "اللّٰهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 463,
+      "word_index": 4,
+      "lexical_token": "عنه",
+      "draft_token": "عَنْهُ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 464,
+      "word_index": 1,
+      "lexical_token": "عمار",
+      "draft_token": "عَمَّارِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 465,
+      "word_index": 7,
+      "lexical_token": "محمد",
+      "draft_token": "مُحَمَّدِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 465,
+      "word_index": 21,
+      "lexical_token": "حزم",
+      "draft_token": "حَزْمٍ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "scan_checked_editorial_reading",
+      "review_evidence": {
+        "source": "bushra_visual_editorial_review",
+        "page": 95,
+        "note": "Bushra matn scan; genitive proper name."
+      }
+    },
+    {
+      "hadith_number": 466,
+      "word_index": 40,
+      "lexical_token": "إذا",
+      "draft_token": "إِذَا",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 466,
+      "word_index": 50,
+      "lexical_token": "بيديه",
+      "draft_token": "بِيَدَيْهِ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 467,
+      "word_index": 19,
+      "lexical_token": "وقال",
+      "draft_token": "وَقَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 467,
+      "word_index": 32,
+      "lexical_token": "النسائي",
+      "draft_token": "النَّسَائِيُّ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 469,
+      "word_index": 46,
+      "lexical_token": "الماء",
+      "draft_token": "الْمَاءَ",
+      "reasons": [
+        "witness_vowel_variant"
+      ],
+      "review_state": "provisional_requires_scan_review",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 470,
+      "word_index": 3,
+      "lexical_token": "قال",
+      "draft_token": "قَالَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 470,
+      "word_index": 4,
+      "lexical_token": "إن",
+      "draft_token": "إِنَّ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    },
+    {
+      "hadith_number": 470,
+      "word_index": 5,
+      "lexical_token": "رسول",
+      "draft_token": "رَسُولَ",
+      "reasons": [
+        "sunnah_nonexact_alignment"
+      ],
+      "review_state": "full_entry_scan_reviewed",
+      "review_evidence": null
+    }
+  ],
+  "note": "The queue identifies witness variants and non-exact Sunnah alignments; all 99 partial entries still require full independent vowel review."
+}
