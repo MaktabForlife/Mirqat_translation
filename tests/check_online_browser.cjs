@@ -20,8 +20,7 @@ const assert=require('node:assert/strict');
   assert.equal(await f.locator('.unit-wrap').count(),({fitan:210,ilm:289,taharah:622})[key]);
   const matn=f.locator('.hadith-unit').first(),original=await matn.locator('.arabic-text').textContent();
   const english=await matn.locator('.hadith-english').textContent();
-  if(key==='taharah'){assert.equal(await matn.locator('[data-layer=vocalised]').isDisabled(),true);}
-  else {
+  {
   await matn.locator('[data-layer=vocalised]').press('Enter');
   assert.equal(await matn.locator('[data-layer=vocalised]').getAttribute('aria-pressed'),'true');
   assert.equal(await matn.locator('.hadith-english').textContent(),english);

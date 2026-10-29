@@ -21,7 +21,14 @@
       "url": "https://drive.google.com/file/d/1tV7QQdbJyI8RvE1STADXznyni8yhYSqL/view",
       "archive_member": null,
       "sha256": "1947c3b537342a22dbd506f7daba9f366f635f487d2617605a32315fd6ba1707"
+    },
+    {
+      "path": "data/taharah/sources/matn-vocalisation-draft01.json",
+      "title": "Mirqat_Kitab_al_Taharah_B1_Matn_Vocalisation_Draft_01.json",
+      "url": "https://drive.google.com/file/d/1KsP6NUjYnysQjuPPlFfZ6hNyxr-hDZS1/view",
+      "retrieved": "2026-10-29",
+      "sha256": "5dad65e670f7b41d8b0a3b9b2e168df6abe7e003084da3f83ce13c2ea0c6748c"
     }
   ],
-  "status": "D1–D3 complete drafts; B1/B2 lexical review; separate matn vocalisation, C2/C, D4/E pending."
+  "status": "D1–D3 complete drafts; B1/B2 lexical review; Version 10 derived matn vocalisation reconciliation draft; independent vowel proof, C2/C, D4/E pending."
 }

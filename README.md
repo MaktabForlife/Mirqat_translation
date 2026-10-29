@@ -136,3 +136,20 @@ D4/E remain pending. Recorded anomalies include the H335 omission, the printed
 Qurʾanic reference at H447, and 34 B2 variant entries. They are not corrected by
 the reader build. The earlier partial status reports are superseded by the
 complete release archive; this software import does not certify the scholarship.
+
+## Version 10 — reconciled Ṭahārah hadith vocalisation
+
+All 283 Ṭahārah matns now offer Original Arabic (the default) and Vocalised
+Arabic · draft. The separate derived layer preserves corrected B1 consonants,
+spacing, punctuation and existing pointing. It transfers supplied marks only
+on exact multiword alignments, prioritises the corresponding D3 context, and
+rejects recorded earlier-draft conflicts. Four recurring formulas receive
+explicit editorial vowel reconciliation in the script. Unresolved words retain
+B1; conflicting source readings appear in each hadith’s notes. This is a
+reconciliation draft, not independent scholarly verification.
+
+`data/taharah/matn_vocalisation_reconciled.json` records every transfer, source,
+review issue and content hash. Reproduce it with
+`python3 scripts/reconcile_taharah_vocalisation.py`, then run the normal build
+and integrity/browser checks. Frozen source files, English, commentary, stable
+IDs, variants and existing anomalies remain unchanged.

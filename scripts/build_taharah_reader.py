@@ -12,8 +12,10 @@ def reader_data():
     master=read('commentary-d1-d3.json')
     matn=read('matn-b1-b2.json')
     english=read('english-c1.json')
+    reconciled=json.loads((ROOT/'data/taharah/matn_vocalisation_reconciled.json').read_text())
+    readings={u['id']:u for u in reconciled['entries']}
     english_by_id={pid:r for r in english['records'] for pid in r['project_ids']}
-    data={'book':{'key':'taharah','version':'Version 09 · D1–D3 Release 01 / B1–B2 Review 04'},'groups':[],'hadith':{},'commentary':[]}
+    data={'book':{'key':'taharah','version':'Version 10 · D1–D3 Release 01 / B1–B2 Review 04'},'groups':[],'hadith':{},'commentary':[]}
     originals={}
     for u in master['units']:
         uid=u['unit_id'];h=u['hadith_number']
@@ -31,13 +33,19 @@ def reader_data():
         for tag in ('<i>','</i>','<sup>','</sup>'):plain=plain.replace(tag,'')
         notes=[u['b2_note']]+[note_text(n) for n in u['anomalies']]+[note_text(n) for n in u['unresolved']]
         if u['b2_text']:notes.append('Bushrā comparison text: '+u['b2_text'])
-        data['hadith'][str(u['hadith_number'])]={'id':u['project_id'],'ar_supplied':u['b1_text'],'ar_reading':u['b1_text'],
-            'vocalisation_pending':True,'english_source_paragraphs':[plain],'english_source_markup':raw,
+        reading=readings[u['project_id']]
+        issues=reading['review_issues']
+        notes.append('Hadith vocalisation: reconciliation draft; independent vowel proof pending. Corrected B1 wording is unchanged.')
+        for issue in issues:
+            detail='; D3: '+issue['D3']+'; earlier draft: '+issue['earlier_draft'] if 'D3' in issue else ''
+            notes.append('Vowel review · word '+str(issue['word_index']+1)+' ('+issue['base']+'): '+issue['kind'].replace('_',' ')+detail+'. '+issue['disposition'])
+        data['hadith'][str(u['hadith_number'])]={'id':u['project_id'],'ar_supplied':u['b1_text'],'ar_reading':reading['reading_ar'],
+            'vocalisation_pending':False,'vocalisation_draft':True,'english_source_paragraphs':[plain],'english_source_markup':raw,
             'english_status':'Robson verification pending · supplied C1 working translation',
             'english_urn':r['englishURN_raw'],'english_source_number':r['hadithNumber_raw'],'notes':notes,
             'source_lines':['Mirqāt volume 2 · PDF pages '+', '.join(map(str,u['mirqat_pages'])),u['b1_status'],
                 'Bushrā · PDF pages '+', '.join(map(str,u['bushra_pages'])),u['b2_status'],
-                'Separate hadith vocalisation remains pending; earlier OCR-based draft is not substituted for the scan-checked wording.',
+                'Version 10 hadith vocalisation reconciles supplied D3 and earlier draft marks onto corrected B1; uncertain readings are recorded below. Independent vowel proof remains pending.',
                 'English source number '+r['hadithNumber_raw']+' · URN '+r['englishURN_raw'],
                 *(['Supplied English covers '+', '.join(r['project_ids'])+'; retained in full at each entry.'] if len(r['project_ids'])>1 else [])]}
     return data,originals

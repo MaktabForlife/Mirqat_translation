@@ -94,6 +94,9 @@ these texts to approved C or import other witnesses. Retain D4/E review status.
 Use the frozen D1–D3 Release 01, B1/B2 lexical Review 04 and supplied C1
 working English under `data/taharah/`. Preserve all 339 commentary/structural
 units, 283 matns, source IDs, notes, variants and review statuses. C1 remains
-labelled Robson verification pending. Separate matn vocalisation is pending;
-do not substitute the earlier OCR-based vocalisation for scan-checked B1.
+labelled Robson verification pending. On 29 October 2026 the user authorised
+reconciling hadith vowel marks against corrected B1 for Version 10. The separate
+reconciliation draft must preserve B1 consonants, spacing, punctuation and existing
+pointing, record provenance and unresolved readings, and remain labelled as a draft.
+Do not substitute earlier OCR wording for scan-checked B1.
 D4/E review and the recorded H335 question remain open.

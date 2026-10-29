@@ -225,7 +225,7 @@
     {
       const layers=el('div','arabic-layers');layers.setAttribute('role','group');layers.setAttribute('aria-label','Arabic version for '+u.id);
       for(const [layer,label] of [['original','Original Arabic'],['vocalised','Vocalised Arabic']]){
-        const control=el('button','arabic-layer',layer==='vocalised'&&!hasVocalised?'Vocalised Arabic · pending':label);control.type='button';control.dataset.layer=layer;
+        const control=el('button','arabic-layer',layer==='vocalised'&&!hasVocalised?'Vocalised Arabic · pending':layer==='vocalised'&&u.vocalisation_draft?'Vocalised Arabic · draft':label);control.type='button';control.dataset.layer=layer;
         control.disabled=layer==='vocalised'&&!hasVocalised;
         control.setAttribute('aria-controls',text.id);control.setAttribute('aria-pressed',String(layer==='original'));
         control.addEventListener('click',()=>{
