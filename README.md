@@ -198,8 +198,8 @@ Publish a validated revision with:
 
 ```sh
 python3 scripts/build_site.py
-npx wrangler@4.158.0 pages deploy dist --project-name mirqat-reader --branch develop
+CLOUDFLARE_ACCOUNT_ID=c9a3e355b3d7a795880b1d36a1dbe123 npx wrangler@4.158.0 pages deploy dist --project-name mirqat-reader --branch develop
 ```
 
-The account ID is pinned in `wrangler.jsonc` to the selected Cloudflare account.
+The publish command explicitly selects the approved Cloudflare account.
 Authentication remains outside the repository.
