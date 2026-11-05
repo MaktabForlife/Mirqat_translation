@@ -22,4 +22,4 @@ This repository is for the technical reader implementation of **Kitāb al-Fitan*
 
 ## Source of truth
 
-Google Drive remains the project's editorial source of truth. Files in this GitHub repository are a technical working copy for reader development and testing.
+As authorised on 5 November 2026, this GitHub repository is the master copy of the reader project. Preserve frozen editorial sources and their Drive provenance; publish validated builds to Cloudflare. Drive copies are release/archive copies.

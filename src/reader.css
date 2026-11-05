@@ -35,3 +35,11 @@
 @media print{.book-switch{display:none}}
 
 .arabic-layer:disabled{opacity:.6;cursor:not-allowed;}
+
+/* Book selection stays in the reader header on every screen size. */
+.topbar>.book-switch{margin:0;flex:1;min-width:0;flex-wrap:nowrap;justify-content:center;align-items:center;padding:5px;overflow-x:auto;scrollbar-width:thin}
+.topbar>.book-switch a{flex:none;white-space:nowrap;font-size:12px;padding:10px 12px;min-height:40px;display:flex;align-items:center}
+.topbar>.brand,.topbar>.toolbar{flex-shrink:0}
+@media(min-width:1101px) and (max-width:1399px){.topbar{padding-left:16px;padding-right:16px;gap:8px}.topbar .button-label{display:none}.topbar .brand-subtitle{font-size:8px;letter-spacing:.6px}}
+@media(max-width:1100px){:root{--bar:120px}.topbar{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:56px 56px;grid-template-areas:"books books" "brand tools";gap:0 8px;padding:4px 12px}.topbar>.book-switch{grid-area:books;justify-content:flex-start;width:100%;height:56px}.topbar>.brand{grid-area:brand}.topbar>.toolbar{grid-area:tools}.topbar .button-label{display:none}}
+@media(max-width:600px){.topbar>.book-switch a{font-size:12px;padding:9px 12px}.topbar>.book-switch{gap:6px}}

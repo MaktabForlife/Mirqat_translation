@@ -178,3 +178,28 @@ archive’s H518/H528 errata and retains the previously approved H519/H556
 corrections as explicit overlays. Source proof statuses, variants and H335/H356
 open decisions appear in the notes. The layer remains labelled draft: approval
 for inclusion does not certify final printed-vowel or scholarly proof.
+
+## Cloudflare publication and GitHub master
+
+The GitHub repository is the master copy as authorised on 5 November 2026.
+The latest Drive header update has been incorporated in the shared source
+templates, styles and script, so future builds retain the fixed book buttons.
+
+Build with `python3 scripts/build_site.py`. The public output is `dist/index.html`
+plus `_headers`; editorial source archives are not copied into the deployment.
+Run the three integrity scripts and browser suites before publishing. Deploy
+with Wrangler Pages using project `mirqat-reader` and branch `develop`.
+GitHub pushes and Cloudflare publication are separate operations; this setup
+does not silently enable automatic deployment on every push.
+
+Public reader: https://mirqat-reader.pages.dev/
+
+Publish a validated revision with:
+
+```sh
+python3 scripts/build_site.py
+npx wrangler@4.158.0 pages deploy dist --project-name mirqat-reader --branch develop
+```
+
+The account ID is pinned in `wrangler.jsonc` to the selected Cloudflare account.
+Authentication remains outside the repository.

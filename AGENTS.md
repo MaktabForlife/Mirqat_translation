@@ -115,3 +115,11 @@ open decisions. Apply its documented H518/H528 errata in the vocalised layer
 only, and retain the user-approved H519/H556 reading-layer corrections. Original
 Arabic remains B1 Review 04. Earlier local reconciliation records remain
 historical audit data, not the active source. Do not fetch new witnesses.
+
+## Publishing and master copy
+
+On 5 November 2026 the user authorised Cloudflare publication and designated
+MaktabForlife/Mirqat_translation as the master repository, superseding the
+Drive-only workflow. Continue validated development on develop; preserve frozen
+editorial sources and provenance. Publish only the built reader assets, not the
+repository sources or editorial archives.

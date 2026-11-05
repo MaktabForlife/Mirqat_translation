@@ -302,6 +302,9 @@
   window.addEventListener('hashchange',routeFromHash);wide.addEventListener('change',()=>{if(wide.matches)closeMenu(false);syncMenuAccessibility();});
   window.addEventListener('resize',()=>{updateProgress();});
   let scheduled=false;window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(()=>{updateProgress();scheduled=false;});}},{passive:true});
+  const bookNav=document.querySelector('.topbar>.book-switch');
+  function revealCurrentBook(){const active=bookNav?.querySelector('[aria-current="page"]');if(active)bookNav.scrollLeft=active.offsetLeft-bookNav.offsetLeft-(bookNav.clientWidth-active.offsetWidth)/2;}
+  requestAnimationFrame(revealCurrentBook);window.addEventListener('resize',revealCurrentBook);
   makeContent();applySize();syncMenuAccessibility();updateProgress();
   const observer = new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)setCurrent(book ? (Number(e.target.dataset.observeHadith)||e.target.dataset.observeHadith) : +e.target.dataset.observeHadith);},{rootMargin:'-80px 0px -70% 0px',threshold:0});
   document.querySelectorAll('.hadith-heading').forEach(n=>{n.dataset.observeHadith=book?n.parentElement.dataset.groupKey:n.parentElement.id.slice(1);observer.observe(n);});
