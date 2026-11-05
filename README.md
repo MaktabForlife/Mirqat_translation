@@ -189,8 +189,19 @@ Build with `python3 scripts/build_site.py`. The public output is `dist/index.htm
 plus `_headers`; editorial source archives are not copied into the deployment.
 Run the three integrity scripts and browser suites before publishing. Deploy
 with Wrangler Pages using project `mirqat-reader` and branch `develop`.
-GitHub pushes and Cloudflare publication are separate operations; this setup
-does not silently enable automatic deployment on every push.
+The `Publish Mirqat reader` GitHub Actions workflow runs on pushes to `develop`.
+It builds the public assets, runs all three editorial integrity checks and all
+five browser suites, and publishes only after those checks pass. Other branches
+do not publish. Runs are serialised to prevent overlapping production uploads.
+
+One-time prerequisite: add the repository Actions secret `CLOUDFLARE_API_TOKEN`.
+Create a Cloudflare API token with Account → Cloudflare Pages → Edit, restricted
+to the approved hajira.naidu@gmail.com account
+(`c9a3e355b3d7a795880b1d36a1dbe123`). Store it directly in GitHub repository
+Settings → Secrets and variables → Actions; never commit or paste it into chat.
+Until this secret is present, validation runs but the publish step fails with a
+setup message. After adding it, rerun the latest workflow under Actions.
+The existing website remains available if validation or publication fails.
 
 Public reader: https://mirqat-reader.pages.dev/
 

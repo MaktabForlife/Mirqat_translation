@@ -123,3 +123,7 @@ MaktabForlife/Mirqat_translation as the master repository, superseding the
 Drive-only workflow. Continue validated development on develop; preserve frozen
 editorial sources and provenance. Publish only the built reader assets, not the
 repository sources or editorial archives.
+
+Pushes to develop use `.github/workflows/publish-reader.yml` to validate and
+publish the built reader to the existing mirqat-reader Cloudflare Pages project.
+Keep deployment credentials in GitHub Actions secrets, never in the repository.
